@@ -18,8 +18,17 @@ st.set_page_config(
 )
 
 # Title with icons
-st.title("🚀📊 Sales Performance Dashboard")
-st.caption("Interactive Business Intelligence Report – Portfolio Project")
+# ---------------------------------------------------------------------------
+# Header with download button (top‑right)
+# ---------------------------------------------------------------------------
+col_header, col_download = st.columns([4, 1])
+with col_header:
+    st.title("🚀📊 Sales Performance Dashboard")
+    st.caption("Interactive Business Intelligence Report – Portfolio Project")
+with col_download:
+    # Placeholder – will be filled after data is filtered
+    download_placeholder = st.empty()
+
 
 # ---------------------------------------------------------------------------
 # Resolve data file (works locally and on Streamlit Cloud)
@@ -65,31 +74,74 @@ if df.empty:
 # ---------------------------------------------------------------------------
 # Sidebar – filters (Region, Product, Sales Rep)
 # ---------------------------------------------------------------------------
-st.sidebar.header("Report Filters")
-selected_regions = st.sidebar.multiselect(
-    "Region",
-    options=sorted(df["Region"].unique()),
-    default=sorted(df["Region"].unique()),
+# ---------------------------------------------------------------------------
+# Custom dark theme for sidebar
+# ---------------------------------------------------------------------------
+st.markdown(
+    """
+    <style>
+    /* Dark sidebar */
+    [data-testid="stSidebar"] .css-1d391kg {background-color: #212121; color: #fff;}
+    [data-testid="stSidebar"] .stSelectbox > div,
+    [data-testid="stSidebar"] .stMultiSelect > div,
+    [data-testid="stSidebar"] .stSlider > div,
+    [data-testid="stSidebar"] .stCheckbox > div {
+        background-color: #2c2c2c;
+        border: 1px solid #555;
+        border-radius: 8px;
+        color: #fff;
+        padding: 4px;
+    }
+    /* Expander header style */
+    .stExpanderHeader {color: #fff !important; font-weight: 600;}
+    </style>
+    """,
+    unsafe_allow_html=True,
 )
-selected_products = st.sidebar.multiselect(
-    "Product",
-    options=sorted(df["Product"].unique()),
-    default=sorted(df["Product"].unique()),
-)
-selected_reps = st.sidebar.multiselect(
-    "Sales Rep",
-    options=sorted(df["Sales_Rep"].unique()),
-    default=sorted(df["Sales_Rep"].unique()),
-)
-# Apply filters
-filtered = df[
-    df["Region"].isin(selected_regions) &
-    df["Product"].isin(selected_products) &
-    df["Sales_Rep"].isin(selected_reps)
-]
-if filtered.empty:
-    st.info("🔎 No records match the current filter selection.")
-    st.stop()
+
+# ---------------------------------------------------------------------------
+# Sidebar – collapsible accordions with Antigravity theme
+# ---------------------------------------------------------------------------
+with st.sidebar:
+    # Filters accordion
+    with st.expander("🔎 Filters", expanded=True):
+        selected_regions = st.multiselect(
+            "Region",
+            options=sorted(df["Region"].unique()),
+            default=sorted(df["Region"].unique()),
+        )
+        selected_products = st.multiselect(
+            "Product",
+            options=sorted(df["Product"].unique()),
+            default=sorted(df["Product"].unique()),
+        )
+        selected_reps = st.multiselect(
+            "Sales Rep",
+            options=sorted(df["Sales_Rep"].unique()),
+            default=sorted(df["Sales_Rep"].unique()),
+        )
+    # Date range accordion
+    with st.expander("📅 Date range"):
+        min_date = df["Date"].min().date()
+        max_date = df["Date"].max().date()
+        selected_date = st.slider(
+            "Select date range",
+            min_value=min_date,
+            max_value=max_date,
+            value=(min_date, max_date),
+            format="YYYY-MM-DD",
+        )
+    # Apply filters
+    filtered = df[
+        df["Region"].isin(selected_regions) &
+        df["Product"].isin(selected_products) &
+        df["Sales_Rep"].isin(selected_reps) &
+        (df["Date"].dt.date.between(selected_date[0], selected_date[1]))
+    ]
+    if filtered.empty:
+        st.info("🔎 No records match the current filter selection.")
+        st.stop()
+
 
 # ---------------------------------------------------------------------------
 # KPI section – 2 rows (4 cards + top rep)
