@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Automate customer support alerts with Node.js, WhatsApp and email.">
+  <title>Customer Support Alerts</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <span class="eyebrow">NODE.JS AUTOMATION</span>
+        <h1>Customer Support Alerts</h1>
+        <p>Create support tickets and automatically notify recipients by email, WhatsApp, or both.</p>
+      </div>
+      <div id="modeBadge" class="mode-badge">Checking configuration…</div>
+    </header>
+
+    <section class="grid">
+      <article class="panel form-panel">
+        <div class="panel-heading">
+          <div>
+            <span class="step">01</span>
+            <h2>Create support alert</h2>
+          </div>
+          <p>The ticket is stored locally, then selected alert channels are dispatched.</p>
+        </div>
+
+        <form id="ticketForm">
+          <div class="field-row">
+            <label>
+              Recipient name
+              <input name="customerName" required minlength="2" maxlength="100" placeholder="Amina Yusuf">
+            </label>
+            <label>
+              Priority
+              <select name="priority">
+                <option value="normal">Normal</option>
+                <option value="low">Low</option>
+                <option value="high">High</option>
+                <option value="urgent">Urgent</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Subject
+            <input name="subject" required minlength="3" maxlength="160" placeholder="Order delivery update">
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" required minlength="5" maxlength="5000" rows="6" placeholder="Write the support update that should be sent…"></textarea>
+          </label>
+
+          <div class="channel-picker">
+            <span>Alert channels</span>
+            <label class="check"><input id="emailChannel" type="checkbox" name="channels" value="email" checked> Email</label>
+            <label class="check"><input id="whatsappChannel" type="checkbox" name="channels" value="whatsapp" checked> WhatsApp</label>
+          </div>
+
+          <div class="field-row">
+            <label>
+              Email recipient
+              <input id="emailInput" name="email" type="email" placeholder="customer@example.com">
+            </label>
+            <label>
+              WhatsApp number
+              <input id="whatsappInput" name="whatsapp" inputmode="tel" placeholder="2348012345678">
+              <small>International format, digits only. Do not include +.</small>
+            </label>
+          </div>
+
+          <div id="formMessage" class="form-message" hidden></div>
+          <button id="submitButton" class="primary" type="submit">Create ticket & send alerts</button>
+        </form>
+      </article>
+
+      <aside class="panel status-panel">
+        <div class="panel-heading compact">
+          <div>
+            <span class="step">02</span>
+            <h2>System status</h2>
+          </div>
+        </div>
+        <div class="status-list">
+          <div class="status-item"><span>Email delivery</span><strong id="emailStatus">Checking…</strong></div>
+          <div class="status-item"><span>WhatsApp delivery</span><strong id="waStatus">Checking…</strong></div>
+          <div class="status-item"><span>Graph API version</span><strong id="graphVersion">—</strong></div>
+        </div>
+        <div class="note">
+          <strong>Safe by default.</strong>
+          <p>Mock mode simulates successful sends without contacting an external provider. Use <code>.env</code> to enable live delivery.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="panel activity-panel">
+      <div class="panel-heading compact activity-heading">
+        <div>
+          <span class="step">03</span>
+          <h2>Recent tickets</h2>
+        </div>
+        <button id="refreshButton" class="secondary" type="button">Refresh</button>
+      </div>
+      <div id="tickets" class="tickets"></div>
+    </section>
+  </main>
+
+  <template id="emptyTemplate">
+    <div class="empty-state">No tickets yet. Create the first support alert above.</div>
+  </template>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

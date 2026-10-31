@@ -1,0 +1,19 @@
+CUSTOMER SUPPORT ALERTS - QUICK START
+=====================================
+
+Requirement: Node.js 20 or newer.
+
+WINDOWS
+1. Double-click start.bat
+2. Open http://localhost:3000
+
+MACOS / LINUX
+1. Open Terminal in this folder
+2. Run: ./start.sh
+3. Open http://localhost:3000
+
+The app starts in MOCK MODE, so no real email or WhatsApp message is sent.
+To enable real delivery, edit .env after the first start, add your SMTP and
+Meta WhatsApp Cloud API credentials, set MOCK_MODE=false, and restart.
+
+Full instructions are in README.md.
