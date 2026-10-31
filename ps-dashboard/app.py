@@ -20,7 +20,7 @@ st.set_page_config(
 # ---------------------------------------------------------------------------
 # Title & description
 # ---------------------------------------------------------------------------
-st.title("Sales Performance Dashboard")
+st.title("🚀📊 Sales Performance Dashboard")
 st.caption("Interactive Business Intelligence Report – Portfolio Project")
 
 # ---------------------------------------------------------------------------
@@ -34,7 +34,7 @@ if not DATA_PATH.exists():
 
 raw_df = pd.read_csv(DATA_PATH)
 # Expected columns
-EXPECTED_COLS = ["Date", "Region", "Product", "Quantity", "Unit_Price"]
+EXPECTED_COLS = ["Date", "Region", "Product", "Quantity", "Unit_Price", "Sales_Rep"]
 missing = set(EXPECTED_COLS) - set(raw_df.columns)
 if missing:
     st.error(f"❌ Missing columns in dataset: {missing}")
@@ -93,12 +93,16 @@ with c3:
 with c4:
     st.metric(label="🧾 Avg. Transaction", value=f"₦{avg_transaction:,.2f}")
 
-st.divider()
+# KPI for top sales rep
+rep_perf = filtered.groupby("Sales_Rep", as_index=False)["Revenue"].sum().sort_values("Revenue", ascending=False)
+if not rep_perf.empty:
+    top_rep = rep_perf.iloc[0]
+    st.metric(label=f"🏆 Top Rep: {top_rep['Sales_Rep']}", value=f"₦{top_rep['Revenue']:,.2f}")
 
 # ---------------------------------------------------------------------------
 # Visualisation sections – using tabs for a clean layout
 # ---------------------------------------------------------------------------
-tab1, tab2, tab3 = st.tabs(["Regional Revenue", "Product Mix", "Monthly Trend"])
+tab1, tab2, tab3, tab4 = st.tabs(["Regional Revenue", "Product Mix", "Monthly Trend", "Sales Rep Performance"])
 
 with tab1:
     region_df = (
@@ -147,7 +151,11 @@ with tab3:
     )
     st.plotly_chart(fig_month, use_container_width=True)
 
-st.divider()
+# KPI for top sales rep
+rep_perf = filtered.groupby("Sales_Rep", as_index=False)["Revenue"].sum().sort_values("Revenue", ascending=False)
+if not rep_perf.empty:
+    top_rep = rep_perf.iloc[0]
+    st.metric(label=f"🏆 Top Rep: {top_rep['Sales_Rep']}", value=f"₦{top_rep['Revenue']:,.2f}")
 
 # ---------------------------------------------------------------------------
 # Detailed transaction table
