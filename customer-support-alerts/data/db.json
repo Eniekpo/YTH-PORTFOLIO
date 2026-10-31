@@ -1,4 +1,72 @@
 {
-  "tickets": [],
-  "notifications": []
+  "tickets": [
+    {
+      "id": "TKT-20261031-WUOWY",
+      "customerName": "John Doe",
+      "subject": "Order delivery update",
+      "message": "I am yet to receive my package",
+      "email": "yoletech@yolestica.com",
+      "whatsapp": "2348025526389",
+      "priority": "normal",
+      "channels": [
+        "email",
+        "whatsapp"
+      ],
+      "status": "open",
+      "createdAt": "2026-10-31T23:14:54.055Z",
+      "updatedAt": "2026-10-31T23:14:54.324Z",
+      "deliveries": [
+        {
+          "id": "NTF-1793488494318-CWM00Q",
+          "ticketId": "TKT-20261031-WUOWY",
+          "channel": "email",
+          "recipient": "yoletech@yolestica.com",
+          "status": "sent",
+          "provider": "mock-email",
+          "providerMessageId": "mock-email-TKT-20261031-WUOWY-1793488494318",
+          "error": null,
+          "createdAt": "2026-10-31T23:14:54.058Z",
+          "completedAt": "2026-10-31T23:14:54.318Z"
+        },
+        {
+          "id": "NTF-1793488494319-NVEN8O",
+          "ticketId": "TKT-20261031-WUOWY",
+          "channel": "whatsapp",
+          "recipient": "2348025526389",
+          "status": "sent",
+          "provider": "mock-whatsapp",
+          "providerMessageId": "mock-wa-TKT-20261031-WUOWY-1793488494319",
+          "error": null,
+          "createdAt": "2026-10-31T23:14:54.059Z",
+          "completedAt": "2026-10-31T23:14:54.319Z"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NTF-1793488494319-NVEN8O",
+      "ticketId": "TKT-20261031-WUOWY",
+      "channel": "whatsapp",
+      "recipient": "2348025526389",
+      "status": "sent",
+      "provider": "mock-whatsapp",
+      "providerMessageId": "mock-wa-TKT-20261031-WUOWY-1793488494319",
+      "error": null,
+      "createdAt": "2026-10-31T23:14:54.059Z",
+      "completedAt": "2026-10-31T23:14:54.319Z"
+    },
+    {
+      "id": "NTF-1793488494318-CWM00Q",
+      "ticketId": "TKT-20261031-WUOWY",
+      "channel": "email",
+      "recipient": "yoletech@yolestica.com",
+      "status": "sent",
+      "provider": "mock-email",
+      "providerMessageId": "mock-email-TKT-20261031-WUOWY-1793488494318",
+      "error": null,
+      "createdAt": "2026-10-31T23:14:54.058Z",
+      "completedAt": "2026-10-31T23:14:54.318Z"
+    }
+  ]
 }
