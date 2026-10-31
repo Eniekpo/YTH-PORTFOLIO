@@ -26,7 +26,8 @@ st.caption("Interactive Business Intelligence Report – Portfolio Project")
 # ---------------------------------------------------------------------------
 # Load and clean data
 # ---------------------------------------------------------------------------
-DATA_PATH = Path("data/sales.csv")
+BASE_DIR = Path(__file__).parent
+DATA_PATH = BASE_DIR / "data" / "sales.csv"
 if not DATA_PATH.exists():
     st.error("⚠️ Sales CSV file not found.")
     st.stop()
