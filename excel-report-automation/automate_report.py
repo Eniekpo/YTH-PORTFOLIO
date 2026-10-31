@@ -26,51 +26,53 @@ sales = pd.concat(dataframes, ignore_index=True)
 # Clean column names
 sales.columns = sales.columns.str.strip()
 
-# Define required columns
+# Rename columns to match required schema (if needed)
+column_mapping = {
+    "Date": "Order_Date",
+    "Region": None,  # drop Region column if present
+}
+# Apply renaming, dropping any columns set to None
+sales = sales.rename(columns={k: v for k, v in column_mapping.items() if v})
+# Drop columns that are not needed (e.g., Region)
+if "Region" in sales.columns:
+    sales.drop(columns=["Region"], inplace=True)
+
+# Add Order_ID as incremental identifier
+sales.insert(0, "Order_ID", range(1, len(sales) + 1))
+
+# Define required columns in order
 REQUIRED_COLUMNS = [
     "Order_ID",
     "Order_Date",
     "Product",
     "Quantity",
-    "Unit_Price"
+    "Unit_Price",
 ]
 
-# Ensure required columns exist
+# Ensure required columns exist after processing
 missing = [col for col in REQUIRED_COLUMNS if col not in sales.columns]
 if missing:
-    raise ValueError(f"Missing required columns: {missing}")
+    raise ValueError(f"Missing required columns after processing: {missing}")
 
-# Keep only required columns in the specified order
+# Keep only required columns
 sales = sales[REQUIRED_COLUMNS]
 
 # Remove duplicate records
 sales.drop_duplicates(inplace=True)
 
 # Remove records with missing essential values
-sales.dropna(
-    subset=["Date", "Region", "Product", "Quantity", "Unit_Price"],
-    inplace=True
-)
+sales.dropna(subset=REQUIRED_COLUMNS, inplace=True)
 
 # Convert data types
-sales["Date"] = pd.to_datetime(sales["Date"], errors="coerce")
-sales["Quantity"] = pd.to_numeric(
-    sales["Quantity"], errors="coerce"
-)
-sales["Unit_Price"] = pd.to_numeric(
-    sales["Unit_Price"], errors="coerce"
-)
+sales["Order_Date"] = pd.to_datetime(sales["Order_Date"], errors="coerce")
+sales["Quantity"] = pd.to_numeric(sales["Quantity"], errors="coerce")
+sales["Unit_Price"] = pd.to_numeric(sales["Unit_Price"], errors="coerce")
 
-# Remove invalid records
-sales.dropna(
-    subset=["Date", "Quantity", "Unit_Price"],
-    inplace=True
-)
+# Remove invalid records (rows where conversion failed)
+sales.dropna(subset=["Order_Date", "Quantity", "Unit_Price"], inplace=True)
 
-sales = sales[
-    (sales["Quantity"] > 0) &
-    (sales["Unit_Price"] >= 0)
-]
+# Filter out rows with non‑positive quantity or price
+sales = sales[(sales["Quantity"] > 0) & (sales["Unit_Price"] >= 0)]
 
 print("Total cleaned records:", len(sales))
 
