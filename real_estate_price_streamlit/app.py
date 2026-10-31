@@ -1010,13 +1010,4 @@ else:
     st.dataframe(field_table, use_container_width=True, hide_index=True)
 
     st.markdown("---")
-    st.markdown("#### ⚠️ Important limitations")
-    st.markdown(
-        """
-        This is a learning-oriented regression application. The source data contains
-        district-level historical housing information rather than current individual
-        property listings. A production valuation system would require updated sales
-        data, stronger geographic features, temporal validation, model monitoring,
-        uncertainty estimates, and domain-specific governance.
-        """
-    )
+    
