@@ -27,7 +27,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-APP_TITLE = "Predicting Real Estate Prices with Python and Scikit-learn"
+APP_TITLE = "🏠 Predicting Real Estate Prices with Python and Scikit-learn"
 DATA_URL = (
     "https://raw.githubusercontent.com/ageron/handson-ml/"
     "master/datasets/housing/housing.csv"
@@ -327,6 +327,53 @@ def metric_card(label: str, value: str) -> None:
     )
 
 
+def show_location_chart(
+    locations: pd.DataFrame,
+    height: int = 390,
+    marker_size: int = 5,
+) -> None:
+    longitude_min = float(locations["longitude"].min())
+    longitude_max = float(locations["longitude"].max())
+    latitude_min = float(locations["latitude"].min())
+    latitude_max = float(locations["latitude"].max())
+    longitude_padding = max((longitude_max - longitude_min) * 0.05, 0.1)
+    latitude_padding = max((latitude_max - latitude_min) * 0.05, 0.1)
+
+    fig = px.scatter(
+        locations,
+        x="longitude",
+        y="latitude",
+        render_mode="svg",
+        opacity=0.65,
+        labels={"longitude": "Longitude", "latitude": "Latitude"},
+    )
+    fig.update_traces(
+        marker={"color": "#0284c7", "size": marker_size},
+        showlegend=False,
+    )
+    fig.update_xaxes(
+        range=[
+            longitude_min - longitude_padding,
+            longitude_max + longitude_padding,
+        ],
+        showgrid=True,
+    )
+    fig.update_yaxes(
+        range=[
+            latitude_min - latitude_padding,
+            latitude_max + latitude_padding,
+        ],
+        showgrid=True,
+    )
+    fig.update_layout(
+        height=height,
+        margin=dict(l=10, r=10, t=15, b=10),
+        showlegend=False,
+        plot_bgcolor="white",
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+
 def hero() -> None:
     st.markdown(
         f"""
@@ -350,7 +397,7 @@ try:
     data = load_data()
 except Exception as exc:
     st.error(
-        "The dataset could not be loaded from GitHub and no local housing.csv "
+        "⚠️ The dataset could not be loaded from GitHub and no local housing.csv "
         "file was found."
     )
     st.exception(exc)
@@ -367,12 +414,12 @@ data_signature = (
 # Sidebar navigation
 # -----------------------------------------------------------------------------
 with st.sidebar:
-    st.markdown("## Real Estate ML")
-    st.caption("Python • Streamlit • Scikit-learn")
+    st.markdown("## 🏠 Real Estate ML")
+    st.caption("🧰 Python • Streamlit • Scikit-learn")
     st.markdown("---")
 
     page = st.radio(
-        "Navigate",
+        "🧭 Navigate",
         [
             "Overview",
             "Data Explorer",
@@ -380,13 +427,20 @@ with st.sidebar:
             "Price Predictor",
             "Methodology",
         ],
+        format_func=lambda value: {
+            "Overview": "📊 Overview",
+            "Data Explorer": "🗂️ Data Explorer",
+            "Model Performance": "📈 Model Performance",
+            "Price Predictor": "🏡 Price Predictor",
+            "Methodology": "🔬 Methodology",
+        }[value],
         index=0,
     )
 
     st.markdown("---")
-    st.caption("Dataset")
+    st.caption("🗃️ Dataset")
     st.write("California Housing")
-    st.caption(f"{len(data):,} observations • {data.shape[1]} columns")
+    st.caption(f"📋 {len(data):,} observations • {data.shape[1]} columns")
 
     st.markdown("---")
     st.caption(
@@ -405,17 +459,17 @@ hero()
 # Overview
 # -----------------------------------------------------------------------------
 if page == "Overview":
-    st.markdown('<div class="section-title">Project snapshot</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">📌 Project snapshot</div>', unsafe_allow_html=True)
 
     c1, c2, c3, c4 = st.columns(4)
     with c1:
-        metric_card("Observations", f"{len(data):,}")
+        metric_card("📋 Observations", f"{len(data):,}")
     with c2:
-        metric_card("Predictor fields", f"{len(FEATURES)}")
+        metric_card("🧩 Predictor fields", f"{len(FEATURES)}")
     with c3:
-        metric_card("Median house value", f"${data[TARGET].median():,.0f}")
+        metric_card("💵 Median house value", f"${data[TARGET].median():,.0f}")
     with c4:
-        metric_card("Missing cells", f"{int(data.isna().sum().sum()):,}")
+        metric_card("🕳️ Missing cells", f"{int(data.isna().sum().sum()):,}")
 
     st.write("")
 
@@ -423,7 +477,7 @@ if page == "Overview":
 
     with left:
         st.markdown(
-            '<div class="section-title">Median house value distribution</div>',
+            '<div class="section-title">💰 Median house value distribution</div>',
             unsafe_allow_html=True,
         )
         fig = px.histogram(
@@ -442,7 +496,7 @@ if page == "Overview":
 
     with right:
         st.markdown(
-            '<div class="section-title">Ocean proximity mix</div>',
+            '<div class="section-title">🌊 Ocean proximity mix</div>',
             unsafe_allow_html=True,
         )
         ocean_counts = (
@@ -466,16 +520,16 @@ if page == "Overview":
         st.plotly_chart(fig, use_container_width=True)
 
     st.markdown(
-        '<div class="section-title">Geographic distribution</div>',
+        '<div class="section-title">🗺️ Geographic distribution</div>',
         unsafe_allow_html=True,
     )
     map_sample = data[["latitude", "longitude"]].dropna().sample(
         n=min(4000, len(data)),
         random_state=RANDOM_STATE,
     )
-    st.map(map_sample, latitude="latitude", longitude="longitude")
+    show_location_chart(map_sample)
 
-    with st.expander("What this application demonstrates"):
+    with st.expander("💡 What this application demonstrates"):
         st.markdown(
             """
             - Loading and inspecting a real-world regression dataset.
@@ -492,7 +546,7 @@ if page == "Overview":
 # -----------------------------------------------------------------------------
 elif page == "Data Explorer":
     st.markdown(
-        '<div class="section-title">Explore the dataset</div>',
+        '<div class="section-title">🗂️ Explore the dataset</div>',
         unsafe_allow_html=True,
     )
 
@@ -501,7 +555,7 @@ elif page == "Data Explorer":
     ocean_options = sorted(data["ocean_proximity"].dropna().unique().tolist())
     with filter_col1:
         selected_ocean = st.multiselect(
-            "Ocean proximity",
+            "🌊 Ocean proximity",
             options=ocean_options,
             default=ocean_options,
         )
@@ -511,7 +565,7 @@ elif page == "Data Explorer":
 
     with filter_col2:
         value_range = st.slider(
-            "Median house value range ($)",
+            "💵 Median house value range ($)",
             min_value=min_value,
             max_value=max_value,
             value=(min_value, max_value),
@@ -524,11 +578,11 @@ elif page == "Data Explorer":
     ].copy()
 
     c1, c2, c3 = st.columns(3)
-    c1.metric("Filtered records", f"{len(filtered):,}")
-    c2.metric("Average value", f"${filtered[TARGET].mean():,.0f}" if len(filtered) else "—")
-    c3.metric("Median income", f"{filtered['median_income'].median():.2f}" if len(filtered) else "—")
+    c1.metric("📋 Filtered records", f"{len(filtered):,}")
+    c2.metric("💵 Average value", f"${filtered[TARGET].mean():,.0f}" if len(filtered) else "—")
+    c3.metric("💰 Median income", f"{filtered['median_income'].median():.2f}" if len(filtered) else "—")
 
-    tab1, tab2, tab3 = st.tabs(["Table", "Relationships", "Correlation"])
+    tab1, tab2, tab3 = st.tabs(["📋 Table", "🔗 Relationships", "🧮 Correlation"])
 
     with tab1:
         st.dataframe(
@@ -537,7 +591,7 @@ elif page == "Data Explorer":
             height=430,
         )
         st.download_button(
-            "Download filtered CSV",
+            "⬇️ Download filtered CSV",
             data=filtered.to_csv(index=False).encode("utf-8"),
             file_name="filtered_housing_data.csv",
             mime="text/csv",
@@ -545,7 +599,7 @@ elif page == "Data Explorer":
 
     with tab2:
         x_feature = st.selectbox(
-            "X-axis feature",
+            "↔️ X-axis feature",
             options=[
                 "median_income",
                 "housing_median_age",
@@ -567,6 +621,7 @@ elif page == "Data Explorer":
                 sample,
                 x=x_feature,
                 y=TARGET,
+                render_mode="svg",
                 color="ocean_proximity",
                 opacity=0.55,
                 labels={TARGET: "Median house value ($)"},
@@ -598,12 +653,12 @@ elif page == "Data Explorer":
 # -----------------------------------------------------------------------------
 elif page == "Model Performance":
     st.markdown(
-        '<div class="section-title">Train and evaluate a regression model</div>',
+        '<div class="section-title">📈 Train and evaluate a regression model</div>',
         unsafe_allow_html=True,
     )
 
     model_name = st.selectbox(
-        "Model",
+        "🤖 Model",
         ["Random Forest", "Gradient Boosting", "Linear Regression"],
         index=0,
         help="Choose a regression algorithm. Training results are cached for this session.",
@@ -613,9 +668,9 @@ elif page == "Model Performance":
         pipeline, metrics, evaluation = train_model(model_name, data_signature)
 
     m1, m2, m3 = st.columns(3)
-    m1.metric("RMSE", f"${metrics['RMSE']:,.0f}")
-    m2.metric("MAE", f"${metrics['MAE']:,.0f}")
-    m3.metric("R²", f"{metrics['R2']:.3f}")
+    m1.metric("📉 RMSE", f"${metrics['RMSE']:,.0f}")
+    m2.metric("📏 MAE", f"${metrics['MAE']:,.0f}")
+    m3.metric("🎯 R²", f"{metrics['R2']:.3f}")
 
     st.caption(
         "Lower RMSE and MAE are better. R² closer to 1 indicates that the model "
@@ -623,7 +678,7 @@ elif page == "Model Performance":
     )
 
     tab1, tab2, tab3 = st.tabs(
-        ["Actual vs Predicted", "Residuals", "Feature Influence"]
+        ["🎯 Actual vs Predicted", "📊 Residuals", "🧩 Feature Influence"]
     )
 
     with tab1:
@@ -635,6 +690,7 @@ elif page == "Model Performance":
             chart_data,
             x="Actual",
             y="Predicted",
+            render_mode="svg",
             opacity=0.55,
             labels={
                 "Actual": "Actual median house value ($)",
@@ -696,12 +752,12 @@ elif page == "Model Performance":
 # -----------------------------------------------------------------------------
 elif page == "Price Predictor":
     st.markdown(
-        '<div class="section-title">Interactive house-value prediction</div>',
+        '<div class="section-title">🏡 Interactive house-value prediction</div>',
         unsafe_allow_html=True,
     )
 
     model_name = st.selectbox(
-        "Prediction model",
+        "🤖 Prediction model",
         ["Random Forest", "Gradient Boosting", "Linear Regression"],
         index=0,
     )
@@ -711,12 +767,12 @@ elif page == "Price Predictor":
 
     medians = data[NUMERIC_FEATURES].median(numeric_only=True)
 
-    st.markdown("#### Property and area characteristics")
+    st.markdown("#### 🏠 Property and area characteristics")
 
     row1 = st.columns(3)
     with row1[0]:
         longitude = st.number_input(
-            "Longitude",
+            "📍 Longitude",
             min_value=float(data["longitude"].min()),
             max_value=float(data["longitude"].max()),
             value=float(medians["longitude"]),
@@ -725,7 +781,7 @@ elif page == "Price Predictor":
         )
     with row1[1]:
         latitude = st.number_input(
-            "Latitude",
+            "📍 Latitude",
             min_value=float(data["latitude"].min()),
             max_value=float(data["latitude"].max()),
             value=float(medians["latitude"]),
@@ -734,7 +790,7 @@ elif page == "Price Predictor":
         )
     with row1[2]:
         housing_median_age = st.number_input(
-            "Median housing age (years)",
+            "🏗️ Median housing age (years)",
             min_value=float(data["housing_median_age"].min()),
             max_value=float(data["housing_median_age"].max()),
             value=float(medians["housing_median_age"]),
@@ -744,7 +800,7 @@ elif page == "Price Predictor":
     row2 = st.columns(3)
     with row2[0]:
         total_rooms = st.number_input(
-            "Total rooms",
+            "🚪 Total rooms",
             min_value=1.0,
             max_value=float(data["total_rooms"].max()),
             value=float(medians["total_rooms"]),
@@ -752,7 +808,7 @@ elif page == "Price Predictor":
         )
     with row2[1]:
         total_bedrooms = st.number_input(
-            "Total bedrooms",
+            "🛏️ Total bedrooms",
             min_value=1.0,
             max_value=float(data["total_bedrooms"].max(skipna=True)),
             value=float(medians["total_bedrooms"]),
@@ -760,7 +816,7 @@ elif page == "Price Predictor":
         )
     with row2[2]:
         households = st.number_input(
-            "Households",
+            "👨‍👩‍👧‍👦 Households",
             min_value=1.0,
             max_value=float(data["households"].max()),
             value=float(medians["households"]),
@@ -770,7 +826,7 @@ elif page == "Price Predictor":
     row3 = st.columns(3)
     with row3[0]:
         population = st.number_input(
-            "Population",
+            "👥 Population",
             min_value=1.0,
             max_value=float(data["population"].max()),
             value=float(medians["population"]),
@@ -778,7 +834,7 @@ elif page == "Price Predictor":
         )
     with row3[1]:
         median_income = st.number_input(
-            "Median income (dataset units)",
+            "💰 Median income (dataset units)",
             min_value=float(data["median_income"].min()),
             max_value=float(data["median_income"].max()),
             value=float(medians["median_income"]),
@@ -790,7 +846,7 @@ elif page == "Price Predictor":
         ocean_options = sorted(data["ocean_proximity"].dropna().unique().tolist())
         ocean_mode = data["ocean_proximity"].mode().iloc[0]
         ocean_proximity = st.selectbox(
-            "Ocean proximity",
+            "🌊 Ocean proximity",
             options=ocean_options,
             index=ocean_options.index(ocean_mode),
         )
@@ -823,7 +879,7 @@ elif page == "Price Predictor":
         st.markdown(
             f"""
             <div class="prediction-card">
-                <div class="prediction-label">Estimated median house value</div>
+                <div class="prediction-label">💵 Estimated median house value</div>
                 <div class="prediction-value">${predicted_value:,.0f}</div>
                 <div class="muted">
                     Using {model_name}. This estimate is
@@ -841,16 +897,15 @@ elif page == "Price Predictor":
             f"MAE ${metrics['MAE']:,.0f}, R² {metrics['R2']:.3f}."
         )
 
-        with st.expander("View model input"):
+        with st.expander("🔎 View model input"):
             st.dataframe(prediction_input, use_container_width=True)
 
     with map_col:
-        st.markdown("#### Selected location")
-        st.map(
+        st.markdown("#### 📍 Selected location")
+        show_location_chart(
             pd.DataFrame({"latitude": [latitude], "longitude": [longitude]}),
-            latitude="latitude",
-            longitude="longitude",
-            zoom=5,
+            height=330,
+            marker_size=12,
         )
 
     st.info(
@@ -865,7 +920,7 @@ elif page == "Price Predictor":
 # -----------------------------------------------------------------------------
 else:
     st.markdown(
-        '<div class="section-title">Methodology and project architecture</div>',
+        '<div class="section-title">🔬 Methodology and project architecture</div>',
         unsafe_allow_html=True,
     )
 
@@ -874,17 +929,17 @@ else:
     with left:
         st.markdown(
             """
-            #### 1. Problem definition
+            #### 🎯 1. Problem definition
             Predict `median_house_value`, a continuous target, from geographic,
             demographic, housing-stock, income, and ocean-proximity variables.
 
-            #### 2. Data preparation
+            #### 🧹 2. Data preparation
             - Numeric missing values are imputed with the median.
             - Numeric predictors are standardized.
             - `ocean_proximity` is one-hot encoded.
             - Preprocessing is contained in a Scikit-learn `Pipeline`.
 
-            #### 3. Train/test design
+            #### 🧪 3. Train/test design
             The application uses an 80/20 random train/test split with
             `random_state=42` for reproducibility.
             """
@@ -893,24 +948,24 @@ else:
     with right:
         st.markdown(
             """
-            #### 4. Models
+            #### 🤖 4. Models
             - **Linear Regression** provides an interpretable baseline.
             - **Random Forest** captures nonlinearities and interactions.
             - **Gradient Boosting** builds an additive sequence of regression trees.
 
-            #### 5. Evaluation
+            #### 📊 5. Evaluation
             - **RMSE** penalizes larger errors more strongly.
             - **MAE** reports average absolute prediction error.
             - **R²** summarizes explained variation on held-out observations.
 
-            #### 6. Deployment layer
+            #### 🚀 6. Deployment layer
             Streamlit provides the interactive interface while cached functions
             reduce repeated data-loading and model-training work.
             """
         )
 
     st.markdown("---")
-    st.markdown("#### Dataset fields")
+    st.markdown("#### 🧾 Dataset fields")
 
     field_table = pd.DataFrame(
         {
@@ -955,7 +1010,7 @@ else:
     st.dataframe(field_table, use_container_width=True, hide_index=True)
 
     st.markdown("---")
-    st.markdown("#### Important limitations")
+    st.markdown("#### ⚠️ Important limitations")
     st.markdown(
         """
         This is a learning-oriented regression application. The source data contains

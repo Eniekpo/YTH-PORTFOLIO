@@ -17,7 +17,7 @@ median house values interactively.
 - Actual-vs-predicted and residual diagnostics
 - Feature-influence view
 - Interactive prediction form
-- Map display for selected latitude and longitude
+- Offline-friendly geographic plots for California housing locations
 - Cached data loading and model training
 - Local `housing.csv` fallback if the remote URL is unavailable
 - Verified HTTPS using the `certifi` CA bundle for consistent certificate trust
