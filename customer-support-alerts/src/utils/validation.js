@@ -1,8 +1,10 @@
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const PHONE_PATTERN = /^\d{8,15}$/;
+const PHONE_PATTERN = /^[1-9]\d{7,14}$/;
 const ALLOWED_PRIORITIES = new Set(['low', 'normal', 'high', 'urgent']);
 const ALLOWED_CHANNELS = new Set(['email', 'whatsapp']);
 const ALLOWED_STATUSES = new Set(['open', 'in-progress', 'closed']);
+
+const normalizeText = (value) => typeof value === 'string' ? value.trim() : '';
 
 export function normalizePhone(value = '') {
   return String(value).trim().replace(/[\s()+\-.]/g, '');
@@ -10,14 +12,17 @@ export function normalizePhone(value = '') {
 
 export function validateTicketPayload(payload = {}) {
   const errors = [];
-  const customerName = String(payload.customerName || '').trim();
-  const subject = String(payload.subject || '').trim();
-  const message = String(payload.message || '').trim();
-  const email = String(payload.email || '').trim();
-  const whatsapp = normalizePhone(payload.whatsapp || '');
-  const priority = String(payload.priority || 'normal').trim().toLowerCase();
-  const channels = Array.isArray(payload.channels)
-    ? [...new Set(payload.channels.map((item) => String(item).toLowerCase()))]
+  const source = payload && typeof payload === 'object' && !Array.isArray(payload) ? payload : {};
+  const customerName = normalizeText(source.customerName);
+  const subject = normalizeText(source.subject);
+  const message = normalizeText(source.message);
+  const email = normalizeText(source.email);
+  const whatsapp = normalizePhone(typeof source.whatsapp === 'string' ? source.whatsapp : '');
+  const priority = source.priority === undefined
+    ? 'normal'
+    : normalizeText(source.priority).toLowerCase();
+  const channels = Array.isArray(source.channels)
+    ? [...new Set(source.channels.map((item) => normalizeText(item).toLowerCase()))]
     : [];
 
   if (customerName.length < 2 || customerName.length > 100) {
@@ -35,7 +40,11 @@ export function validateTicketPayload(payload = {}) {
   if (channels.length === 0 || channels.some((channel) => !ALLOWED_CHANNELS.has(channel))) {
     errors.push('Select at least one valid channel: email or whatsapp.');
   }
-  if (channels.includes('email') && !EMAIL_PATTERN.test(email)) {
+  if (channels.includes('email') && (
+    email.length > 254
+    || email.slice(0, email.indexOf('@')).length > 64
+    || !EMAIL_PATTERN.test(email)
+  )) {
     errors.push('A valid email address is required for email alerts.');
   }
   if (channels.includes('whatsapp') && !PHONE_PATTERN.test(whatsapp)) {

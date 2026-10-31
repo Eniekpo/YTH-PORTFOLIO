@@ -23,6 +23,7 @@ body {
 }
 button, input, select, textarea { font: inherit; }
 button { cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #84adff; outline-offset: 2px; }
 .shell { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 54px 0 70px; }
 .hero { display: flex; align-items: flex-start; justify-content: space-between; gap: 28px; margin-bottom: 28px; }
 .eyebrow { display: inline-block; color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .16em; margin-bottom: 10px; }
@@ -53,6 +54,7 @@ small { color: var(--muted); font-weight: 500; line-height: 1.35; }
 .primary { padding: 13px 18px; background: var(--accent); color: #fff; }
 .primary:hover { background: var(--accent-dark); }
 .primary:disabled { opacity: .6; cursor: wait; }
+.secondary:disabled { opacity: .6; cursor: wait; }
 .secondary { padding: 9px 12px; background: var(--soft); color: #344054; border: 1px solid var(--line); }
 .form-message { padding: 12px 14px; border-radius: 10px; font-size: 14px; line-height: 1.45; }
 .form-message.success { color: var(--success); background: #ecfdf3; border: 1px solid #abefc6; }
@@ -94,4 +96,7 @@ code { background: #edf1f7; border-radius: 4px; padding: 2px 5px; font-size: .92
   .field-row { grid-template-columns: 1fr; }
   .form-panel, .status-panel, .activity-panel { padding: 20px; border-radius: 16px; }
   .mode-badge { align-self: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }

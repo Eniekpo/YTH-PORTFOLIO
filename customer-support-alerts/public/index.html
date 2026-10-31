@@ -32,7 +32,7 @@
           <div class="field-row">
             <label>
               Recipient name
-              <input name="customerName" required minlength="2" maxlength="100" placeholder="Amina Yusuf">
+              <input name="customerName" autocomplete="name" required minlength="2" maxlength="100" placeholder="Amina Yusuf">
             </label>
             <label>
               Priority
@@ -55,7 +55,7 @@
             <textarea name="message" required minlength="5" maxlength="5000" rows="6" placeholder="Write the support update that should be sent…"></textarea>
           </label>
 
-          <div class="channel-picker">
+          <div class="channel-picker" role="group" aria-label="Alert channels">
             <span>Alert channels</span>
             <label class="check"><input id="emailChannel" type="checkbox" name="channels" value="email" checked> Email</label>
             <label class="check"><input id="whatsappChannel" type="checkbox" name="channels" value="whatsapp" checked> WhatsApp</label>
@@ -64,16 +64,16 @@
           <div class="field-row">
             <label>
               Email recipient
-              <input id="emailInput" name="email" type="email" placeholder="customer@example.com">
+              <input id="emailInput" name="email" type="email" autocomplete="email" placeholder="customer@example.com">
             </label>
             <label>
               WhatsApp number
-              <input id="whatsappInput" name="whatsapp" inputmode="tel" placeholder="2348012345678">
+              <input id="whatsappInput" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel" placeholder="2348012345678">
               <small>International format, digits only. Do not include +.</small>
             </label>
           </div>
 
-          <div id="formMessage" class="form-message" hidden></div>
+          <div id="formMessage" class="form-message" role="status" aria-live="polite" hidden></div>
           <button id="submitButton" class="primary" type="submit">Create ticket & send alerts</button>
         </form>
       </article>
@@ -105,7 +105,7 @@
         </div>
         <button id="refreshButton" class="secondary" type="button">Refresh</button>
       </div>
-      <div id="tickets" class="tickets"></div>
+      <div id="tickets" class="tickets" aria-live="polite" aria-busy="false"></div>
     </section>
   </main>
 

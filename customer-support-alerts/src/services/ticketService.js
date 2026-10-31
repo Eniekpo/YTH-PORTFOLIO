@@ -1,9 +1,10 @@
+import { randomBytes } from 'node:crypto';
 import { mutateDb, queryDb } from '../utils/storage.js';
 import { sendTicketAlerts } from './notificationService.js';
 
 function createTicketId() {
   const date = new Date().toISOString().slice(0, 10).replaceAll('-', '');
-  const suffix = Math.random().toString(36).slice(2, 7).toUpperCase();
+  const suffix = randomBytes(8).toString('hex').toUpperCase();
   return `TKT-${date}-${suffix}`;
 }
 

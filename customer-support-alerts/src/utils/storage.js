@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { constants } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -20,18 +21,32 @@ async function ensureDatabase() {
 async function readDb() {
   await ensureDatabase();
   const raw = await fs.readFile(dbPath, 'utf8');
+  let parsed;
   try {
-    const parsed = JSON.parse(raw);
-    return {
-      tickets: Array.isArray(parsed.tickets) ? parsed.tickets : [],
-      notifications: Array.isArray(parsed.notifications) ? parsed.notifications : []
-    };
-  } catch {
-    const backupPath = `${dbPath}.corrupt-${Date.now()}`;
-    await fs.copyFile(dbPath, backupPath);
-    await fs.writeFile(dbPath, JSON.stringify(initialDb, null, 2), 'utf8');
-    return structuredClone(initialDb);
+    parsed = JSON.parse(raw);
+  } catch (error) {
+    const { mtimeMs } = await fs.stat(dbPath);
+    const backupPath = `${dbPath}.corrupt-${Math.floor(mtimeMs)}`;
+    try {
+      await fs.copyFile(dbPath, backupPath, constants.COPYFILE_EXCL);
+    } catch (backupError) {
+      if (backupError.code !== 'EEXIST') throw backupError;
+    }
+    throw new Error(`Database JSON is invalid; the original was preserved and backed up to ${backupPath}.`, {
+      cause: error
+    });
   }
+
+  if (
+    !parsed
+    || typeof parsed !== 'object'
+    || !Array.isArray(parsed.tickets)
+    || !Array.isArray(parsed.notifications)
+  ) {
+    throw new Error('Database structure is invalid; expected tickets and notifications arrays.');
+  }
+
+  return { tickets: parsed.tickets, notifications: parsed.notifications };
 }
 
 async function writeDb(db) {

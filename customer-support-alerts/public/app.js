@@ -75,6 +75,7 @@ function renderTickets(tickets) {
 async function loadConfig() {
   try {
     const response = await fetch('/api/config');
+    if (!response.ok) throw new Error('Could not load configuration.');
     const config = await response.json();
     const modeBadge = document.querySelector('#modeBadge');
     modeBadge.textContent = config.mockMode ? 'MOCK MODE · SAFE TESTING' : 'LIVE MODE';
@@ -89,10 +90,14 @@ async function loadConfig() {
     document.querySelector('#graphVersion').textContent = config.graphVersion;
   } catch {
     document.querySelector('#modeBadge').textContent = 'Configuration unavailable';
+    document.querySelector('#emailStatus').textContent = 'Unavailable';
+    document.querySelector('#waStatus').textContent = 'Unavailable';
   }
 }
 
 async function loadTickets() {
+  refreshButton.disabled = true;
+  ticketsContainer.setAttribute('aria-busy', 'true');
   try {
     const response = await fetch('/api/tickets?limit=20');
     if (!response.ok) throw new Error('Could not load tickets.');
@@ -100,6 +105,9 @@ async function loadTickets() {
     renderTickets(data.tickets || []);
   } catch (error) {
     ticketsContainer.textContent = error.message;
+  } finally {
+    refreshButton.disabled = false;
+    ticketsContainer.setAttribute('aria-busy', 'false');
   }
 }
 

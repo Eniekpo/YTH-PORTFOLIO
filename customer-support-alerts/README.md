@@ -45,6 +45,7 @@ From the unzipped folder:
 Then open `http://localhost:3000`.
 
 The start scripts create `.env` from `.env.example` if needed and install dependencies on the first run. The default `MOCK_MODE=true` means no real messages are sent.
+The server binds to `127.0.0.1` by default so the local-only dashboard is not exposed to other devices on your network. Set `HOST` explicitly only when you intend to make it reachable elsewhere; the app does not include user authentication.
 
 ## Manual start
 
@@ -61,6 +62,8 @@ On Windows Command Prompt, use `copy .env.example .env` instead of `cp`.
 Edit `.env`:
 
 ```env
+HOST=127.0.0.1
+PORT=3000
 MOCK_MODE=false
 SMTP_HOST=smtp.example.com
 SMTP_PORT=587
@@ -223,3 +226,5 @@ Change `PORT=3000` in `.env`, for example to `PORT=8080`, then restart.
 ## Data location
 
 Tickets and notification records are stored in `data/db.json`. This is intentionally simple for a local demo/learning app. Use a real database such as PostgreSQL for multi-user or production workloads.
+
+If `data/db.json` contains invalid JSON, the app preserves the original and writes a timestamped `.corrupt-*` copy, then reports a database error rather than silently replacing potentially recoverable data with an empty database.

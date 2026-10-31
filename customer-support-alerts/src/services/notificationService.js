@@ -1,3 +1,4 @@
+import { randomUUID } from 'node:crypto';
 import { sendEmailAlert } from './emailService.js';
 import { sendWhatsAppAlert } from './whatsappService.js';
 import { mutateDb } from '../utils/storage.js';
@@ -18,7 +19,7 @@ async function deliver(channel, recipient, ticket) {
       : await sendWhatsAppAlert({ to: recipient, ticket });
 
     const record = {
-      id: `NTF-${Date.now()}-${Math.random().toString(36).slice(2, 8).toUpperCase()}`,
+      id: `NTF-${randomUUID()}`,
       ticketId: ticket.id,
       channel,
       recipient,
@@ -33,7 +34,7 @@ async function deliver(channel, recipient, ticket) {
     return record;
   } catch (error) {
     const record = {
-      id: `NTF-${Date.now()}-${Math.random().toString(36).slice(2, 8).toUpperCase()}`,
+      id: `NTF-${randomUUID()}`,
       ticketId: ticket.id,
       channel,
       recipient,
