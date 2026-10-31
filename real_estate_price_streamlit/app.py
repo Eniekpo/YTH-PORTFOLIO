@@ -1,5 +1,8 @@
 from pathlib import Path
+import ssl
+from urllib.request import urlopen
 
+import certifi
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -182,7 +185,9 @@ st.markdown(
 def load_data() -> pd.DataFrame:
     """Load the housing data from GitHub, with a local-file fallback."""
     try:
-        return pd.read_csv(DATA_URL)
+        ssl_context = ssl.create_default_context(cafile=certifi.where())
+        with urlopen(DATA_URL, context=ssl_context) as response:
+            return pd.read_csv(response)
     except Exception:
         if LOCAL_DATA_PATH.exists():
             return pd.read_csv(LOCAL_DATA_PATH)

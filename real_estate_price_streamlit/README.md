@@ -20,6 +20,7 @@ median house values interactively.
 - Map display for selected latitude and longitude
 - Cached data loading and model training
 - Local `housing.csv` fallback if the remote URL is unavailable
+- Verified HTTPS using the `certifi` CA bundle for consistent certificate trust
 
 ## Dataset
 
