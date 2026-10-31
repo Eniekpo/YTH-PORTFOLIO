@@ -1,51 +1,51 @@
 Date,Region,Product,Quantity,Unit_Price,Sales_Rep
-2026-01-05,New York,Laptop,5,450000,Rep_4
-2026-01-10,London,Monitor,8,120000,Rep_5
-2026-01-15,Tokyo,Keyboard,12,15000,Rep_2
-2026-01-20,Sydney,Mouse,3,8000,Rep_4
-2026-02-02,Paris,Tablet,7,250000,Rep_4
-2026-02-06,Dubai,Smartphone,9,350000,Rep_3
-2026-02-12,São Paulo,Headphones,4,50000,Rep_5
-2026-02-18,Mumbai,Printer,6,80000,Rep_2
-2026-03-01,Toronto,Router,10,60000,Rep_2
-2026-03-07,Amsterdam,Camera,2,130000,Rep_4
-2026-03-13,Barcelona,Speaker,5,70000,Rep_4
-2026-03-19,Zurich,Smartwatch,8,90000,Rep_4
-2026-04-02,Melbourne,Drone,11,200000,Rep_1
-2026-04-08,Delhi,TV,3,300000,Rep_1
-2026-04-14,Beijing,Projector,7,180000,Rep_1
-2026-04-20,Cape Town,SSD,9,120000,Rep_1
-2026-05-03,Moscow,Hard%20Drive,4,100000,Rep_1
-2026-05-09,Rome,RAM,6,40000,Rep_2
-2026-05-15,Berlin,GPU,10,500000,Rep_2
-2026-05-21,Seoul,CPU,2,250000,Rep_2
-2026-06-01,New York,Laptop,5,450000,Rep_4
-2026-06-07,London,Monitor,8,120000,Rep_3
-2026-06-13,Tokyo,Keyboard,12,15000,Rep_1
-2026-06-19,Sydney,Mouse,3,8000,Rep_4
-2026-06-25,Paris,Tablet,7,250000,Rep_3
-2026-07-02,Dubai,Smartphone,9,350000,Rep_1
-2026-07-08,São Paulo,Headphones,4,50000,Rep_5
-2026-07-14,Mumbai,Printer,6,80000,Rep_1
-2026-07-20,Toronto,Router,10,60000,Rep_5
-2026-07-26,Amsterdam,Camera,2,130000,Rep_3
-2026-08-01,Barcelona,Speaker,5,70000,Rep_5
-2026-08-07,Zurich,Smartwatch,8,90000,Rep_1
-2026-08-13,Melbourne,Drone,11,200000,Rep_4
-2026-08-19,Delhi,TV,3,300000,Rep_5
-2026-08-25,Beijing,Projector,7,180000,Rep_1
-2026-09-01,Cape Town,SSD,9,120000,Rep_4
-2026-09-07,Moscow,Hard%20Drive,4,100000,Rep_3
-2026-09-13,Rome,RAM,6,40000,Rep_4
-2026-09-19,Berlin,GPU,10,500000,Rep_4
-2026-09-25,Seoul,CPU,2,250000,Rep_1
-2026-10-01,New York,Laptop,5,450000,Rep_3
-2026-10-07,London,Monitor,8,120000,Rep_1
-2026-10-13,Tokyo,Keyboard,12,15000,Rep_5
-2026-10-19,Sydney,Mouse,3,8000,Rep_2
-2026-10-25,Paris,Tablet,7,250000,Rep_3
-2026-11-01,Dubai,Smartphone,9,350000,Rep_4
-2026-11-07,São Paulo,Headphones,4,50000,Rep_5
-2026-11-13,Mumbai,Printer,6,80000,Rep_1
-2026-11-19,Toronto,Router,10,60000,Rep_4
-2026-11-25,Amsterdam,Camera,2,130000,Rep_5
+2026-01-05,New York,Laptop,5,450000,Rita
+2026-01-10,London,Monitor,8,120000,Oscar
+2026-01-15,Tokyo,Keyboard,12,15000,Alice
+2026-01-20,Sydney,Mouse,3,8000,Oscar
+2026-02-02,Paris,Tablet,7,250000,Kevin
+2026-02-06,Dubai,Smartphone,9,350000,Nina
+2026-02-12,São Paulo,Headphones,4,50000,Ethan
+2026-02-18,Mumbai,Printer,6,80000,Bob
+2026-03-01,Toronto,Router,10,60000,Mike
+2026-03-07,Amsterdam,Camera,2,130000,Rita
+2026-03-13,Barcelona,Speaker,5,70000,Tina
+2026-03-19,Zurich,Smartwatch,8,90000,Fiona
+2026-04-02,Melbourne,Drone,11,200000,Nina
+2026-04-08,Delhi,TV,3,300000,George
+2026-04-14,Beijing,Projector,7,180000,Ian
+2026-04-20,Cape Town,SSD,9,120000,Charlie
+2026-05-03,Moscow,Hard%20Drive,4,100000,Nina
+2026-05-09,Rome,RAM,6,40000,Oscar
+2026-05-15,Berlin,GPU,10,500000,Quentin
+2026-05-21,Seoul,CPU,2,250000,Hannah
+2026-06-01,New York,Laptop,5,450000,Mike
+2026-06-07,London,Monitor,8,120000,Nina
+2026-06-13,Tokyo,Keyboard,12,15000,George
+2026-06-19,Sydney,Mouse,3,8000,Kevin
+2026-06-25,Paris,Tablet,7,250000,Kevin
+2026-07-02,Dubai,Smartphone,9,350000,Nina
+2026-07-08,São Paulo,Headphones,4,50000,Ethan
+2026-07-14,Mumbai,Printer,6,80000,Julia
+2026-07-20,Toronto,Router,10,60000,Fiona
+2026-07-26,Amsterdam,Camera,2,130000,Ian
+2026-08-01,Barcelona,Speaker,5,70000,Tina
+2026-08-07,Zurich,Smartwatch,8,90000,Rita
+2026-08-13,Melbourne,Drone,11,200000,Mike
+2026-08-19,Delhi,TV,3,300000,Oscar
+2026-08-25,Beijing,Projector,7,180000,Bob
+2026-09-01,Cape Town,SSD,9,120000,Paula
+2026-09-07,Moscow,Hard%20Drive,4,100000,Ethan
+2026-09-13,Rome,RAM,6,40000,Kevin
+2026-09-19,Berlin,GPU,10,500000,Hannah
+2026-09-25,Seoul,CPU,2,250000,Fiona
+2026-10-01,New York,Laptop,5,450000,Laura
+2026-10-07,London,Monitor,8,120000,Laura
+2026-10-13,Tokyo,Keyboard,12,15000,Charlie
+2026-10-19,Sydney,Mouse,3,8000,Hannah
+2026-10-25,Paris,Tablet,7,250000,Julia
+2026-11-01,Dubai,Smartphone,9,350000,Ethan
+2026-11-07,São Paulo,Headphones,4,50000,Tina
+2026-11-13,Mumbai,Printer,6,80000,Quentin
+2026-11-19,Toronto,Router,10,60000,Oscar
+2026-11-25,Amsterdam,Camera,2,130000,Rita
