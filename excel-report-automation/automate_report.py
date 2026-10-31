@@ -82,16 +82,19 @@ sales["Revenue"] = (
     sales["Quantity"] * sales["Unit_Price"]
 )
 
-# Summarize sales by region
-regional_report = (
-    sales.groupby("Region", as_index=False)
-    .agg(
-        Total_Quantity=("Quantity", "sum"),
-        Total_Revenue=("Revenue", "sum"),
-        Total_Transactions=("Revenue", "count")
+# Summarize sales by region (if Region column exists)
+if "Region" in sales.columns:
+    regional_report = (
+        sales.groupby("Region", as_index=False)
+        .agg(
+            Total_Quantity=("Quantity", "sum"),
+            Total_Revenue=("Revenue", "sum"),
+            Total_Transactions=("Revenue", "count")
+        )
+        .sort_values("Total_Revenue", ascending=False)
     )
-    .sort_values("Total_Revenue", ascending=False)
-)
+else:
+    regional_report = pd.DataFrame()
 
 # Summarize sales by product
 product_report = (
