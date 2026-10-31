@@ -7,3 +7,995 @@ Date,Region,Product,Quantity,Unit_Price
 2026-01-10,Abuja,Keyboard,8,15000
 2026-01-11,Enugu,Monitor,4,120000
 2026-01-12,Lagos,Laptop,2,450000
+2026-01-13,Abuja,Mouse,5,8000
+2026-01-14,Enugu,Keyboard,13,15000
+2026-01-15,Port Harcourt,Mouse,15,8000
+2026-01-16,Enugu,Monitor,10,120000
+2026-01-17,Port Harcourt,Monitor,3,120000
+2026-01-18,Lagos,Mouse,10,8000
+2026-01-19,Ibadan,Keyboard,16,15000
+2026-01-20,Port Harcourt,Laptop,18,450000
+2026-01-21,Abuja,Keyboard,10,15000
+2026-01-22,Enugu,Mouse,19,8000
+2026-01-23,Lagos,Monitor,14,120000
+2026-01-24,Ibadan,Mouse,2,8000
+2026-01-25,Ibadan,Keyboard,10,15000
+2026-01-26,Kano,Monitor,2,120000
+2026-01-27,Lagos,Monitor,3,120000
+2026-01-28,Enugu,Monitor,20,120000
+2026-01-29,Ibadan,Keyboard,4,15000
+2026-01-30,Ibadan,Laptop,9,450000
+2026-01-31,Ibadan,Keyboard,20,15000
+2026-02-01,Abuja,Monitor,1,120000
+2026-02-02,Enugu,Laptop,16,450000
+2026-02-03,Ibadan,Monitor,11,120000
+2026-02-04,Port Harcourt,Keyboard,5,15000
+2026-02-05,Kano,Keyboard,2,15000
+2026-02-06,Port Harcourt,Mouse,13,8000
+2026-02-07,Enugu,Laptop,14,450000
+2026-02-08,Lagos,Mouse,8,8000
+2026-02-09,Abuja,Mouse,16,8000
+2026-02-10,Lagos,Mouse,8,8000
+2026-02-11,Enugu,Monitor,7,120000
+2026-02-12,Kano,Mouse,10,8000
+2026-02-13,Lagos,Laptop,3,450000
+2026-02-14,Lagos,Laptop,5,450000
+2026-02-15,Port Harcourt,Laptop,4,450000
+2026-02-16,Kano,Mouse,9,8000
+2026-02-17,Abuja,Keyboard,18,15000
+2026-02-18,Kano,Laptop,4,450000
+2026-02-19,Ibadan,Keyboard,19,15000
+2026-02-20,Port Harcourt,Keyboard,4,15000
+2026-02-21,Ibadan,Keyboard,18,15000
+2026-02-22,Ibadan,Mouse,16,8000
+2026-02-23,Ibadan,Laptop,3,450000
+2026-02-24,Port Harcourt,Mouse,12,8000
+2026-02-25,Lagos,Monitor,7,120000
+2026-02-26,Kano,Monitor,3,120000
+2026-02-27,Abuja,Laptop,11,450000
+2026-02-28,Kano,Mouse,8,8000
+2026-03-01,Ibadan,Keyboard,7,15000
+2026-03-02,Enugu,Laptop,12,450000
+2026-03-03,Lagos,Monitor,2,120000
+2026-03-04,Enugu,Laptop,5,450000
+2026-03-05,Ibadan,Keyboard,2,15000
+2026-03-06,Enugu,Keyboard,19,15000
+2026-03-07,Lagos,Mouse,1,8000
+2026-03-08,Ibadan,Monitor,11,120000
+2026-03-09,Enugu,Monitor,17,120000
+2026-03-10,Ibadan,Keyboard,10,15000
+2026-03-11,Port Harcourt,Mouse,13,8000
+2026-03-12,Enugu,Keyboard,19,15000
+2026-03-13,Kano,Laptop,13,450000
+2026-03-14,Enugu,Mouse,15,8000
+2026-03-15,Lagos,Mouse,11,8000
+2026-03-16,Ibadan,Laptop,5,450000
+2026-03-17,Ibadan,Mouse,15,8000
+2026-03-18,Lagos,Monitor,18,120000
+2026-03-19,Enugu,Keyboard,18,15000
+2026-03-20,Port Harcourt,Keyboard,5,15000
+2026-03-21,Enugu,Laptop,3,450000
+2026-03-22,Ibadan,Laptop,14,450000
+2026-03-23,Enugu,Mouse,10,8000
+2026-03-24,Ibadan,Laptop,4,450000
+2026-03-25,Port Harcourt,Mouse,19,8000
+2026-03-26,Kano,Monitor,11,120000
+2026-03-27,Enugu,Keyboard,14,15000
+2026-03-28,Kano,Laptop,14,450000
+2026-03-29,Enugu,Laptop,9,450000
+2026-03-30,Kano,Monitor,1,120000
+2026-03-31,Enugu,Monitor,1,120000
+2026-04-01,Ibadan,Laptop,6,450000
+2026-04-02,Enugu,Keyboard,4,15000
+2026-04-03,Port Harcourt,Mouse,12,8000
+2026-04-04,Kano,Monitor,7,120000
+2026-04-05,Port Harcourt,Laptop,12,450000
+2026-04-06,Enugu,Laptop,14,450000
+2026-04-07,Ibadan,Laptop,19,450000
+2026-04-08,Lagos,Laptop,1,450000
+2026-04-09,Lagos,Keyboard,4,15000
+2026-04-10,Port Harcourt,Monitor,9,120000
+2026-04-11,Kano,Mouse,17,8000
+2026-04-12,Ibadan,Mouse,14,8000
+2026-04-13,Enugu,Laptop,9,450000
+2026-04-14,Enugu,Keyboard,6,15000
+2026-04-15,Ibadan,Mouse,1,8000
+2026-04-16,Abuja,Laptop,13,450000
+2026-04-17,Port Harcourt,Mouse,17,8000
+2026-04-18,Abuja,Monitor,20,120000
+2026-04-19,Ibadan,Monitor,13,120000
+2026-04-20,Enugu,Monitor,20,120000
+2026-04-21,Abuja,Monitor,6,120000
+2026-04-22,Lagos,Monitor,19,120000
+2026-04-23,Lagos,Mouse,13,8000
+2026-04-24,Kano,Mouse,15,8000
+2026-04-25,Ibadan,Laptop,2,450000
+2026-04-26,Lagos,Mouse,18,8000
+2026-04-27,Ibadan,Laptop,10,450000
+2026-04-28,Lagos,Mouse,18,8000
+2026-04-29,Lagos,Keyboard,20,15000
+2026-04-30,Abuja,Laptop,1,450000
+2026-05-01,Port Harcourt,Laptop,4,450000
+2026-05-02,Kano,Mouse,3,8000
+2026-05-03,Lagos,Laptop,16,450000
+2026-05-04,Port Harcourt,Laptop,8,450000
+2026-05-05,Port Harcourt,Keyboard,16,15000
+2026-05-06,Kano,Monitor,7,120000
+2026-05-07,Abuja,Mouse,13,8000
+2026-05-08,Port Harcourt,Monitor,18,120000
+2026-05-09,Lagos,Keyboard,3,15000
+2026-05-10,Abuja,Monitor,2,120000
+2026-05-11,Enugu,Mouse,15,8000
+2026-05-12,Ibadan,Keyboard,20,15000
+2026-05-13,Lagos,Monitor,7,120000
+2026-05-14,Ibadan,Keyboard,2,15000
+2026-05-15,Abuja,Monitor,6,120000
+2026-05-16,Enugu,Laptop,11,450000
+2026-05-17,Abuja,Mouse,1,8000
+2026-05-18,Abuja,Laptop,16,450000
+2026-05-19,Port Harcourt,Laptop,11,450000
+2026-05-20,Enugu,Monitor,1,120000
+2026-05-21,Lagos,Mouse,9,8000
+2026-05-22,Ibadan,Keyboard,14,15000
+2026-05-23,Lagos,Laptop,13,450000
+2026-05-24,Port Harcourt,Laptop,14,450000
+2026-05-25,Lagos,Laptop,9,450000
+2026-05-26,Enugu,Laptop,18,450000
+2026-05-27,Ibadan,Mouse,7,8000
+2026-05-28,Ibadan,Mouse,18,8000
+2026-05-29,Abuja,Monitor,20,120000
+2026-05-30,Ibadan,Keyboard,18,15000
+2026-05-31,Ibadan,Laptop,4,450000
+2026-06-01,Abuja,Keyboard,17,15000
+2026-06-02,Ibadan,Monitor,8,120000
+2026-06-03,Enugu,Monitor,5,120000
+2026-06-04,Port Harcourt,Mouse,6,8000
+2026-06-05,Enugu,Laptop,5,450000
+2026-06-06,Abuja,Monitor,4,120000
+2026-06-07,Enugu,Monitor,7,120000
+2026-06-08,Port Harcourt,Keyboard,17,15000
+2026-06-09,Lagos,Keyboard,1,15000
+2026-06-10,Abuja,Keyboard,1,15000
+2026-06-11,Ibadan,Laptop,19,450000
+2026-06-12,Port Harcourt,Keyboard,16,15000
+2026-06-13,Abuja,Monitor,3,120000
+2026-06-14,Abuja,Mouse,4,8000
+2026-06-15,Abuja,Keyboard,10,15000
+2026-06-16,Lagos,Keyboard,19,15000
+2026-06-17,Ibadan,Monitor,8,120000
+2026-06-18,Enugu,Laptop,16,450000
+2026-06-19,Lagos,Laptop,10,450000
+2026-06-20,Lagos,Laptop,5,450000
+2026-06-21,Abuja,Laptop,20,450000
+2026-06-22,Port Harcourt,Mouse,2,8000
+2026-06-23,Enugu,Keyboard,19,15000
+2026-06-24,Enugu,Monitor,7,120000
+2026-06-25,Enugu,Laptop,20,450000
+2026-06-26,Port Harcourt,Laptop,18,450000
+2026-06-27,Kano,Mouse,2,8000
+2026-06-28,Ibadan,Keyboard,2,15000
+2026-06-29,Ibadan,Mouse,3,8000
+2026-06-30,Kano,Keyboard,1,15000
+2026-07-01,Port Harcourt,Keyboard,13,15000
+2026-07-02,Kano,Laptop,6,450000
+2026-07-03,Ibadan,Mouse,19,8000
+2026-07-04,Kano,Monitor,7,120000
+2026-07-05,Port Harcourt,Monitor,5,120000
+2026-07-06,Ibadan,Laptop,12,450000
+2026-07-07,Lagos,Mouse,7,8000
+2026-07-08,Lagos,Mouse,2,8000
+2026-07-09,Enugu,Monitor,12,120000
+2026-07-10,Ibadan,Keyboard,5,15000
+2026-07-11,Lagos,Mouse,3,8000
+2026-07-12,Port Harcourt,Mouse,11,8000
+2026-07-13,Abuja,Laptop,20,450000
+2026-07-14,Kano,Mouse,13,8000
+2026-07-15,Enugu,Laptop,4,450000
+2026-07-16,Enugu,Keyboard,19,15000
+2026-07-17,Lagos,Laptop,2,450000
+2026-07-18,Ibadan,Laptop,19,450000
+2026-07-19,Port Harcourt,Mouse,5,8000
+2026-07-20,Lagos,Laptop,1,450000
+2026-07-21,Abuja,Keyboard,3,15000
+2026-07-22,Kano,Laptop,20,450000
+2026-07-23,Lagos,Mouse,19,8000
+2026-07-24,Abuja,Monitor,8,120000
+2026-07-25,Kano,Keyboard,3,15000
+2026-07-26,Lagos,Monitor,8,120000
+2026-07-27,Port Harcourt,Laptop,4,450000
+2026-07-28,Ibadan,Keyboard,11,15000
+2026-07-29,Port Harcourt,Monitor,2,120000
+2026-07-30,Abuja,Laptop,19,450000
+2026-07-31,Enugu,Laptop,2,450000
+2026-08-01,Ibadan,Mouse,6,8000
+2026-08-02,Port Harcourt,Keyboard,1,15000
+2026-08-03,Ibadan,Mouse,3,8000
+2026-08-04,Lagos,Laptop,5,450000
+2026-08-05,Enugu,Mouse,15,8000
+2026-08-06,Ibadan,Monitor,4,120000
+2026-08-07,Port Harcourt,Laptop,17,450000
+2026-08-08,Lagos,Keyboard,14,15000
+2026-08-09,Lagos,Laptop,13,450000
+2026-08-10,Port Harcourt,Laptop,12,450000
+2026-08-11,Kano,Mouse,6,8000
+2026-08-12,Kano,Monitor,11,120000
+2026-08-13,Port Harcourt,Keyboard,17,15000
+2026-08-14,Lagos,Laptop,9,450000
+2026-08-15,Enugu,Laptop,6,450000
+2026-08-16,Lagos,Keyboard,17,15000
+2026-08-17,Kano,Laptop,18,450000
+2026-08-18,Abuja,Keyboard,15,15000
+2026-08-19,Ibadan,Keyboard,18,15000
+2026-08-20,Enugu,Mouse,7,8000
+2026-08-21,Enugu,Monitor,4,120000
+2026-08-22,Lagos,Laptop,11,450000
+2026-08-23,Lagos,Laptop,1,450000
+2026-08-24,Lagos,Laptop,3,450000
+2026-08-25,Ibadan,Monitor,7,120000
+2026-08-26,Abuja,Keyboard,18,15000
+2026-08-27,Lagos,Keyboard,20,15000
+2026-08-28,Abuja,Keyboard,5,15000
+2026-08-29,Abuja,Laptop,4,450000
+2026-08-30,Kano,Keyboard,14,15000
+2026-08-31,Abuja,Keyboard,7,15000
+2026-09-01,Kano,Laptop,17,450000
+2026-09-02,Port Harcourt,Monitor,17,120000
+2026-09-03,Ibadan,Mouse,6,8000
+2026-09-04,Enugu,Keyboard,11,15000
+2026-09-05,Enugu,Laptop,1,450000
+2026-09-06,Abuja,Keyboard,2,15000
+2026-09-07,Kano,Monitor,18,120000
+2026-09-08,Port Harcourt,Mouse,17,8000
+2026-09-09,Ibadan,Mouse,1,8000
+2026-09-10,Lagos,Monitor,4,120000
+2026-09-11,Enugu,Mouse,16,8000
+2026-09-12,Port Harcourt,Monitor,4,120000
+2026-09-13,Lagos,Monitor,10,120000
+2026-09-14,Lagos,Mouse,17,8000
+2026-09-15,Ibadan,Laptop,16,450000
+2026-09-16,Lagos,Monitor,14,120000
+2026-09-17,Port Harcourt,Keyboard,17,15000
+2026-09-18,Abuja,Keyboard,12,15000
+2026-09-19,Lagos,Monitor,8,120000
+2026-09-20,Kano,Monitor,15,120000
+2026-09-21,Enugu,Monitor,2,120000
+2026-09-22,Port Harcourt,Laptop,17,450000
+2026-09-23,Ibadan,Laptop,1,450000
+2026-09-24,Kano,Keyboard,8,15000
+2026-09-25,Enugu,Mouse,6,8000
+2026-09-26,Lagos,Keyboard,18,15000
+2026-09-27,Ibadan,Keyboard,8,15000
+2026-09-28,Ibadan,Monitor,18,120000
+2026-09-29,Port Harcourt,Laptop,11,450000
+2026-09-30,Lagos,Monitor,14,120000
+2026-10-01,Ibadan,Laptop,11,450000
+2026-10-02,Kano,Keyboard,9,15000
+2026-10-03,Enugu,Monitor,10,120000
+2026-10-04,Port Harcourt,Keyboard,7,15000
+2026-10-05,Lagos,Mouse,10,8000
+2026-10-06,Ibadan,Laptop,12,450000
+2026-10-07,Abuja,Mouse,5,8000
+2026-10-08,Abuja,Mouse,15,8000
+2026-10-09,Port Harcourt,Keyboard,12,15000
+2026-10-10,Abuja,Monitor,7,120000
+2026-10-11,Lagos,Keyboard,20,15000
+2026-10-12,Enugu,Monitor,4,120000
+2026-10-13,Abuja,Laptop,5,450000
+2026-10-14,Lagos,Keyboard,11,15000
+2026-10-15,Abuja,Keyboard,15,15000
+2026-10-16,Ibadan,Keyboard,7,15000
+2026-10-17,Lagos,Keyboard,20,15000
+2026-10-18,Abuja,Mouse,8,8000
+2026-10-19,Ibadan,Keyboard,6,15000
+2026-10-20,Port Harcourt,Monitor,11,120000
+2026-10-21,Port Harcourt,Mouse,11,8000
+2026-10-22,Port Harcourt,Monitor,14,120000
+2026-10-23,Port Harcourt,Mouse,3,8000
+2026-10-24,Kano,Keyboard,7,15000
+2026-10-25,Ibadan,Laptop,12,450000
+2026-10-26,Ibadan,Laptop,8,450000
+2026-10-27,Port Harcourt,Mouse,11,8000
+2026-10-28,Ibadan,Mouse,6,8000
+2026-10-29,Abuja,Mouse,4,8000
+2026-10-30,Port Harcourt,Monitor,1,120000
+2026-10-31,Lagos,Keyboard,6,15000
+2026-11-01,Port Harcourt,Keyboard,13,15000
+2026-11-02,Ibadan,Keyboard,1,15000
+2026-11-03,Kano,Mouse,10,8000
+2026-11-04,Abuja,Mouse,5,8000
+2026-11-05,Lagos,Monitor,17,120000
+2026-11-06,Abuja,Keyboard,17,15000
+2026-11-07,Kano,Laptop,9,450000
+2026-11-08,Abuja,Monitor,17,120000
+2026-11-09,Port Harcourt,Monitor,12,120000
+2026-11-10,Abuja,Laptop,15,450000
+2026-11-11,Enugu,Mouse,11,8000
+2026-11-12,Lagos,Mouse,1,8000
+2026-11-13,Ibadan,Laptop,8,450000
+2026-11-14,Abuja,Mouse,5,8000
+2026-11-15,Enugu,Keyboard,6,15000
+2026-11-16,Kano,Laptop,3,450000
+2026-11-17,Abuja,Monitor,20,120000
+2026-11-18,Port Harcourt,Mouse,9,8000
+2026-11-19,Lagos,Keyboard,3,15000
+2026-11-20,Enugu,Keyboard,4,15000
+2026-11-21,Port Harcourt,Monitor,12,120000
+2026-11-22,Abuja,Mouse,11,8000
+2026-11-23,Ibadan,Mouse,19,8000
+2026-11-24,Lagos,Monitor,13,120000
+2026-11-25,Enugu,Mouse,18,8000
+2026-11-26,Enugu,Monitor,7,120000
+2026-11-27,Kano,Mouse,7,8000
+2026-11-28,Port Harcourt,Monitor,3,120000
+2026-11-29,Port Harcourt,Monitor,15,120000
+2026-11-30,Enugu,Keyboard,3,15000
+2026-12-01,Lagos,Mouse,6,8000
+2026-12-02,Enugu,Monitor,15,120000
+2026-12-03,Abuja,Laptop,14,450000
+2026-12-04,Kano,Mouse,19,8000
+2026-12-05,Port Harcourt,Laptop,10,450000
+2026-12-06,Ibadan,Laptop,19,450000
+2026-12-07,Lagos,Mouse,6,8000
+2026-12-08,Kano,Monitor,6,120000
+2026-12-09,Ibadan,Laptop,17,450000
+2026-12-10,Lagos,Monitor,15,120000
+2026-12-11,Enugu,Laptop,1,450000
+2026-12-12,Abuja,Mouse,18,8000
+2026-12-13,Ibadan,Mouse,15,8000
+2026-12-14,Kano,Monitor,10,120000
+2026-12-15,Kano,Laptop,10,450000
+2026-12-16,Kano,Monitor,8,120000
+2026-12-17,Lagos,Laptop,14,450000
+2026-12-18,Port Harcourt,Laptop,18,450000
+2026-12-19,Lagos,Laptop,5,450000
+2026-12-20,Abuja,Keyboard,15,15000
+2026-12-21,Kano,Monitor,5,120000
+2026-12-22,Lagos,Laptop,3,450000
+2026-12-23,Lagos,Mouse,4,8000
+2026-12-24,Abuja,Laptop,18,450000
+2026-12-25,Port Harcourt,Monitor,3,120000
+2026-12-26,Lagos,Laptop,13,450000
+2026-12-27,Enugu,Laptop,12,450000
+2026-12-28,Ibadan,Laptop,6,450000
+2026-12-29,Ibadan,Mouse,10,8000
+2026-12-30,Abuja,Laptop,4,450000
+2026-12-31,Abuja,Keyboard,16,15000
+2027-01-01,Ibadan,Monitor,5,120000
+2027-01-02,Kano,Monitor,2,120000
+2027-01-03,Abuja,Mouse,5,8000
+2027-01-04,Enugu,Monitor,14,120000
+2027-01-05,Lagos,Laptop,15,450000
+2027-01-06,Abuja,Monitor,2,120000
+2027-01-07,Lagos,Mouse,8,8000
+2027-01-08,Ibadan,Mouse,11,8000
+2027-01-09,Enugu,Keyboard,15,15000
+2027-01-10,Ibadan,Monitor,9,120000
+2027-01-11,Enugu,Keyboard,16,15000
+2027-01-12,Port Harcourt,Keyboard,7,15000
+2027-01-13,Kano,Mouse,20,8000
+2027-01-14,Kano,Mouse,15,8000
+2027-01-15,Port Harcourt,Monitor,15,120000
+2027-01-16,Kano,Monitor,11,120000
+2027-01-17,Enugu,Laptop,15,450000
+2027-01-18,Kano,Mouse,20,8000
+2027-01-19,Lagos,Laptop,15,450000
+2027-01-20,Port Harcourt,Monitor,15,120000
+2027-01-21,Abuja,Keyboard,13,15000
+2027-01-22,Abuja,Mouse,11,8000
+2027-01-23,Enugu,Monitor,14,120000
+2027-01-24,Port Harcourt,Mouse,6,8000
+2027-01-25,Kano,Laptop,9,450000
+2027-01-26,Port Harcourt,Laptop,19,450000
+2027-01-27,Abuja,Laptop,8,450000
+2027-01-28,Kano,Keyboard,18,15000
+2027-01-29,Lagos,Laptop,2,450000
+2027-01-30,Ibadan,Laptop,5,450000
+2027-01-31,Kano,Mouse,14,8000
+2027-02-01,Abuja,Monitor,18,120000
+2027-02-02,Port Harcourt,Laptop,3,450000
+2027-02-03,Kano,Laptop,15,450000
+2027-02-04,Port Harcourt,Monitor,15,120000
+2027-02-05,Port Harcourt,Laptop,7,450000
+2027-02-06,Lagos,Laptop,13,450000
+2027-02-07,Abuja,Mouse,10,8000
+2027-02-08,Kano,Monitor,13,120000
+2027-02-09,Lagos,Keyboard,2,15000
+2027-02-10,Ibadan,Laptop,14,450000
+2027-02-11,Lagos,Monitor,9,120000
+2027-02-12,Ibadan,Laptop,2,450000
+2027-02-13,Abuja,Keyboard,18,15000
+2027-02-14,Lagos,Laptop,15,450000
+2027-02-15,Kano,Keyboard,1,15000
+2027-02-16,Enugu,Keyboard,17,15000
+2027-02-17,Ibadan,Keyboard,7,15000
+2027-02-18,Port Harcourt,Keyboard,20,15000
+2027-02-19,Abuja,Keyboard,1,15000
+2027-02-20,Enugu,Monitor,6,120000
+2027-02-21,Ibadan,Laptop,8,450000
+2027-02-22,Kano,Monitor,14,120000
+2027-02-23,Kano,Monitor,18,120000
+2027-02-24,Kano,Keyboard,14,15000
+2027-02-25,Enugu,Monitor,2,120000
+2027-02-26,Ibadan,Keyboard,12,15000
+2027-02-27,Enugu,Keyboard,14,15000
+2027-02-28,Port Harcourt,Keyboard,7,15000
+2027-03-01,Enugu,Mouse,14,8000
+2027-03-02,Lagos,Keyboard,14,15000
+2027-03-03,Port Harcourt,Mouse,5,8000
+2027-03-04,Ibadan,Laptop,16,450000
+2027-03-05,Lagos,Monitor,2,120000
+2027-03-06,Kano,Laptop,9,450000
+2027-03-07,Lagos,Mouse,3,8000
+2027-03-08,Lagos,Laptop,14,450000
+2027-03-09,Abuja,Monitor,13,120000
+2027-03-10,Kano,Laptop,6,450000
+2027-03-11,Lagos,Monitor,15,120000
+2027-03-12,Ibadan,Laptop,7,450000
+2027-03-13,Enugu,Laptop,7,450000
+2027-03-14,Enugu,Laptop,7,450000
+2027-03-15,Ibadan,Keyboard,8,15000
+2027-03-16,Lagos,Mouse,2,8000
+2027-03-17,Enugu,Laptop,12,450000
+2027-03-18,Kano,Mouse,8,8000
+2027-03-19,Abuja,Laptop,8,450000
+2027-03-20,Lagos,Monitor,3,120000
+2027-03-21,Ibadan,Mouse,10,8000
+2027-03-22,Enugu,Mouse,20,8000
+2027-03-23,Kano,Monitor,8,120000
+2027-03-24,Ibadan,Laptop,9,450000
+2027-03-25,Enugu,Mouse,19,8000
+2027-03-26,Lagos,Laptop,3,450000
+2027-03-27,Kano,Monitor,14,120000
+2027-03-28,Enugu,Mouse,10,8000
+2027-03-29,Port Harcourt,Mouse,18,8000
+2027-03-30,Enugu,Keyboard,8,15000
+2027-03-31,Kano,Monitor,11,120000
+2027-04-01,Ibadan,Monitor,13,120000
+2027-04-02,Kano,Laptop,9,450000
+2027-04-03,Kano,Mouse,8,8000
+2027-04-04,Lagos,Monitor,15,120000
+2027-04-05,Port Harcourt,Laptop,5,450000
+2027-04-06,Abuja,Mouse,5,8000
+2027-04-07,Lagos,Laptop,3,450000
+2027-04-08,Kano,Mouse,16,8000
+2027-04-09,Lagos,Mouse,10,8000
+2027-04-10,Enugu,Keyboard,20,15000
+2027-04-11,Kano,Mouse,13,8000
+2027-04-12,Lagos,Keyboard,17,15000
+2027-04-13,Abuja,Laptop,15,450000
+2027-04-14,Lagos,Laptop,7,450000
+2027-04-15,Enugu,Mouse,6,8000
+2027-04-16,Ibadan,Laptop,18,450000
+2027-04-17,Enugu,Monitor,19,120000
+2027-04-18,Port Harcourt,Monitor,20,120000
+2027-04-19,Ibadan,Laptop,15,450000
+2027-04-20,Ibadan,Laptop,13,450000
+2027-04-21,Port Harcourt,Laptop,13,450000
+2027-04-22,Port Harcourt,Laptop,9,450000
+2027-04-23,Port Harcourt,Keyboard,9,15000
+2027-04-24,Lagos,Monitor,11,120000
+2027-04-25,Lagos,Keyboard,2,15000
+2027-04-26,Kano,Keyboard,12,15000
+2027-04-27,Kano,Monitor,19,120000
+2027-04-28,Enugu,Keyboard,5,15000
+2027-04-29,Lagos,Monitor,1,120000
+2027-04-30,Kano,Laptop,19,450000
+2027-05-01,Port Harcourt,Keyboard,5,15000
+2027-05-02,Ibadan,Laptop,20,450000
+2027-05-03,Kano,Laptop,8,450000
+2027-05-04,Ibadan,Keyboard,11,15000
+2027-05-05,Abuja,Keyboard,10,15000
+2027-05-06,Kano,Monitor,12,120000
+2027-05-07,Port Harcourt,Mouse,3,8000
+2027-05-08,Lagos,Laptop,8,450000
+2027-05-09,Kano,Mouse,14,8000
+2027-05-10,Lagos,Monitor,12,120000
+2027-05-11,Abuja,Mouse,15,8000
+2027-05-12,Lagos,Laptop,4,450000
+2027-05-13,Port Harcourt,Laptop,5,450000
+2027-05-14,Abuja,Laptop,14,450000
+2027-05-15,Abuja,Mouse,19,8000
+2027-05-16,Ibadan,Monitor,11,120000
+2027-05-17,Kano,Mouse,5,8000
+2027-05-18,Abuja,Laptop,20,450000
+2027-05-19,Lagos,Laptop,17,450000
+2027-05-20,Kano,Laptop,16,450000
+2027-05-21,Lagos,Laptop,1,450000
+2027-05-22,Lagos,Keyboard,12,15000
+2027-05-23,Abuja,Mouse,7,8000
+2027-05-24,Lagos,Laptop,2,450000
+2027-05-25,Enugu,Keyboard,4,15000
+2027-05-26,Enugu,Monitor,8,120000
+2027-05-27,Enugu,Monitor,6,120000
+2027-05-28,Ibadan,Mouse,17,8000
+2027-05-29,Kano,Monitor,19,120000
+2027-05-30,Port Harcourt,Monitor,15,120000
+2027-05-31,Abuja,Monitor,14,120000
+2027-06-01,Kano,Mouse,12,8000
+2027-06-02,Lagos,Mouse,11,8000
+2027-06-03,Kano,Laptop,13,450000
+2027-06-04,Abuja,Mouse,10,8000
+2027-06-05,Enugu,Mouse,12,8000
+2027-06-06,Ibadan,Keyboard,13,15000
+2027-06-07,Enugu,Mouse,3,8000
+2027-06-08,Kano,Laptop,19,450000
+2027-06-09,Lagos,Mouse,19,8000
+2027-06-10,Enugu,Keyboard,8,15000
+2027-06-11,Enugu,Mouse,16,8000
+2027-06-12,Enugu,Monitor,15,120000
+2027-06-13,Lagos,Monitor,15,120000
+2027-06-14,Port Harcourt,Laptop,3,450000
+2027-06-15,Port Harcourt,Laptop,10,450000
+2027-06-16,Port Harcourt,Monitor,6,120000
+2027-06-17,Ibadan,Keyboard,10,15000
+2027-06-18,Port Harcourt,Keyboard,4,15000
+2027-06-19,Kano,Keyboard,15,15000
+2027-06-20,Port Harcourt,Keyboard,11,15000
+2027-06-21,Ibadan,Mouse,9,8000
+2027-06-22,Ibadan,Keyboard,16,15000
+2027-06-23,Ibadan,Laptop,4,450000
+2027-06-24,Kano,Keyboard,4,15000
+2027-06-25,Ibadan,Monitor,10,120000
+2027-06-26,Ibadan,Keyboard,4,15000
+2027-06-27,Port Harcourt,Mouse,19,8000
+2027-06-28,Port Harcourt,Laptop,12,450000
+2027-06-29,Enugu,Mouse,2,8000
+2027-06-30,Enugu,Mouse,16,8000
+2027-07-01,Ibadan,Laptop,8,450000
+2027-07-02,Abuja,Mouse,19,8000
+2027-07-03,Lagos,Laptop,10,450000
+2027-07-04,Kano,Laptop,3,450000
+2027-07-05,Enugu,Laptop,1,450000
+2027-07-06,Kano,Keyboard,8,15000
+2027-07-07,Abuja,Laptop,17,450000
+2027-07-08,Ibadan,Laptop,15,450000
+2027-07-09,Kano,Monitor,15,120000
+2027-07-10,Ibadan,Mouse,2,8000
+2027-07-11,Enugu,Keyboard,16,15000
+2027-07-12,Port Harcourt,Laptop,5,450000
+2027-07-13,Enugu,Mouse,15,8000
+2027-07-14,Abuja,Mouse,5,8000
+2027-07-15,Abuja,Monitor,5,120000
+2027-07-16,Abuja,Laptop,19,450000
+2027-07-17,Enugu,Monitor,16,120000
+2027-07-18,Ibadan,Laptop,12,450000
+2027-07-19,Lagos,Mouse,5,8000
+2027-07-20,Ibadan,Monitor,14,120000
+2027-07-21,Ibadan,Laptop,8,450000
+2027-07-22,Lagos,Monitor,13,120000
+2027-07-23,Port Harcourt,Monitor,15,120000
+2027-07-24,Port Harcourt,Mouse,2,8000
+2027-07-25,Lagos,Laptop,12,450000
+2027-07-26,Abuja,Mouse,11,8000
+2027-07-27,Kano,Keyboard,13,15000
+2027-07-28,Port Harcourt,Keyboard,18,15000
+2027-07-29,Enugu,Mouse,12,8000
+2027-07-30,Port Harcourt,Monitor,3,120000
+2027-07-31,Port Harcourt,Keyboard,16,15000
+2027-08-01,Port Harcourt,Monitor,13,120000
+2027-08-02,Lagos,Keyboard,8,15000
+2027-08-03,Port Harcourt,Keyboard,12,15000
+2027-08-04,Ibadan,Keyboard,7,15000
+2027-08-05,Port Harcourt,Mouse,9,8000
+2027-08-06,Lagos,Keyboard,18,15000
+2027-08-07,Port Harcourt,Mouse,12,8000
+2027-08-08,Ibadan,Monitor,15,120000
+2027-08-09,Abuja,Mouse,18,8000
+2027-08-10,Abuja,Monitor,10,120000
+2027-08-11,Kano,Laptop,13,450000
+2027-08-12,Enugu,Laptop,11,450000
+2027-08-13,Lagos,Monitor,8,120000
+2027-08-14,Port Harcourt,Mouse,18,8000
+2027-08-15,Abuja,Mouse,17,8000
+2027-08-16,Kano,Monitor,5,120000
+2027-08-17,Lagos,Keyboard,13,15000
+2027-08-18,Port Harcourt,Keyboard,10,15000
+2027-08-19,Port Harcourt,Laptop,9,450000
+2027-08-20,Kano,Keyboard,17,15000
+2027-08-21,Ibadan,Keyboard,18,15000
+2027-08-22,Kano,Mouse,14,8000
+2027-08-23,Lagos,Mouse,6,8000
+2027-08-24,Abuja,Keyboard,10,15000
+2027-08-25,Abuja,Keyboard,14,15000
+2027-08-26,Enugu,Laptop,2,450000
+2027-08-27,Ibadan,Mouse,11,8000
+2027-08-28,Abuja,Keyboard,4,15000
+2027-08-29,Kano,Laptop,6,450000
+2027-08-30,Kano,Keyboard,9,15000
+2027-08-31,Port Harcourt,Monitor,5,120000
+2027-09-01,Abuja,Monitor,1,120000
+2027-09-02,Enugu,Monitor,5,120000
+2027-09-03,Enugu,Mouse,11,8000
+2027-09-04,Abuja,Laptop,16,450000
+2027-09-05,Abuja,Monitor,1,120000
+2027-09-06,Abuja,Mouse,13,8000
+2027-09-07,Lagos,Laptop,14,450000
+2027-09-08,Kano,Monitor,12,120000
+2027-09-09,Enugu,Mouse,19,8000
+2027-09-10,Kano,Mouse,16,8000
+2027-09-11,Port Harcourt,Monitor,7,120000
+2027-09-12,Lagos,Mouse,2,8000
+2027-09-13,Abuja,Monitor,18,120000
+2027-09-14,Abuja,Laptop,20,450000
+2027-09-15,Port Harcourt,Laptop,17,450000
+2027-09-16,Kano,Monitor,14,120000
+2027-09-17,Port Harcourt,Monitor,19,120000
+2027-09-18,Enugu,Monitor,20,120000
+2027-09-19,Lagos,Keyboard,14,15000
+2027-09-20,Port Harcourt,Laptop,16,450000
+2027-09-21,Port Harcourt,Keyboard,8,15000
+2027-09-22,Ibadan,Monitor,7,120000
+2027-09-23,Enugu,Laptop,13,450000
+2027-09-24,Port Harcourt,Laptop,7,450000
+2027-09-25,Enugu,Monitor,17,120000
+2027-09-26,Port Harcourt,Keyboard,7,15000
+2027-09-27,Abuja,Mouse,4,8000
+2027-09-28,Kano,Laptop,5,450000
+2027-09-29,Kano,Mouse,12,8000
+2027-09-30,Ibadan,Keyboard,13,15000
+2027-10-01,Enugu,Monitor,17,120000
+2027-10-02,Lagos,Mouse,20,8000
+2027-10-03,Port Harcourt,Monitor,2,120000
+2027-10-04,Kano,Laptop,3,450000
+2027-10-05,Lagos,Laptop,12,450000
+2027-10-06,Port Harcourt,Keyboard,8,15000
+2027-10-07,Abuja,Laptop,10,450000
+2027-10-08,Lagos,Laptop,19,450000
+2027-10-09,Port Harcourt,Keyboard,12,15000
+2027-10-10,Abuja,Keyboard,18,15000
+2027-10-11,Abuja,Monitor,5,120000
+2027-10-12,Enugu,Keyboard,11,15000
+2027-10-13,Lagos,Monitor,12,120000
+2027-10-14,Lagos,Keyboard,8,15000
+2027-10-15,Kano,Mouse,6,8000
+2027-10-16,Ibadan,Laptop,19,450000
+2027-10-17,Port Harcourt,Mouse,19,8000
+2027-10-18,Ibadan,Keyboard,11,15000
+2027-10-19,Port Harcourt,Monitor,20,120000
+2027-10-20,Ibadan,Keyboard,8,15000
+2027-10-21,Abuja,Laptop,6,450000
+2027-10-22,Enugu,Keyboard,11,15000
+2027-10-23,Port Harcourt,Laptop,2,450000
+2027-10-24,Port Harcourt,Monitor,13,120000
+2027-10-25,Port Harcourt,Keyboard,18,15000
+2027-10-26,Lagos,Monitor,5,120000
+2027-10-27,Ibadan,Monitor,20,120000
+2027-10-28,Ibadan,Mouse,16,8000
+2027-10-29,Ibadan,Mouse,6,8000
+2027-10-30,Ibadan,Mouse,10,8000
+2027-10-31,Ibadan,Keyboard,3,15000
+2027-11-01,Lagos,Mouse,17,8000
+2027-11-02,Ibadan,Laptop,11,450000
+2027-11-03,Abuja,Monitor,5,120000
+2027-11-04,Kano,Monitor,12,120000
+2027-11-05,Abuja,Mouse,15,8000
+2027-11-06,Lagos,Keyboard,9,15000
+2027-11-07,Port Harcourt,Monitor,13,120000
+2027-11-08,Kano,Keyboard,13,15000
+2027-11-09,Ibadan,Keyboard,9,15000
+2027-11-10,Ibadan,Mouse,8,8000
+2027-11-11,Ibadan,Keyboard,2,15000
+2027-11-12,Kano,Monitor,16,120000
+2027-11-13,Enugu,Laptop,19,450000
+2027-11-14,Enugu,Keyboard,11,15000
+2027-11-15,Abuja,Laptop,1,450000
+2027-11-16,Port Harcourt,Keyboard,2,15000
+2027-11-17,Lagos,Laptop,3,450000
+2027-11-18,Enugu,Keyboard,1,15000
+2027-11-19,Port Harcourt,Laptop,10,450000
+2027-11-20,Abuja,Keyboard,15,15000
+2027-11-21,Port Harcourt,Laptop,2,450000
+2027-11-22,Ibadan,Mouse,3,8000
+2027-11-23,Lagos,Laptop,14,450000
+2027-11-24,Kano,Laptop,4,450000
+2027-11-25,Enugu,Monitor,18,120000
+2027-11-26,Enugu,Mouse,8,8000
+2027-11-27,Enugu,Mouse,17,8000
+2027-11-28,Abuja,Mouse,12,8000
+2027-11-29,Abuja,Monitor,18,120000
+2027-11-30,Abuja,Keyboard,7,15000
+2027-12-01,Port Harcourt,Monitor,10,120000
+2027-12-02,Ibadan,Monitor,4,120000
+2027-12-03,Abuja,Laptop,12,450000
+2027-12-04,Kano,Laptop,11,450000
+2027-12-05,Port Harcourt,Monitor,4,120000
+2027-12-06,Ibadan,Monitor,19,120000
+2027-12-07,Port Harcourt,Mouse,20,8000
+2027-12-08,Ibadan,Monitor,20,120000
+2027-12-09,Lagos,Laptop,1,450000
+2027-12-10,Port Harcourt,Mouse,17,8000
+2027-12-11,Lagos,Monitor,5,120000
+2027-12-12,Kano,Laptop,17,450000
+2027-12-13,Lagos,Laptop,8,450000
+2027-12-14,Abuja,Mouse,11,8000
+2027-12-15,Enugu,Monitor,16,120000
+2027-12-16,Enugu,Keyboard,20,15000
+2027-12-17,Lagos,Laptop,20,450000
+2027-12-18,Ibadan,Mouse,18,8000
+2027-12-19,Abuja,Mouse,6,8000
+2027-12-20,Kano,Keyboard,18,15000
+2027-12-21,Abuja,Laptop,1,450000
+2027-12-22,Port Harcourt,Laptop,4,450000
+2027-12-23,Lagos,Keyboard,16,15000
+2027-12-24,Kano,Monitor,8,120000
+2027-12-25,Abuja,Laptop,19,450000
+2027-12-26,Kano,Laptop,5,450000
+2027-12-27,Abuja,Laptop,20,450000
+2027-12-28,Abuja,Laptop,9,450000
+2027-12-29,Enugu,Keyboard,18,15000
+2027-12-30,Ibadan,Monitor,19,120000
+2027-12-31,Ibadan,Monitor,18,120000
+2028-01-01,Lagos,Keyboard,6,15000
+2028-01-02,Abuja,Mouse,4,8000
+2028-01-03,Port Harcourt,Laptop,1,450000
+2028-01-04,Enugu,Mouse,10,8000
+2028-01-05,Abuja,Laptop,4,450000
+2028-01-06,Ibadan,Laptop,4,450000
+2028-01-07,Port Harcourt,Monitor,13,120000
+2028-01-08,Port Harcourt,Mouse,20,8000
+2028-01-09,Abuja,Laptop,13,450000
+2028-01-10,Ibadan,Keyboard,2,15000
+2028-01-11,Enugu,Mouse,1,8000
+2028-01-12,Enugu,Mouse,18,8000
+2028-01-13,Port Harcourt,Keyboard,5,15000
+2028-01-14,Ibadan,Monitor,5,120000
+2028-01-15,Enugu,Laptop,15,450000
+2028-01-16,Enugu,Monitor,6,120000
+2028-01-17,Ibadan,Laptop,3,450000
+2028-01-18,Enugu,Laptop,11,450000
+2028-01-19,Kano,Laptop,9,450000
+2028-01-20,Abuja,Mouse,2,8000
+2028-01-21,Enugu,Monitor,16,120000
+2028-01-22,Port Harcourt,Mouse,14,8000
+2028-01-23,Lagos,Mouse,19,8000
+2028-01-24,Port Harcourt,Keyboard,13,15000
+2028-01-25,Port Harcourt,Laptop,1,450000
+2028-01-26,Kano,Keyboard,6,15000
+2028-01-27,Lagos,Monitor,5,120000
+2028-01-28,Abuja,Laptop,18,450000
+2028-01-29,Lagos,Laptop,9,450000
+2028-01-30,Abuja,Laptop,9,450000
+2028-01-31,Enugu,Laptop,5,450000
+2028-02-01,Abuja,Mouse,14,8000
+2028-02-02,Enugu,Keyboard,13,15000
+2028-02-03,Ibadan,Keyboard,3,15000
+2028-02-04,Kano,Mouse,3,8000
+2028-02-05,Ibadan,Keyboard,6,15000
+2028-02-06,Enugu,Monitor,7,120000
+2028-02-07,Lagos,Keyboard,13,15000
+2028-02-08,Enugu,Laptop,11,450000
+2028-02-09,Abuja,Monitor,3,120000
+2028-02-10,Port Harcourt,Mouse,15,8000
+2028-02-11,Abuja,Laptop,17,450000
+2028-02-12,Ibadan,Laptop,13,450000
+2028-02-13,Enugu,Mouse,18,8000
+2028-02-14,Enugu,Mouse,10,8000
+2028-02-15,Ibadan,Mouse,17,8000
+2028-02-16,Lagos,Keyboard,18,15000
+2028-02-17,Kano,Monitor,2,120000
+2028-02-18,Abuja,Monitor,20,120000
+2028-02-19,Port Harcourt,Keyboard,15,15000
+2028-02-20,Ibadan,Keyboard,2,15000
+2028-02-21,Kano,Monitor,14,120000
+2028-02-22,Ibadan,Laptop,12,450000
+2028-02-23,Lagos,Mouse,15,8000
+2028-02-24,Abuja,Mouse,5,8000
+2028-02-25,Kano,Laptop,18,450000
+2028-02-26,Enugu,Mouse,2,8000
+2028-02-27,Enugu,Monitor,12,120000
+2028-02-28,Abuja,Keyboard,3,15000
+2028-02-29,Abuja,Monitor,12,120000
+2028-03-01,Lagos,Monitor,3,120000
+2028-03-02,Kano,Monitor,18,120000
+2028-03-03,Port Harcourt,Monitor,9,120000
+2028-03-04,Enugu,Mouse,11,8000
+2028-03-05,Enugu,Mouse,11,8000
+2028-03-06,Kano,Monitor,15,120000
+2028-03-07,Port Harcourt,Laptop,3,450000
+2028-03-08,Ibadan,Laptop,15,450000
+2028-03-09,Port Harcourt,Monitor,17,120000
+2028-03-10,Ibadan,Monitor,1,120000
+2028-03-11,Kano,Keyboard,1,15000
+2028-03-12,Abuja,Monitor,6,120000
+2028-03-13,Ibadan,Monitor,12,120000
+2028-03-14,Abuja,Mouse,18,8000
+2028-03-15,Kano,Mouse,14,8000
+2028-03-16,Kano,Mouse,3,8000
+2028-03-17,Abuja,Mouse,20,8000
+2028-03-18,Kano,Keyboard,17,15000
+2028-03-19,Abuja,Keyboard,13,15000
+2028-03-20,Ibadan,Mouse,11,8000
+2028-03-21,Enugu,Keyboard,12,15000
+2028-03-22,Kano,Mouse,3,8000
+2028-03-23,Ibadan,Keyboard,4,15000
+2028-03-24,Lagos,Mouse,12,8000
+2028-03-25,Kano,Monitor,15,120000
+2028-03-26,Port Harcourt,Laptop,9,450000
+2028-03-27,Port Harcourt,Monitor,2,120000
+2028-03-28,Abuja,Laptop,13,450000
+2028-03-29,Kano,Keyboard,6,15000
+2028-03-30,Enugu,Laptop,12,450000
+2028-03-31,Enugu,Keyboard,17,15000
+2028-04-01,Abuja,Laptop,13,450000
+2028-04-02,Kano,Laptop,14,450000
+2028-04-03,Lagos,Keyboard,18,15000
+2028-04-04,Ibadan,Monitor,19,120000
+2028-04-05,Port Harcourt,Mouse,12,8000
+2028-04-06,Enugu,Mouse,8,8000
+2028-04-07,Ibadan,Mouse,20,8000
+2028-04-08,Ibadan,Keyboard,15,15000
+2028-04-09,Enugu,Keyboard,5,15000
+2028-04-10,Abuja,Keyboard,8,15000
+2028-04-11,Ibadan,Monitor,20,120000
+2028-04-12,Abuja,Keyboard,8,15000
+2028-04-13,Lagos,Laptop,10,450000
+2028-04-14,Enugu,Keyboard,10,15000
+2028-04-15,Lagos,Keyboard,6,15000
+2028-04-16,Ibadan,Keyboard,1,15000
+2028-04-17,Kano,Keyboard,12,15000
+2028-04-18,Ibadan,Monitor,20,120000
+2028-04-19,Enugu,Mouse,5,8000
+2028-04-20,Lagos,Mouse,14,8000
+2028-04-21,Kano,Keyboard,3,15000
+2028-04-22,Kano,Laptop,16,450000
+2028-04-23,Ibadan,Monitor,1,120000
+2028-04-24,Lagos,Monitor,12,120000
+2028-04-25,Lagos,Laptop,19,450000
+2028-04-26,Kano,Laptop,3,450000
+2028-04-27,Enugu,Keyboard,14,15000
+2028-04-28,Enugu,Laptop,11,450000
+2028-04-29,Enugu,Keyboard,12,15000
+2028-04-30,Kano,Laptop,1,450000
+2028-05-01,Ibadan,Keyboard,16,15000
+2028-05-02,Abuja,Mouse,11,8000
+2028-05-03,Port Harcourt,Keyboard,13,15000
+2028-05-04,Enugu,Monitor,1,120000
+2028-05-05,Ibadan,Keyboard,5,15000
+2028-05-06,Kano,Keyboard,19,15000
+2028-05-07,Abuja,Laptop,7,450000
+2028-05-08,Lagos,Mouse,6,8000
+2028-05-09,Lagos,Keyboard,3,15000
+2028-05-10,Ibadan,Monitor,5,120000
+2028-05-11,Port Harcourt,Keyboard,2,15000
+2028-05-12,Lagos,Mouse,14,8000
+2028-05-13,Lagos,Keyboard,9,15000
+2028-05-14,Abuja,Monitor,19,120000
+2028-05-15,Lagos,Monitor,12,120000
+2028-05-16,Enugu,Mouse,15,8000
+2028-05-17,Abuja,Laptop,8,450000
+2028-05-18,Lagos,Keyboard,12,15000
+2028-05-19,Kano,Monitor,9,120000
+2028-05-20,Lagos,Keyboard,2,15000
+2028-05-21,Abuja,Laptop,13,450000
+2028-05-22,Abuja,Mouse,17,8000
+2028-05-23,Port Harcourt,Monitor,4,120000
+2028-05-24,Ibadan,Mouse,14,8000
+2028-05-25,Enugu,Mouse,10,8000
+2028-05-26,Abuja,Keyboard,12,15000
+2028-05-27,Kano,Laptop,5,450000
+2028-05-28,Port Harcourt,Laptop,11,450000
+2028-05-29,Port Harcourt,Keyboard,7,15000
+2028-05-30,Abuja,Monitor,14,120000
+2028-05-31,Ibadan,Keyboard,7,15000
+2028-06-01,Abuja,Keyboard,6,15000
+2028-06-02,Port Harcourt,Mouse,7,8000
+2028-06-03,Port Harcourt,Laptop,7,450000
+2028-06-04,Lagos,Keyboard,11,15000
+2028-06-05,Enugu,Mouse,16,8000
+2028-06-06,Abuja,Monitor,2,120000
+2028-06-07,Enugu,Mouse,15,8000
+2028-06-08,Ibadan,Monitor,18,120000
+2028-06-09,Ibadan,Keyboard,15,15000
+2028-06-10,Port Harcourt,Mouse,16,8000
+2028-06-11,Kano,Keyboard,6,15000
+2028-06-12,Lagos,Keyboard,7,15000
+2028-06-13,Lagos,Keyboard,17,15000
+2028-06-14,Ibadan,Laptop,7,450000
+2028-06-15,Lagos,Laptop,5,450000
+2028-06-16,Abuja,Laptop,19,450000
+2028-06-17,Enugu,Laptop,20,450000
+2028-06-18,Lagos,Keyboard,13,15000
+2028-06-19,Ibadan,Mouse,5,8000
+2028-06-20,Enugu,Keyboard,17,15000
+2028-06-21,Enugu,Laptop,5,450000
+2028-06-22,Lagos,Laptop,19,450000
+2028-06-23,Enugu,Monitor,19,120000
+2028-06-24,Lagos,Laptop,16,450000
+2028-06-25,Port Harcourt,Keyboard,7,15000
+2028-06-26,Lagos,Mouse,12,8000
+2028-06-27,Lagos,Keyboard,14,15000
+2028-06-28,Kano,Laptop,14,450000
+2028-06-29,Kano,Laptop,1,450000
+2028-06-30,Kano,Mouse,9,8000
+2028-07-01,Kano,Monitor,4,120000
+2028-07-02,Ibadan,Keyboard,12,15000
+2028-07-03,Ibadan,Keyboard,14,15000
+2028-07-04,Lagos,Keyboard,2,15000
+2028-07-05,Port Harcourt,Keyboard,18,15000
+2028-07-06,Kano,Laptop,20,450000
+2028-07-07,Kano,Mouse,18,8000
+2028-07-08,Ibadan,Mouse,17,8000
+2028-07-09,Ibadan,Keyboard,9,15000
+2028-07-10,Lagos,Monitor,16,120000
+2028-07-11,Port Harcourt,Laptop,11,450000
+2028-07-12,Kano,Laptop,5,450000
+2028-07-13,Kano,Keyboard,16,15000
+2028-07-14,Abuja,Mouse,6,8000
+2028-07-15,Lagos,Keyboard,19,15000
+2028-07-16,Ibadan,Laptop,19,450000
+2028-07-17,Port Harcourt,Mouse,19,8000
+2028-07-18,Ibadan,Mouse,20,8000
+2028-07-19,Ibadan,Keyboard,8,15000
+2028-07-20,Port Harcourt,Mouse,15,8000
+2028-07-21,Port Harcourt,Mouse,1,8000
+2028-07-22,Abuja,Mouse,4,8000
+2028-07-23,Abuja,Mouse,19,8000
+2028-07-24,Abuja,Laptop,6,450000
+2028-07-25,Kano,Keyboard,12,15000
+2028-07-26,Abuja,Laptop,12,450000
+2028-07-27,Port Harcourt,Mouse,3,8000
+2028-07-28,Enugu,Monitor,8,120000
+2028-07-29,Port Harcourt,Mouse,9,8000
+2028-07-30,Kano,Laptop,20,450000
+2028-07-31,Enugu,Laptop,15,450000
+2028-08-01,Ibadan,Keyboard,17,15000
+2028-08-02,Abuja,Keyboard,7,15000
+2028-08-03,Abuja,Monitor,16,120000
+2028-08-04,Port Harcourt,Mouse,7,8000
+2028-08-05,Port Harcourt,Laptop,16,450000
+2028-08-06,Abuja,Laptop,11,450000
+2028-08-07,Lagos,Monitor,9,120000
+2028-08-08,Kano,Mouse,1,8000
+2028-08-09,Kano,Keyboard,16,15000
+2028-08-10,Port Harcourt,Monitor,1,120000
+2028-08-11,Ibadan,Laptop,12,450000
+2028-08-12,Enugu,Laptop,5,450000
+2028-08-13,Kano,Laptop,3,450000
+2028-08-14,Abuja,Keyboard,3,15000
+2028-08-15,Ibadan,Monitor,15,120000
+2028-08-16,Port Harcourt,Mouse,6,8000
+2028-08-17,Ibadan,Laptop,3,450000
+2028-08-18,Abuja,Keyboard,6,15000
+2028-08-19,Kano,Laptop,19,450000
+2028-08-20,Lagos,Keyboard,19,15000
+2028-08-21,Port Harcourt,Mouse,16,8000
+2028-08-22,Port Harcourt,Keyboard,7,15000
+2028-08-23,Enugu,Mouse,7,8000
+2028-08-24,Enugu,Keyboard,17,15000
+2028-08-25,Ibadan,Laptop,1,450000
+2028-08-26,Kano,Laptop,18,450000
+2028-08-27,Port Harcourt,Monitor,8,120000
+2028-08-28,Lagos,Mouse,11,8000
+2028-08-29,Port Harcourt,Laptop,1,450000
+2028-08-30,Lagos,Keyboard,11,15000
+2028-08-31,Kano,Monitor,8,120000
+2028-09-01,Ibadan,Laptop,5,450000
+2028-09-02,Lagos,Mouse,1,8000
+2028-09-03,Port Harcourt,Laptop,12,450000
+2028-09-04,Port Harcourt,Laptop,19,450000
+2028-09-05,Enugu,Monitor,8,120000
+2028-09-06,Port Harcourt,Mouse,15,8000
+2028-09-07,Kano,Mouse,7,8000
+2028-09-08,Port Harcourt,Laptop,2,450000
+2028-09-09,Enugu,Monitor,13,120000
+2028-09-10,Lagos,Laptop,2,450000
+2028-09-11,Port Harcourt,Laptop,7,450000
+2028-09-12,Abuja,Keyboard,5,15000
+2028-09-13,Port Harcourt,Monitor,4,120000
+2028-09-14,Lagos,Mouse,1,8000
+2028-09-15,Abuja,Monitor,14,120000
+2028-09-16,Abuja,Monitor,15,120000
+2028-09-17,Abuja,Mouse,13,8000
+2028-09-18,Lagos,Keyboard,10,15000
+2028-09-19,Lagos,Laptop,12,450000
+2028-09-20,Enugu,Laptop,16,450000
+2028-09-21,Kano,Laptop,5,450000
+2028-09-22,Kano,Keyboard,6,15000
+2028-09-23,Lagos,Monitor,4,120000
+2028-09-24,Port Harcourt,Keyboard,9,15000
+2028-09-25,Abuja,Monitor,10,120000
+2028-09-26,Port Harcourt,Laptop,12,450000
+2028-09-27,Enugu,Mouse,17,8000
+2028-09-28,Enugu,Laptop,10,450000
+2028-09-29,Ibadan,Mouse,10,8000
+2028-09-30,Enugu,Mouse,18,8000
