@@ -152,9 +152,18 @@ st.divider()
 # ---------------------------------------------------------------------------
 # Detailed transaction table
 # ---------------------------------------------------------------------------
+# Pagination control for transaction table
+total_rows = len(filtered)
+rows_per_page = 20
+total_pages = max(1, (total_rows - 1) // rows_per_page + 1)
+page = st.slider("Page", min_value=1, max_value=total_pages, value=1, step=1)
+start_idx = (page - 1) * rows_per_page
+end_idx = start_idx + rows_per_page
+paginated_df = filtered.sort_values("Date", ascending=False).iloc[start_idx:end_idx]
+
 st.subheader("Sales Transactions")
 st.dataframe(
-    filtered.sort_values("Date", ascending=False),
+    paginated_df,
     use_container_width=True,
     hide_index=True,
 )
