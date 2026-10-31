@@ -107,12 +107,31 @@ st.markdown(
         }
 
         .metric-card {
-            background: #ffffff;
-            border: 1px solid #e2e8f0;
+            border: 1px solid transparent;
             border-radius: 16px;
             padding: 1rem 1.1rem;
             min-height: 108px;
-            box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
+            box-shadow: 0 5px 16px rgba(15, 23, 42, 0.07);
+        }
+
+        .metric-card--blue {
+            background: #eff6ff;
+            border-color: #bfdbfe;
+        }
+
+        .metric-card--green {
+            background: #ecfdf5;
+            border-color: #a7f3d0;
+        }
+
+        .metric-card--amber {
+            background: #fffbeb;
+            border-color: #fde68a;
+        }
+
+        .metric-card--rose {
+            background: #fff1f2;
+            border-color: #fecdd3;
         }
 
         .metric-label {
@@ -315,10 +334,10 @@ def feature_influence_table(pipeline: Pipeline) -> tuple[pd.DataFrame | None, st
     return table, label
 
 
-def metric_card(label: str, value: str) -> None:
+def metric_card(label: str, value: str, color: str) -> None:
     st.markdown(
         f"""
-        <div class="metric-card">
+        <div class="metric-card metric-card--{color}">
             <div class="metric-label">{label}</div>
             <div class="metric-value">{value}</div>
         </div>
@@ -463,13 +482,13 @@ if page == "Overview":
 
     c1, c2, c3, c4 = st.columns(4)
     with c1:
-        metric_card("📋 Observations", f"{len(data):,}")
+        metric_card("📋 Observations", f"{len(data):,}", "blue")
     with c2:
-        metric_card("🧩 Predictor fields", f"{len(FEATURES)}")
+        metric_card("🧩 Predictor fields", f"{len(FEATURES)}", "green")
     with c3:
-        metric_card("💵 Median house value", f"${data[TARGET].median():,.0f}")
+        metric_card("💵 Median house value", f"${data[TARGET].median():,.0f}", "amber")
     with c4:
-        metric_card("🕳️ Missing cells", f"{int(data.isna().sum().sum()):,}")
+        metric_card("🕳️ Missing cells", f"{int(data.isna().sum().sum()):,}", "rose")
 
     st.write("")
 
