@@ -1,0 +1,2501 @@
+customer_id,customer_name,region,country,customer_type,signup_date
+50001,Emma Mensah,West Africa,Nigeria,Consumer,2023-07-11
+50002,Liam Muller,Europe,United Kingdom,SMB,2022-12-25
+50003,Noah Adebayo,West Africa,Nigeria,Enterprise,2024-05-04
+50004,Olivia Walker,West Africa,Ghana,SMB,2024-12-24
+50005,Kwame Khan,North America,Canada,Consumer,2023-03-06
+50006,Fatima Wilson,East Africa,Kenya,Consumer,2025-06-13
+50007,Samuel Smith,West Africa,Ghana,Enterprise,2024-11-15
+50008,Liam Mensah,West Africa,Ghana,Enterprise,2022-10-01
+50009,Amina Wilson,North America,Canada,Consumer,2026-03-22
+50010,Sophia Wilson,Europe,France,Consumer,2022-03-14
+50011,Emma Mensah,Europe,Germany,Consumer,2024-12-09
+50012,Grace Clark,East Africa,Kenya,Consumer,2023-12-23
+50013,Amina Mensah,West Africa,Nigeria,Consumer,2024-12-09
+50014,Emma Wilson,West Africa,Nigeria,Consumer,2025-06-24
+50015,Samuel Taylor,Europe,United Kingdom,Consumer,2025-02-02
+50016,Emma Okafor,North America,Canada,SMB,2024-12-04
+50017,Amina Muller,Europe,United Kingdom,Consumer,2025-10-12
+50018,Kwame Brown,North America,Canada,Consumer,2025-02-26
+50019,Kwame Brown,West Africa,Ghana,Consumer,2025-08-29
+50020,Zainab Okafor,Europe,France,Consumer,2023-10-24
+50021,Tunde Martin,West Africa,Nigeria,Consumer,2022-11-30
+50022,Tunde Muller,North America,United States,Consumer,2023-01-21
+50023,Daniel Ali,East Africa,Kenya,Consumer,2024-10-02
+50024,Samuel Njoroge,East Africa,Uganda,Consumer,2024-05-23
+50025,Chidi Brown,West Africa,Ghana,SMB,2022-05-07
+50026,Maya Johnson,North America,Canada,Consumer,2022-12-02
+50027,David Njoroge,Europe,Germany,SMB,2026-05-08
+50028,David Walker,North America,Canada,SMB,2025-04-07
+50029,David Ali,North America,Canada,SMB,2025-05-24
+50030,Kwame Mensah,West Africa,Ghana,Consumer,2022-11-20
+50031,Tunde Johnson,West Africa,Nigeria,Consumer,2022-04-16
+50032,David Bello,East Africa,Uganda,Consumer,2023-04-24
+50033,Maya Muller,North America,Canada,SMB,2025-11-07
+50034,Emma Brown,Europe,France,Consumer,2024-04-11
+50035,Liam Khan,Europe,France,Enterprise,2025-07-12
+50036,Olivia Mensah,North America,Canada,Consumer,2024-03-10
+50037,Sophia Khan,North America,United States,SMB,2024-03-15
+50038,Daniel Martin,Europe,United Kingdom,Consumer,2024-09-13
+50039,Emma Smith,North America,United States,Consumer,2026-04-24
+50040,Amina Martin,West Africa,Nigeria,Consumer,2023-12-20
+50041,Grace Johnson,Europe,France,Consumer,2024-09-05
+50042,Amina Ali,West Africa,Ghana,Consumer,2026-02-18
+50043,Grace Mensah,West Africa,Ghana,Consumer,2023-09-04
+50044,Amina Njoroge,North America,Canada,Consumer,2025-10-11
+50045,Chidi Johnson,West Africa,Nigeria,Consumer,2024-05-28
+50046,David Wilson,West Africa,Ghana,Consumer,2025-12-14
+50047,Olivia Ali,Europe,Germany,Enterprise,2024-02-08
+50048,Samuel Muller,North America,United States,Consumer,2024-10-30
+50049,Emma Adebayo,West Africa,Ghana,Consumer,2023-06-15
+50050,Olivia Taylor,North America,United States,Consumer,2024-11-08
+50051,Grace Khan,North America,United States,Consumer,2023-06-20
+50052,Sophia Taylor,North America,Canada,Consumer,2024-09-27
+50053,Zainab Smith,West Africa,Nigeria,Consumer,2025-07-19
+50054,Liam Muller,West Africa,Nigeria,Enterprise,2023-12-16
+50055,Fatima Adebayo,West Africa,Nigeria,Consumer,2023-12-06
+50056,Liam Wilson,West Africa,Ghana,SMB,2023-06-13
+50057,Sophia Khan,Europe,France,Consumer,2025-04-14
+50058,Maya Muller,Europe,Germany,Consumer,2024-08-30
+50059,Noah Wilson,North America,Canada,Consumer,2024-04-27
+50060,Olivia Martin,North America,United States,Consumer,2022-02-11
+50061,Emma Ali,West Africa,Ghana,Consumer,2022-06-30
+50062,Daniel Walker,Europe,France,SMB,2022-01-13
+50063,Liam Muller,Europe,Germany,SMB,2025-10-28
+50064,David Bello,West Africa,Nigeria,Consumer,2025-10-30
+50065,Fatima Muller,Europe,France,Consumer,2022-04-22
+50066,Chidi Wilson,Europe,France,Consumer,2022-03-18
+50067,Sophia Walker,Europe,France,Consumer,2025-07-07
+50068,Olivia Walker,North America,Canada,Consumer,2024-05-11
+50069,Tunde Muller,North America,United States,Consumer,2023-05-23
+50070,Tunde Adebayo,Europe,Germany,Enterprise,2024-10-06
+50071,Liam Johnson,North America,Canada,Consumer,2023-01-24
+50072,Zainab Ali,Europe,United Kingdom,Consumer,2022-11-22
+50073,Chidi Khan,West Africa,Nigeria,SMB,2023-08-27
+50074,Olivia Johnson,North America,United States,SMB,2026-01-10
+50075,Kwame Walker,North America,United States,Consumer,2025-06-13
+50076,Zainab Mensah,North America,Canada,Consumer,2022-11-09
+50077,Emma Walker,North America,Canada,SMB,2024-07-11
+50078,Kwame Muller,West Africa,Nigeria,SMB,2025-12-23
+50079,Samuel Muller,Europe,United Kingdom,Consumer,2026-04-12
+50080,Daniel Martin,West Africa,Ghana,Enterprise,2025-06-06
+50081,David Adebayo,West Africa,Nigeria,Consumer,2022-07-31
+50082,Maya Ali,Europe,United Kingdom,SMB,2023-01-31
+50083,Sophia Khan,West Africa,Nigeria,Consumer,2022-12-25
+50084,Kwame Brown,North America,United States,Consumer,2022-09-05
+50085,Maya Bello,North America,United States,Consumer,2022-10-15
+50086,Maya Adebayo,North America,Canada,Consumer,2023-06-04
+50087,Liam Njoroge,West Africa,Ghana,Consumer,2024-07-01
+50088,Grace Khan,Europe,France,Consumer,2023-10-16
+50089,Kwame Muller,North America,United States,Consumer,2023-11-22
+50090,Olivia Mensah,Europe,France,Consumer,2023-02-08
+50091,David Njoroge,North America,United States,SMB,2022-09-06
+50092,Grace Mensah,West Africa,Nigeria,SMB,2026-06-29
+50093,Fatima Muller,Europe,France,Consumer,2024-09-10
+50094,Zainab Mensah,Europe,United Kingdom,Consumer,2023-01-13
+50095,Kwame Ali,North America,Canada,Consumer,2025-08-23
+50096,Samuel Mensah,Europe,United Kingdom,SMB,2025-09-25
+50097,Olivia Smith,Europe,Germany,Consumer,2026-05-07
+50098,Liam Clark,North America,Canada,Consumer,2022-09-19
+50099,Grace Okafor,North America,United States,Enterprise,2024-11-16
+50100,Chidi Khan,East Africa,Uganda,Enterprise,2026-05-29
+50101,Grace Johnson,East Africa,Uganda,Consumer,2025-08-17
+50102,Daniel Okafor,West Africa,Nigeria,Consumer,2023-01-06
+50103,Chidi Mensah,North America,United States,Consumer,2026-01-06
+50104,Daniel Martin,East Africa,Kenya,SMB,2023-11-24
+50105,Fatima Smith,West Africa,Ghana,Consumer,2024-03-13
+50106,Liam Bello,West Africa,Nigeria,Consumer,2024-07-06
+50107,Samuel Muller,Europe,United Kingdom,Consumer,2025-06-20
+50108,Zainab Clark,North America,United States,Consumer,2022-07-17
+50109,Zainab Wilson,North America,Canada,Consumer,2024-06-04
+50110,Chidi Njoroge,East Africa,Uganda,Consumer,2025-09-03
+50111,Grace Smith,Europe,France,SMB,2024-06-19
+50112,Noah Brown,North America,United States,SMB,2023-03-28
+50113,David Taylor,North America,United States,Consumer,2022-04-03
+50114,Daniel Johnson,Europe,France,SMB,2024-06-20
+50115,Chidi Martin,North America,Canada,Consumer,2025-02-28
+50116,Zainab Clark,West Africa,Ghana,Consumer,2024-06-21
+50117,Daniel Walker,West Africa,Nigeria,Consumer,2026-05-28
+50118,Maya Smith,West Africa,Nigeria,SMB,2024-09-16
+50119,Zainab Mensah,Europe,United Kingdom,SMB,2024-04-14
+50120,David Mensah,Europe,Germany,SMB,2022-04-02
+50121,Zainab Taylor,Europe,France,SMB,2024-07-06
+50122,Noah Smith,West Africa,Nigeria,Enterprise,2022-10-04
+50123,David Njoroge,North America,Canada,Consumer,2025-04-05
+50124,Kwame Muller,Europe,Germany,Enterprise,2022-09-22
+50125,Chidi Khan,North America,United States,Consumer,2026-01-28
+50126,Emma Khan,Europe,United Kingdom,Consumer,2023-05-11
+50127,Olivia Martin,North America,United States,Consumer,2023-12-14
+50128,Sophia Walker,North America,United States,Consumer,2022-08-26
+50129,Emma Clark,North America,Canada,Consumer,2022-12-12
+50130,Emma Brown,Europe,France,Consumer,2026-02-22
+50131,Grace Brown,North America,United States,Consumer,2023-04-11
+50132,Chidi Wilson,East Africa,Uganda,Consumer,2024-04-22
+50133,Kwame Johnson,Europe,United Kingdom,SMB,2026-05-31
+50134,Daniel Adebayo,North America,Canada,Consumer,2024-10-20
+50135,Maya Walker,Europe,United Kingdom,Consumer,2022-03-10
+50136,Liam Adebayo,North America,United States,Consumer,2023-08-10
+50137,Kwame Ali,East Africa,Kenya,Consumer,2023-09-28
+50138,Sophia Wilson,Europe,France,Consumer,2023-03-30
+50139,Sophia Clark,West Africa,Nigeria,SMB,2023-02-01
+50140,Daniel Martin,North America,Canada,Consumer,2024-04-06
+50141,Samuel Mensah,Europe,France,SMB,2023-09-12
+50142,Noah Martin,Europe,France,SMB,2023-04-29
+50143,Maya Okafor,East Africa,Uganda,Consumer,2023-11-10
+50144,Zainab Khan,Europe,Germany,SMB,2023-07-19
+50145,Samuel Khan,Europe,Germany,Consumer,2023-01-11
+50146,Olivia Ali,North America,Canada,SMB,2024-01-14
+50147,Emma Clark,North America,Canada,SMB,2026-03-28
+50148,Amina Taylor,Europe,Germany,SMB,2024-04-10
+50149,Fatima Bello,Europe,France,Consumer,2024-09-08
+50150,Olivia Smith,North America,Canada,SMB,2026-06-05
+50151,Amina Walker,West Africa,Nigeria,Enterprise,2024-10-04
+50152,Maya Muller,East Africa,Uganda,Consumer,2023-01-02
+50153,Samuel Muller,North America,United States,SMB,2023-10-17
+50154,Sophia Clark,Europe,Germany,SMB,2024-03-12
+50155,Liam Ali,North America,United States,Consumer,2024-02-19
+50156,Tunde Martin,West Africa,Ghana,Enterprise,2022-09-03
+50157,Fatima Martin,North America,United States,Consumer,2022-06-23
+50158,David Adebayo,West Africa,Ghana,Consumer,2023-07-29
+50159,Kwame Wilson,West Africa,Nigeria,Consumer,2026-02-10
+50160,Maya Ali,West Africa,Nigeria,Consumer,2025-03-23
+50161,Maya Bello,North America,United States,SMB,2025-10-14
+50162,Noah Khan,East Africa,Uganda,Consumer,2022-10-14
+50163,Grace Johnson,North America,Canada,Consumer,2023-11-12
+50164,Daniel Okafor,North America,Canada,Consumer,2024-08-12
+50165,Liam Adebayo,Europe,Germany,Consumer,2023-12-15
+50166,Grace Johnson,Europe,Germany,SMB,2023-11-16
+50167,Olivia Bello,West Africa,Nigeria,SMB,2023-08-14
+50168,Daniel Johnson,West Africa,Ghana,Consumer,2022-03-26
+50169,Olivia Njoroge,North America,United States,Consumer,2025-11-08
+50170,David Clark,East Africa,Uganda,Consumer,2026-03-13
+50171,Amina Walker,North America,United States,Consumer,2022-05-13
+50172,Maya Okafor,Europe,France,Consumer,2023-11-11
+50173,Olivia Walker,North America,Canada,Consumer,2024-04-30
+50174,Tunde Clark,East Africa,Uganda,Consumer,2025-07-11
+50175,Grace Clark,North America,United States,Consumer,2026-06-09
+50176,Samuel Clark,North America,United States,Consumer,2023-11-15
+50177,Grace Okafor,Europe,United Kingdom,Consumer,2025-05-14
+50178,Kwame Martin,East Africa,Kenya,SMB,2026-03-20
+50179,Kwame Clark,East Africa,Uganda,SMB,2025-09-25
+50180,Noah Adebayo,West Africa,Nigeria,Consumer,2023-04-22
+50181,Fatima Brown,East Africa,Kenya,SMB,2025-09-04
+50182,Noah Okafor,East Africa,Kenya,SMB,2023-11-08
+50183,Samuel Smith,Europe,France,Consumer,2022-01-29
+50184,Grace Ali,North America,United States,Consumer,2025-05-31
+50185,Maya Adebayo,West Africa,Nigeria,Consumer,2025-10-03
+50186,Amina Njoroge,West Africa,Nigeria,SMB,2023-07-19
+50187,Daniel Adebayo,Europe,United Kingdom,Consumer,2024-01-11
+50188,Zainab Ali,North America,United States,SMB,2023-08-22
+50189,Sophia Clark,West Africa,Nigeria,Consumer,2022-07-12
+50190,Chidi Wilson,North America,United States,Consumer,2026-06-22
+50191,Grace Wilson,East Africa,Uganda,Enterprise,2022-02-07
+50192,Fatima Taylor,North America,United States,Consumer,2024-07-01
+50193,Chidi Walker,North America,United States,SMB,2022-01-25
+50194,Maya Walker,West Africa,Ghana,Enterprise,2025-02-05
+50195,Samuel Mensah,North America,United States,SMB,2026-01-19
+50196,Sophia Njoroge,North America,Canada,Consumer,2024-11-22
+50197,Maya Smith,Europe,France,SMB,2024-09-22
+50198,Fatima Okafor,West Africa,Ghana,Consumer,2025-09-21
+50199,Chidi Okafor,North America,United States,Consumer,2026-05-19
+50200,Fatima Adebayo,North America,Canada,SMB,2025-11-16
+50201,Emma Johnson,West Africa,Nigeria,SMB,2023-01-15
+50202,Daniel Khan,East Africa,Kenya,Consumer,2024-07-13
+50203,Daniel Clark,Europe,France,Consumer,2025-09-06
+50204,Grace Muller,North America,United States,SMB,2023-04-29
+50205,Emma Martin,North America,United States,SMB,2025-01-13
+50206,Olivia Walker,North America,United States,Consumer,2022-02-07
+50207,Samuel Mensah,North America,Canada,SMB,2025-12-11
+50208,Liam Johnson,West Africa,Nigeria,Consumer,2024-10-05
+50209,Daniel Njoroge,North America,United States,Consumer,2025-05-05
+50210,Olivia Wilson,Europe,France,Consumer,2025-09-17
+50211,Sophia Martin,West Africa,Ghana,Enterprise,2022-12-26
+50212,Tunde Njoroge,Europe,Germany,Consumer,2024-01-10
+50213,Olivia Clark,North America,Canada,Consumer,2025-11-10
+50214,Maya Martin,West Africa,Ghana,Consumer,2022-09-28
+50215,Chidi Walker,West Africa,Nigeria,SMB,2025-09-12
+50216,Maya Taylor,West Africa,Ghana,Consumer,2023-04-19
+50217,Zainab Brown,North America,United States,Consumer,2024-08-02
+50218,Samuel Wilson,North America,Canada,Enterprise,2024-04-17
+50219,Tunde Muller,East Africa,Uganda,Consumer,2025-02-01
+50220,Amina Ali,Europe,France,Consumer,2025-10-05
+50221,Emma Ali,North America,United States,Consumer,2023-07-28
+50222,Olivia Martin,Europe,Germany,SMB,2022-10-10
+50223,Grace Johnson,West Africa,Nigeria,Consumer,2023-11-26
+50224,Sophia Adebayo,East Africa,Kenya,Consumer,2024-10-02
+50225,Amina Okafor,North America,Canada,Consumer,2025-05-17
+50226,Emma Khan,East Africa,Uganda,SMB,2025-05-22
+50227,Chidi Bello,North America,United States,SMB,2023-07-13
+50228,Sophia Martin,Europe,United Kingdom,Consumer,2026-03-17
+50229,Zainab Adebayo,Europe,Germany,Consumer,2022-05-17
+50230,Fatima Ali,North America,Canada,SMB,2022-07-11
+50231,Noah Clark,North America,Canada,Consumer,2022-02-10
+50232,David Adebayo,Europe,United Kingdom,Consumer,2026-03-02
+50233,Daniel Smith,East Africa,Kenya,Consumer,2022-10-23
+50234,Chidi Okafor,Europe,Germany,Consumer,2024-09-14
+50235,Daniel Ali,East Africa,Uganda,Consumer,2025-08-27
+50236,Zainab Mensah,West Africa,Nigeria,Consumer,2025-06-12
+50237,Sophia Smith,Europe,France,Consumer,2026-04-08
+50238,Olivia Khan,West Africa,Nigeria,Consumer,2022-03-30
+50239,Samuel Njoroge,North America,United States,SMB,2023-10-31
+50240,Maya Okafor,North America,United States,Consumer,2024-04-11
+50241,Sophia Muller,West Africa,Nigeria,Consumer,2025-02-17
+50242,Zainab Njoroge,West Africa,Nigeria,SMB,2024-10-19
+50243,Daniel Mensah,North America,United States,Consumer,2024-07-08
+50244,Sophia Mensah,Europe,France,SMB,2023-05-19
+50245,Zainab Mensah,Europe,United Kingdom,Consumer,2022-06-24
+50246,Fatima Brown,West Africa,Ghana,SMB,2023-12-10
+50247,Maya Taylor,Europe,United Kingdom,Consumer,2023-03-03
+50248,Noah Adebayo,Europe,France,Consumer,2024-06-29
+50249,Amina Okafor,Europe,United Kingdom,Consumer,2025-08-01
+50250,Olivia Okafor,Europe,Germany,Consumer,2024-06-26
+50251,David Ali,West Africa,Nigeria,Consumer,2024-08-15
+50252,Chidi Taylor,West Africa,Ghana,SMB,2022-03-10
+50253,Samuel Muller,Europe,Germany,SMB,2024-11-24
+50254,Kwame Bello,North America,Canada,Consumer,2023-12-23
+50255,Amina Bello,North America,Canada,SMB,2022-07-23
+50256,Kwame Taylor,West Africa,Ghana,SMB,2022-12-18
+50257,Tunde Wilson,West Africa,Nigeria,SMB,2025-07-05
+50258,Liam Smith,North America,United States,SMB,2026-02-14
+50259,Sophia Johnson,North America,Canada,SMB,2024-04-13
+50260,Amina Muller,Europe,France,Consumer,2026-05-23
+50261,Amina Martin,North America,Canada,Consumer,2022-10-23
+50262,Olivia Brown,West Africa,Ghana,SMB,2023-05-08
+50263,Noah Martin,North America,Canada,Consumer,2026-03-08
+50264,Daniel Smith,North America,Canada,Consumer,2022-10-15
+50265,Daniel Adebayo,East Africa,Kenya,Consumer,2024-12-18
+50266,Fatima Walker,North America,United States,Enterprise,2022-12-27
+50267,Maya Martin,North America,United States,Consumer,2023-06-28
+50268,Olivia Ali,North America,Canada,SMB,2024-02-24
+50269,Kwame Njoroge,North America,Canada,SMB,2023-08-15
+50270,Maya Njoroge,North America,Canada,Enterprise,2025-12-06
+50271,Zainab Mensah,North America,Canada,Consumer,2026-05-17
+50272,Tunde Ali,North America,Canada,SMB,2024-04-01
+50273,Tunde Adebayo,North America,Canada,SMB,2024-05-12
+50274,Zainab Johnson,Europe,Germany,Consumer,2022-04-01
+50275,David Johnson,West Africa,Ghana,SMB,2023-01-20
+50276,Emma Khan,Europe,United Kingdom,Consumer,2022-03-07
+50277,Maya Martin,North America,Canada,Consumer,2025-11-07
+50278,Tunde Clark,Europe,France,Consumer,2023-01-09
+50279,Liam Smith,West Africa,Ghana,Consumer,2023-07-14
+50280,David Khan,West Africa,Nigeria,Consumer,2025-10-15
+50281,Noah Brown,North America,United States,Consumer,2025-03-17
+50282,Kwame Njoroge,North America,United States,Consumer,2024-10-17
+50283,Zainab Bello,North America,United States,Consumer,2022-03-05
+50284,Amina Mensah,North America,Canada,Consumer,2024-07-13
+50285,Zainab Ali,Europe,Germany,Consumer,2024-07-09
+50286,Kwame Okafor,Europe,France,SMB,2023-06-08
+50287,Liam Taylor,North America,United States,SMB,2025-05-08
+50288,Grace Walker,Europe,Germany,Consumer,2026-03-07
+50289,Olivia Okafor,Europe,Germany,Enterprise,2023-03-02
+50290,Chidi Brown,North America,Canada,Consumer,2023-06-28
+50291,Noah Okafor,West Africa,Nigeria,SMB,2023-06-14
+50292,Tunde Walker,North America,Canada,Consumer,2025-10-02
+50293,Chidi Wilson,East Africa,Kenya,SMB,2022-05-08
+50294,Olivia Wilson,North America,United States,Enterprise,2026-01-11
+50295,Amina Brown,West Africa,Ghana,SMB,2025-06-26
+50296,David Khan,East Africa,Uganda,Consumer,2024-03-04
+50297,Liam Okafor,East Africa,Kenya,Consumer,2024-08-16
+50298,Sophia Johnson,West Africa,Nigeria,Consumer,2026-01-08
+50299,Daniel Wilson,West Africa,Nigeria,SMB,2025-06-18
+50300,Olivia Njoroge,West Africa,Ghana,SMB,2023-03-31
+50301,Samuel Adebayo,West Africa,Ghana,Enterprise,2022-03-24
+50302,Liam Ali,North America,Canada,Consumer,2024-12-17
+50303,Daniel Johnson,Europe,United Kingdom,Consumer,2022-08-28
+50304,David Wilson,Europe,Germany,Consumer,2022-05-25
+50305,Grace Muller,West Africa,Nigeria,Consumer,2026-06-01
+50306,Olivia Taylor,Europe,Germany,Consumer,2024-02-18
+50307,Grace Mensah,Europe,Germany,Consumer,2024-12-04
+50308,Olivia Khan,Europe,United Kingdom,SMB,2022-12-23
+50309,Maya Smith,North America,Canada,Consumer,2022-06-16
+50310,Amina Bello,North America,Canada,Consumer,2022-04-14
+50311,Emma Bello,Europe,Germany,Consumer,2023-08-05
+50312,Zainab Khan,Europe,France,SMB,2022-01-07
+50313,Kwame Johnson,North America,Canada,SMB,2023-11-21
+50314,Emma Muller,Europe,Germany,Consumer,2023-06-18
+50315,Zainab Muller,Europe,United Kingdom,Consumer,2024-05-15
+50316,Daniel Mensah,North America,United States,Consumer,2024-08-26
+50317,Zainab Okafor,Europe,United Kingdom,Consumer,2023-05-22
+50318,Noah Okafor,West Africa,Nigeria,Consumer,2024-01-18
+50319,Maya Mensah,North America,United States,Consumer,2022-05-09
+50320,Daniel Taylor,East Africa,Uganda,Enterprise,2023-05-11
+50321,Tunde Njoroge,East Africa,Uganda,Consumer,2026-05-26
+50322,Tunde Khan,Europe,Germany,SMB,2026-06-16
+50323,Tunde Wilson,North America,United States,Consumer,2024-03-08
+50324,Olivia Ali,Europe,United Kingdom,Enterprise,2026-03-23
+50325,Amina Walker,West Africa,Nigeria,Enterprise,2024-04-03
+50326,Samuel Clark,West Africa,Ghana,SMB,2022-07-26
+50327,Noah Adebayo,West Africa,Nigeria,Consumer,2025-11-26
+50328,Grace Johnson,Europe,Germany,Consumer,2023-11-13
+50329,Amina Clark,Europe,United Kingdom,SMB,2024-10-02
+50330,Fatima Smith,North America,United States,SMB,2024-12-01
+50331,Daniel Johnson,West Africa,Nigeria,Consumer,2023-05-21
+50332,Daniel Njoroge,North America,Canada,Consumer,2025-04-19
+50333,Liam Smith,West Africa,Ghana,Consumer,2024-04-03
+50334,Grace Okafor,West Africa,Ghana,SMB,2023-08-25
+50335,Maya Okafor,North America,United States,SMB,2023-05-05
+50336,Olivia Walker,Europe,France,Consumer,2025-05-10
+50337,Liam Khan,North America,United States,Consumer,2023-02-14
+50338,Noah Clark,West Africa,Nigeria,Consumer,2022-07-23
+50339,David Adebayo,North America,United States,Consumer,2025-12-18
+50340,David Brown,East Africa,Kenya,Consumer,2023-06-29
+50341,Amina Adebayo,North America,Canada,SMB,2024-11-18
+50342,Olivia Walker,East Africa,Uganda,Consumer,2025-03-22
+50343,Kwame Bello,West Africa,Ghana,Consumer,2025-10-08
+50344,Tunde Bello,Europe,United Kingdom,Consumer,2024-10-24
+50345,Emma Johnson,West Africa,Nigeria,Consumer,2025-03-08
+50346,Liam Khan,West Africa,Nigeria,Consumer,2025-10-06
+50347,Zainab Okafor,East Africa,Kenya,Consumer,2026-03-30
+50348,Daniel Taylor,North America,United States,Consumer,2022-03-18
+50349,Liam Walker,Europe,France,SMB,2025-05-05
+50350,Amina Njoroge,North America,Canada,Consumer,2022-10-14
+50351,Zainab Khan,Europe,Germany,Consumer,2026-01-03
+50352,Amina Njoroge,North America,United States,Consumer,2022-03-21
+50353,Noah Njoroge,Europe,United Kingdom,SMB,2023-02-10
+50354,Maya Muller,Europe,France,Consumer,2022-11-12
+50355,Zainab Taylor,Europe,United Kingdom,SMB,2024-09-17
+50356,Maya Okafor,Europe,Germany,Enterprise,2022-01-08
+50357,Kwame Smith,West Africa,Ghana,Consumer,2022-01-28
+50358,Daniel Wilson,West Africa,Ghana,Consumer,2024-04-07
+50359,Sophia Martin,Europe,Germany,SMB,2026-05-15
+50360,Samuel Khan,Europe,France,Consumer,2024-05-17
+50361,Noah Clark,East Africa,Kenya,Consumer,2024-01-03
+50362,Daniel Martin,North America,United States,Consumer,2024-12-16
+50363,Olivia Mensah,North America,Canada,Consumer,2024-06-25
+50364,Samuel Njoroge,North America,Canada,Consumer,2023-09-25
+50365,Tunde Ali,West Africa,Ghana,Consumer,2024-08-24
+50366,Daniel Njoroge,Europe,United Kingdom,Consumer,2022-01-06
+50367,Grace Wilson,West Africa,Ghana,Consumer,2023-02-06
+50368,Noah Bello,West Africa,Nigeria,Consumer,2025-01-11
+50369,Liam Khan,North America,United States,Enterprise,2023-07-15
+50370,Amina Walker,East Africa,Kenya,Consumer,2022-03-31
+50371,Tunde Clark,West Africa,Nigeria,Consumer,2022-07-24
+50372,Daniel Ali,North America,Canada,Consumer,2025-11-23
+50373,Zainab Khan,Europe,France,Consumer,2023-06-26
+50374,Tunde Mensah,North America,Canada,Consumer,2022-02-07
+50375,Maya Smith,North America,Canada,Consumer,2025-04-11
+50376,Daniel Smith,North America,United States,Consumer,2024-05-21
+50377,Chidi Muller,East Africa,Uganda,Consumer,2024-01-12
+50378,Tunde Bello,Europe,United Kingdom,Consumer,2026-01-09
+50379,Samuel Smith,Europe,Germany,Consumer,2023-05-31
+50380,Amina Ali,West Africa,Nigeria,Consumer,2024-07-29
+50381,Kwame Ali,Europe,Germany,Consumer,2025-05-08
+50382,Noah Wilson,East Africa,Uganda,Consumer,2024-09-26
+50383,Amina Clark,West Africa,Nigeria,Consumer,2022-12-08
+50384,Noah Njoroge,Europe,Germany,Consumer,2025-01-24
+50385,Amina Bello,Europe,France,Consumer,2025-05-05
+50386,Sophia Taylor,East Africa,Uganda,Consumer,2022-07-20
+50387,Sophia Clark,West Africa,Nigeria,Consumer,2022-09-29
+50388,Olivia Taylor,East Africa,Kenya,Enterprise,2025-01-13
+50389,Maya Clark,North America,United States,Consumer,2022-07-15
+50390,Maya Muller,West Africa,Ghana,Consumer,2025-12-16
+50391,Grace Adebayo,Europe,France,Consumer,2022-06-29
+50392,Samuel Bello,North America,United States,Enterprise,2026-05-19
+50393,Fatima Walker,Europe,Germany,Consumer,2025-01-07
+50394,Sophia Martin,West Africa,Ghana,Consumer,2023-12-29
+50395,Fatima Smith,North America,Canada,Enterprise,2023-03-17
+50396,Grace Johnson,Europe,France,Consumer,2023-07-20
+50397,Olivia Clark,West Africa,Nigeria,Enterprise,2025-05-14
+50398,Olivia Brown,North America,United States,Consumer,2025-05-21
+50399,Zainab Taylor,Europe,United Kingdom,Consumer,2022-12-09
+50400,Zainab Ali,Europe,United Kingdom,Consumer,2024-06-10
+50401,Fatima Khan,North America,United States,Consumer,2026-06-19
+50402,Olivia Martin,East Africa,Kenya,Enterprise,2023-02-27
+50403,Zainab Johnson,West Africa,Nigeria,Consumer,2025-02-12
+50404,Amina Johnson,North America,United States,Enterprise,2022-10-10
+50405,Samuel Mensah,East Africa,Uganda,Consumer,2025-10-01
+50406,Olivia Brown,West Africa,Nigeria,Consumer,2022-10-07
+50407,Daniel Johnson,North America,United States,Enterprise,2023-05-04
+50408,Emma Walker,West Africa,Nigeria,Consumer,2024-01-24
+50409,Daniel Smith,North America,United States,Enterprise,2023-09-01
+50410,Liam Njoroge,East Africa,Kenya,Consumer,2022-10-07
+50411,Noah Adebayo,West Africa,Nigeria,SMB,2024-11-18
+50412,Sophia Okafor,West Africa,Ghana,Consumer,2022-02-02
+50413,Kwame Bello,North America,United States,Consumer,2026-06-03
+50414,Chidi Bello,East Africa,Uganda,SMB,2022-03-27
+50415,Olivia Johnson,North America,United States,Consumer,2023-07-03
+50416,Daniel Johnson,North America,United States,Consumer,2026-03-07
+50417,Samuel Muller,North America,United States,Consumer,2022-09-12
+50418,Fatima Okafor,West Africa,Ghana,SMB,2022-04-30
+50419,Noah Martin,North America,Canada,Consumer,2025-05-06
+50420,Fatima Smith,East Africa,Uganda,SMB,2022-05-01
+50421,Daniel Walker,West Africa,Ghana,Enterprise,2026-01-17
+50422,Liam Muller,North America,Canada,Consumer,2024-01-11
+50423,Tunde Martin,North America,United States,Consumer,2025-11-28
+50424,Sophia Ali,North America,Canada,SMB,2023-02-07
+50425,Zainab Martin,Europe,France,Consumer,2022-08-20
+50426,Tunde Taylor,West Africa,Nigeria,Consumer,2026-04-30
+50427,Kwame Adebayo,North America,United States,SMB,2025-06-05
+50428,Liam Johnson,West Africa,Ghana,Consumer,2026-02-04
+50429,Daniel Clark,North America,Canada,Consumer,2023-06-10
+50430,Samuel Mensah,West Africa,Nigeria,SMB,2023-10-27
+50431,Daniel Khan,East Africa,Kenya,Consumer,2024-08-05
+50432,Olivia Okafor,West Africa,Ghana,Consumer,2024-01-07
+50433,Olivia Njoroge,West Africa,Ghana,Consumer,2023-02-03
+50434,Zainab Johnson,West Africa,Ghana,SMB,2023-09-08
+50435,Chidi Martin,North America,Canada,Consumer,2024-09-26
+50436,Emma Johnson,North America,Canada,Consumer,2022-03-04
+50437,Liam Bello,North America,United States,Consumer,2023-07-06
+50438,Maya Martin,Europe,France,Consumer,2023-04-26
+50439,Tunde Clark,West Africa,Ghana,Consumer,2022-04-26
+50440,Kwame Johnson,Europe,France,Consumer,2022-07-21
+50441,Sophia Brown,West Africa,Nigeria,Enterprise,2024-03-24
+50442,Olivia Bello,North America,Canada,Consumer,2022-06-18
+50443,Sophia Smith,West Africa,Nigeria,SMB,2023-07-21
+50444,Tunde Walker,North America,Canada,Consumer,2024-07-09
+50445,Noah Okafor,North America,Canada,Consumer,2025-12-05
+50446,Daniel Adebayo,West Africa,Ghana,Consumer,2022-06-12
+50447,Olivia Taylor,East Africa,Uganda,Consumer,2023-12-15
+50448,Grace Clark,Europe,France,SMB,2022-06-19
+50449,Zainab Wilson,North America,Canada,Enterprise,2023-12-05
+50450,Chidi Johnson,Europe,Germany,SMB,2024-02-29
+50451,Grace Johnson,North America,United States,Consumer,2025-08-05
+50452,Chidi Walker,East Africa,Kenya,SMB,2023-12-28
+50453,Maya Okafor,West Africa,Nigeria,Consumer,2026-03-17
+50454,Sophia Brown,North America,Canada,SMB,2022-08-14
+50455,Sophia Ali,North America,United States,Consumer,2022-03-29
+50456,Maya Martin,North America,Canada,Consumer,2022-01-08
+50457,Kwame Okafor,East Africa,Uganda,Consumer,2023-08-09
+50458,Amina Walker,Europe,France,Consumer,2022-11-13
+50459,Olivia Bello,West Africa,Ghana,Consumer,2022-05-31
+50460,Emma Adebayo,Europe,United Kingdom,SMB,2023-01-23
+50461,Sophia Ali,Europe,United Kingdom,SMB,2026-05-20
+50462,Chidi Njoroge,North America,United States,Enterprise,2025-08-07
+50463,Olivia Ali,East Africa,Kenya,Consumer,2022-01-31
+50464,Tunde Clark,North America,United States,Consumer,2026-02-12
+50465,Sophia Walker,Europe,France,Consumer,2022-12-04
+50466,Fatima Martin,West Africa,Ghana,Consumer,2023-10-29
+50467,David Ali,West Africa,Ghana,Consumer,2023-06-22
+50468,Sophia Ali,East Africa,Uganda,Consumer,2023-10-28
+50469,Daniel Walker,North America,United States,Consumer,2025-06-03
+50470,Zainab Martin,Europe,Germany,Consumer,2025-03-15
+50471,Liam Adebayo,Europe,United Kingdom,Consumer,2024-09-02
+50472,Fatima Njoroge,Europe,United Kingdom,Consumer,2024-10-26
+50473,Noah Brown,North America,United States,Consumer,2025-04-09
+50474,Maya Johnson,North America,Canada,Enterprise,2022-10-30
+50475,Grace Clark,North America,United States,Consumer,2023-10-12
+50476,Zainab Muller,North America,Canada,SMB,2022-06-26
+50477,Daniel Walker,Europe,France,Consumer,2025-03-02
+50478,Samuel Njoroge,Europe,Germany,SMB,2023-12-20
+50479,Grace Njoroge,Europe,France,SMB,2024-11-12
+50480,Tunde Taylor,Europe,Germany,SMB,2024-07-16
+50481,Tunde Walker,Europe,France,Consumer,2023-03-26
+50482,Sophia Brown,North America,United States,Consumer,2022-08-16
+50483,Fatima Adebayo,Europe,France,Consumer,2026-05-17
+50484,Emma Okafor,North America,Canada,Consumer,2023-04-27
+50485,Emma Khan,North America,Canada,Consumer,2022-06-29
+50486,Tunde Clark,Europe,United Kingdom,Consumer,2023-05-18
+50487,Sophia Bello,Europe,United Kingdom,Consumer,2026-01-21
+50488,Amina Ali,North America,Canada,Consumer,2023-03-06
+50489,Maya Muller,Europe,Germany,Consumer,2026-06-09
+50490,Fatima Johnson,Europe,France,Consumer,2024-01-27
+50491,Kwame Brown,West Africa,Ghana,SMB,2025-11-16
+50492,Tunde Okafor,West Africa,Ghana,SMB,2024-12-08
+50493,Amina Taylor,West Africa,Nigeria,Consumer,2022-03-14
+50494,David Mensah,North America,United States,Consumer,2024-04-16
+50495,Maya Clark,West Africa,Nigeria,Consumer,2023-11-16
+50496,Maya Njoroge,Europe,France,Consumer,2022-11-27
+50497,Tunde Mensah,Europe,France,Consumer,2024-06-22
+50498,Emma Martin,Europe,France,Consumer,2022-06-19
+50499,Zainab Walker,Europe,Germany,Enterprise,2025-02-20
+50500,Chidi Martin,Europe,France,Consumer,2025-09-11
+50501,Sophia Smith,West Africa,Nigeria,SMB,2022-06-01
+50502,Chidi Taylor,East Africa,Uganda,Consumer,2024-02-27
+50503,Chidi Okafor,East Africa,Kenya,Consumer,2024-12-11
+50504,Sophia Wilson,Europe,France,SMB,2022-04-13
+50505,Tunde Smith,Europe,France,Consumer,2023-10-02
+50506,Maya Okafor,West Africa,Nigeria,SMB,2023-02-28
+50507,Chidi Njoroge,North America,Canada,Consumer,2022-03-06
+50508,David Ali,West Africa,Nigeria,Consumer,2025-08-13
+50509,Amina Muller,Europe,Germany,Consumer,2024-01-01
+50510,Sophia Brown,North America,Canada,SMB,2025-05-19
+50511,Fatima Njoroge,North America,Canada,Consumer,2024-08-21
+50512,Chidi Okafor,West Africa,Nigeria,SMB,2025-12-09
+50513,Amina Okafor,North America,Canada,SMB,2026-06-26
+50514,Chidi Ali,North America,Canada,SMB,2024-09-15
+50515,Fatima Clark,North America,Canada,Consumer,2023-08-02
+50516,David Wilson,North America,United States,SMB,2023-11-26
+50517,Daniel Brown,North America,Canada,Enterprise,2025-09-17
+50518,Maya Taylor,West Africa,Ghana,Consumer,2023-12-02
+50519,Maya Bello,North America,United States,Consumer,2024-05-03
+50520,Fatima Walker,West Africa,Ghana,Consumer,2022-11-15
+50521,Amina Taylor,West Africa,Ghana,Consumer,2026-06-14
+50522,Maya Brown,Europe,United Kingdom,SMB,2024-12-04
+50523,Daniel Njoroge,North America,United States,Consumer,2023-06-27
+50524,Chidi Bello,Europe,United Kingdom,Consumer,2024-08-18
+50525,Daniel Clark,North America,United States,Consumer,2023-10-21
+50526,Maya Walker,Europe,France,Consumer,2022-09-12
+50527,David Smith,East Africa,Kenya,Consumer,2025-12-07
+50528,Amina Brown,East Africa,Uganda,SMB,2025-12-25
+50529,Daniel Wilson,West Africa,Nigeria,Consumer,2025-10-02
+50530,Daniel Ali,North America,United States,Consumer,2023-08-29
+50531,Fatima Mensah,West Africa,Ghana,SMB,2023-02-26
+50532,Noah Johnson,West Africa,Nigeria,Consumer,2022-03-23
+50533,Chidi Wilson,Europe,Germany,Consumer,2025-04-16
+50534,Fatima Ali,West Africa,Nigeria,Consumer,2023-06-23
+50535,Samuel Njoroge,North America,United States,Enterprise,2026-01-05
+50536,Fatima Muller,North America,United States,SMB,2025-11-29
+50537,Grace Smith,Europe,United Kingdom,Consumer,2022-07-30
+50538,Noah Khan,North America,United States,Consumer,2026-02-14
+50539,Grace Ali,North America,Canada,Consumer,2022-08-19
+50540,Maya Muller,West Africa,Ghana,Consumer,2024-03-16
+50541,Grace Khan,East Africa,Kenya,Consumer,2024-02-18
+50542,Daniel Adebayo,Europe,United Kingdom,Enterprise,2026-04-20
+50543,Amina Muller,West Africa,Nigeria,SMB,2024-12-15
+50544,Grace Clark,East Africa,Kenya,Consumer,2025-12-08
+50545,Sophia Njoroge,North America,Canada,SMB,2024-09-05
+50546,Noah Muller,Europe,France,Enterprise,2025-09-17
+50547,Sophia Smith,Europe,United Kingdom,Consumer,2025-10-31
+50548,Tunde Brown,North America,Canada,Consumer,2025-11-12
+50549,Maya Muller,West Africa,Ghana,SMB,2023-11-07
+50550,Samuel Clark,Europe,Germany,Consumer,2023-09-20
+50551,Liam Khan,Europe,Germany,SMB,2026-06-06
+50552,Liam Ali,North America,United States,Consumer,2025-05-27
+50553,Daniel Adebayo,North America,United States,Consumer,2026-02-15
+50554,Tunde Clark,East Africa,Uganda,SMB,2024-08-05
+50555,Emma Muller,North America,United States,Consumer,2026-03-06
+50556,David Brown,North America,Canada,Consumer,2025-03-27
+50557,Kwame Martin,North America,Canada,Consumer,2025-05-04
+50558,Grace Martin,Europe,France,Consumer,2022-10-19
+50559,Maya Smith,Europe,United Kingdom,Consumer,2024-07-19
+50560,Fatima Johnson,Europe,United Kingdom,Consumer,2025-04-15
+50561,Liam Martin,North America,United States,Consumer,2025-06-03
+50562,Chidi Khan,North America,Canada,Consumer,2026-04-22
+50563,Tunde Walker,West Africa,Nigeria,Consumer,2023-06-21
+50564,Amina Adebayo,Europe,France,SMB,2023-05-12
+50565,Liam Adebayo,West Africa,Ghana,Consumer,2026-05-11
+50566,Daniel Brown,West Africa,Nigeria,Consumer,2026-06-08
+50567,Amina Khan,West Africa,Ghana,Consumer,2022-10-23
+50568,Tunde Adebayo,North America,United States,Consumer,2023-09-14
+50569,Olivia Khan,Europe,France,SMB,2026-04-06
+50570,Tunde Adebayo,Europe,United Kingdom,Consumer,2022-11-24
+50571,Amina Ali,North America,United States,Consumer,2025-07-09
+50572,Fatima Taylor,West Africa,Ghana,Enterprise,2022-07-04
+50573,Noah Wilson,Europe,United Kingdom,SMB,2022-10-20
+50574,David Ali,West Africa,Nigeria,SMB,2025-07-12
+50575,Olivia Martin,West Africa,Ghana,SMB,2024-09-24
+50576,Daniel Njoroge,Europe,France,SMB,2024-06-30
+50577,Tunde Taylor,East Africa,Uganda,Consumer,2025-11-07
+50578,Olivia Muller,Europe,France,Consumer,2023-05-20
+50579,Sophia Walker,West Africa,Nigeria,Consumer,2024-04-06
+50580,Maya Bello,North America,United States,Consumer,2024-09-26
+50581,Zainab Bello,Europe,France,Consumer,2025-04-29
+50582,Maya Ali,Europe,United Kingdom,Consumer,2023-06-30
+50583,Emma Brown,North America,Canada,Consumer,2024-11-06
+50584,Fatima Ali,Europe,United Kingdom,SMB,2024-01-07
+50585,Noah Clark,East Africa,Uganda,SMB,2024-06-08
+50586,Emma Khan,Europe,Germany,Consumer,2025-11-17
+50587,Maya Ali,North America,United States,Consumer,2023-10-09
+50588,Zainab Bello,North America,United States,Consumer,2025-01-02
+50589,Grace Ali,North America,Canada,Consumer,2026-03-27
+50590,Amina Adebayo,North America,United States,SMB,2025-06-05
+50591,Kwame Taylor,East Africa,Kenya,SMB,2026-06-12
+50592,Liam Brown,Europe,United Kingdom,SMB,2024-08-16
+50593,Sophia Clark,North America,United States,SMB,2023-04-08
+50594,Olivia Muller,Europe,United Kingdom,Enterprise,2026-06-16
+50595,Sophia Brown,North America,United States,Consumer,2024-11-24
+50596,Zainab Smith,North America,Canada,Consumer,2023-02-01
+50597,Emma Taylor,West Africa,Ghana,Consumer,2023-06-05
+50598,Grace Johnson,Europe,France,Consumer,2023-03-07
+50599,Tunde Johnson,East Africa,Kenya,Consumer,2025-09-30
+50600,Maya Taylor,Europe,France,Consumer,2022-06-01
+50601,Chidi Smith,Europe,United Kingdom,Enterprise,2025-04-29
+50602,Amina Ali,West Africa,Ghana,Consumer,2024-06-28
+50603,Olivia Walker,East Africa,Uganda,Enterprise,2022-05-01
+50604,Grace Martin,West Africa,Ghana,SMB,2024-10-04
+50605,Emma Khan,East Africa,Kenya,Consumer,2025-05-21
+50606,Liam Brown,West Africa,Ghana,SMB,2025-04-07
+50607,Grace Ali,West Africa,Nigeria,Consumer,2024-05-17
+50608,Noah Wilson,North America,Canada,Consumer,2023-07-05
+50609,Olivia Muller,West Africa,Nigeria,Consumer,2022-09-27
+50610,Amina Walker,Europe,France,Enterprise,2022-01-21
+50611,Zainab Johnson,Europe,United Kingdom,Consumer,2023-08-14
+50612,Kwame Brown,West Africa,Ghana,Consumer,2024-11-04
+50613,Chidi Wilson,East Africa,Kenya,SMB,2022-03-03
+50614,Grace Njoroge,East Africa,Kenya,Consumer,2026-06-28
+50615,Chidi Mensah,North America,United States,Consumer,2024-08-20
+50616,Samuel Bello,West Africa,Ghana,Consumer,2023-04-29
+50617,Noah Mensah,West Africa,Ghana,Consumer,2026-04-29
+50618,Noah Smith,North America,United States,SMB,2022-10-30
+50619,Fatima Ali,North America,Canada,Consumer,2026-04-22
+50620,Olivia Johnson,North America,Canada,Consumer,2023-04-08
+50621,Maya Khan,West Africa,Nigeria,Consumer,2023-09-16
+50622,Zainab Martin,Europe,Germany,Consumer,2023-11-30
+50623,Noah Brown,East Africa,Kenya,Consumer,2026-06-22
+50624,Amina Muller,Europe,United Kingdom,Consumer,2023-02-16
+50625,Maya Bello,East Africa,Uganda,Consumer,2026-05-17
+50626,Maya Mensah,Europe,United Kingdom,Consumer,2023-07-24
+50627,Kwame Johnson,West Africa,Ghana,Consumer,2023-04-14
+50628,Liam Adebayo,North America,Canada,Consumer,2024-11-13
+50629,Chidi Smith,Europe,France,SMB,2025-02-13
+50630,Zainab Clark,West Africa,Nigeria,Enterprise,2023-07-21
+50631,Fatima Taylor,East Africa,Kenya,Consumer,2022-08-09
+50632,Zainab Walker,West Africa,Nigeria,SMB,2023-10-13
+50633,Sophia Clark,North America,United States,Consumer,2024-06-06
+50634,Daniel Johnson,Europe,France,Consumer,2022-03-07
+50635,Noah Walker,North America,United States,SMB,2022-05-10
+50636,Chidi Ali,North America,United States,SMB,2026-02-16
+50637,Olivia Ali,West Africa,Ghana,SMB,2022-02-28
+50638,Olivia Njoroge,West Africa,Nigeria,Consumer,2023-10-31
+50639,Amina Walker,West Africa,Nigeria,SMB,2025-06-08
+50640,Noah Taylor,West Africa,Nigeria,Consumer,2023-06-23
+50641,Chidi Ali,West Africa,Ghana,Consumer,2024-03-23
+50642,Fatima Bello,West Africa,Ghana,Consumer,2022-05-23
+50643,Olivia Njoroge,North America,Canada,Enterprise,2025-07-28
+50644,Emma Smith,North America,Canada,Consumer,2024-11-07
+50645,Sophia Walker,Europe,France,SMB,2025-10-30
+50646,David Adebayo,West Africa,Ghana,Consumer,2025-11-19
+50647,Samuel Adebayo,North America,United States,SMB,2023-07-31
+50648,Liam Brown,Europe,United Kingdom,SMB,2022-03-09
+50649,Chidi Clark,West Africa,Nigeria,SMB,2023-07-23
+50650,Chidi Bello,North America,United States,Consumer,2022-08-27
+50651,Daniel Martin,Europe,France,Consumer,2024-05-25
+50652,Samuel Johnson,East Africa,Kenya,Consumer,2022-08-29
+50653,Samuel Clark,West Africa,Ghana,Consumer,2026-02-22
+50654,Fatima Adebayo,North America,Canada,Consumer,2024-09-15
+50655,Samuel Clark,West Africa,Nigeria,Consumer,2023-02-20
+50656,Kwame Johnson,North America,United States,Consumer,2026-02-21
+50657,Olivia Taylor,West Africa,Ghana,Consumer,2025-06-17
+50658,Fatima Johnson,North America,Canada,Consumer,2023-12-20
+50659,Kwame Khan,Europe,Germany,SMB,2022-08-29
+50660,Noah Khan,Europe,Germany,Consumer,2023-07-19
+50661,Olivia Smith,North America,Canada,Enterprise,2024-08-16
+50662,Liam Martin,East Africa,Kenya,Enterprise,2025-06-11
+50663,Emma Okafor,North America,Canada,Consumer,2023-03-07
+50664,Sophia Ali,North America,United States,SMB,2025-05-04
+50665,David Okafor,North America,United States,Consumer,2023-04-10
+50666,Emma Clark,West Africa,Nigeria,SMB,2023-02-10
+50667,Olivia Taylor,West Africa,Ghana,Consumer,2024-01-05
+50668,Chidi Njoroge,East Africa,Uganda,Consumer,2022-09-22
+50669,Emma Johnson,North America,United States,Consumer,2023-10-27
+50670,Kwame Njoroge,Europe,Germany,Consumer,2023-08-11
+50671,Amina Johnson,North America,Canada,Enterprise,2023-04-05
+50672,Zainab Walker,Europe,Germany,SMB,2025-06-27
+50673,Sophia Johnson,East Africa,Uganda,SMB,2023-06-29
+50674,Tunde Walker,West Africa,Nigeria,Enterprise,2025-02-15
+50675,Emma Walker,Europe,Germany,SMB,2025-03-28
+50676,Samuel Okafor,Europe,Germany,Consumer,2024-12-29
+50677,Chidi Mensah,East Africa,Uganda,SMB,2023-03-19
+50678,Fatima Johnson,Europe,United Kingdom,Consumer,2025-09-23
+50679,Kwame Johnson,North America,United States,Consumer,2023-01-24
+50680,Kwame Johnson,Europe,France,Consumer,2023-04-01
+50681,Emma Taylor,North America,United States,Enterprise,2025-12-07
+50682,Noah Okafor,North America,Canada,Consumer,2023-07-12
+50683,Samuel Khan,North America,Canada,Consumer,2025-02-18
+50684,Samuel Clark,Europe,France,Consumer,2022-03-11
+50685,Zainab Johnson,Europe,United Kingdom,Consumer,2024-10-05
+50686,Chidi Taylor,North America,Canada,Consumer,2025-11-27
+50687,Sophia Mensah,Europe,Germany,SMB,2025-03-09
+50688,Amina Smith,East Africa,Uganda,SMB,2024-08-14
+50689,Grace Clark,West Africa,Ghana,Consumer,2025-10-26
+50690,Grace Walker,Europe,United Kingdom,Consumer,2023-05-05
+50691,David Johnson,North America,United States,Consumer,2023-09-11
+50692,Fatima Smith,East Africa,Uganda,Consumer,2022-04-24
+50693,Olivia Khan,North America,United States,Consumer,2025-02-20
+50694,Grace Johnson,North America,United States,SMB,2025-04-02
+50695,Maya Mensah,East Africa,Kenya,Consumer,2025-05-18
+50696,Tunde Mensah,Europe,France,Consumer,2025-05-14
+50697,Kwame Bello,West Africa,Ghana,Consumer,2022-07-29
+50698,Kwame Bello,Europe,France,Consumer,2024-12-29
+50699,Daniel Taylor,West Africa,Nigeria,Consumer,2025-06-07
+50700,Zainab Bello,North America,Canada,Enterprise,2022-12-01
+50701,Liam Clark,North America,United States,SMB,2024-02-22
+50702,Daniel Walker,North America,Canada,Enterprise,2026-02-08
+50703,Liam Johnson,North America,Canada,SMB,2023-11-13
+50704,Tunde Wilson,West Africa,Ghana,Consumer,2025-05-21
+50705,Daniel Clark,North America,United States,Enterprise,2024-05-20
+50706,Tunde Mensah,Europe,France,Consumer,2024-12-16
+50707,Zainab Brown,West Africa,Nigeria,Consumer,2024-10-25
+50708,Chidi Adebayo,West Africa,Nigeria,Consumer,2024-12-04
+50709,Zainab Martin,Europe,United Kingdom,Consumer,2025-07-03
+50710,Noah Adebayo,Europe,Germany,Consumer,2026-01-24
+50711,Grace Khan,East Africa,Uganda,Consumer,2023-05-01
+50712,Amina Ali,West Africa,Ghana,SMB,2026-03-05
+50713,Liam Bello,West Africa,Nigeria,SMB,2024-10-27
+50714,Samuel Okafor,East Africa,Kenya,Consumer,2024-09-05
+50715,Amina Wilson,West Africa,Ghana,Consumer,2023-06-23
+50716,Fatima Walker,North America,United States,SMB,2023-11-16
+50717,Sophia Njoroge,Europe,France,Consumer,2024-12-05
+50718,Grace Ali,North America,United States,Consumer,2023-08-21
+50719,Zainab Mensah,West Africa,Nigeria,Consumer,2023-04-17
+50720,Kwame Muller,East Africa,Kenya,Consumer,2025-09-06
+50721,Samuel Smith,Europe,Germany,Consumer,2023-11-14
+50722,Zainab Johnson,Europe,France,SMB,2024-11-24
+50723,Kwame Taylor,North America,United States,SMB,2022-02-21
+50724,David Walker,East Africa,Kenya,SMB,2022-05-07
+50725,Kwame Ali,North America,United States,Consumer,2025-10-24
+50726,Amina Mensah,North America,United States,SMB,2022-08-22
+50727,David Mensah,North America,Canada,SMB,2025-07-30
+50728,Liam Adebayo,North America,Canada,Consumer,2026-01-18
+50729,David Brown,Europe,Germany,Consumer,2024-03-01
+50730,Noah Johnson,Europe,United Kingdom,Consumer,2025-12-23
+50731,Chidi Okafor,North America,Canada,Consumer,2023-12-03
+50732,Sophia Wilson,North America,United States,Consumer,2026-04-12
+50733,Maya Johnson,North America,Canada,Consumer,2023-01-25
+50734,Daniel Okafor,Europe,United Kingdom,Consumer,2023-12-04
+50735,Grace Taylor,North America,Canada,Consumer,2023-10-01
+50736,Sophia Taylor,West Africa,Ghana,Consumer,2025-07-11
+50737,Liam Walker,North America,United States,Enterprise,2022-03-13
+50738,Emma Martin,North America,United States,Consumer,2025-09-21
+50739,Grace Okafor,Europe,United Kingdom,Consumer,2022-02-08
+50740,Noah Bello,Europe,United Kingdom,Consumer,2023-06-03
+50741,Liam Martin,North America,Canada,SMB,2024-09-05
+50742,Sophia Walker,North America,Canada,Consumer,2022-08-27
+50743,Emma Muller,West Africa,Nigeria,SMB,2024-03-15
+50744,Grace Smith,North America,United States,Consumer,2026-06-26
+50745,Grace Khan,Europe,France,Consumer,2025-09-13
+50746,Liam Walker,Europe,France,Consumer,2022-02-19
+50747,David Wilson,North America,Canada,Consumer,2024-08-29
+50748,Amina Khan,Europe,United Kingdom,SMB,2024-09-07
+50749,Chidi Smith,West Africa,Ghana,SMB,2022-04-23
+50750,Maya Njoroge,West Africa,Ghana,Consumer,2024-12-03
+50751,Grace Smith,North America,Canada,Enterprise,2024-05-05
+50752,Fatima Ali,North America,United States,Consumer,2025-01-24
+50753,Zainab Muller,North America,United States,Consumer,2023-05-04
+50754,Chidi Johnson,Europe,Germany,Consumer,2023-02-24
+50755,Zainab Bello,West Africa,Ghana,Consumer,2025-04-23
+50756,Samuel Smith,North America,Canada,SMB,2025-03-30
+50757,Daniel Brown,North America,Canada,Consumer,2022-09-23
+50758,Zainab Njoroge,East Africa,Uganda,Consumer,2022-12-22
+50759,Grace Wilson,North America,Canada,Consumer,2024-08-20
+50760,Liam Brown,Europe,United Kingdom,Consumer,2025-09-23
+50761,Maya Brown,West Africa,Ghana,Consumer,2022-11-28
+50762,Grace Brown,North America,United States,SMB,2022-12-26
+50763,Sophia Walker,North America,United States,Consumer,2025-08-19
+50764,Fatima Walker,North America,Canada,Consumer,2025-02-17
+50765,Zainab Bello,East Africa,Kenya,Consumer,2026-01-21
+50766,Olivia Ali,North America,United States,Consumer,2025-07-10
+50767,Tunde Walker,North America,United States,Consumer,2026-04-15
+50768,Noah Adebayo,North America,Canada,SMB,2022-11-07
+50769,Noah Martin,North America,United States,Enterprise,2023-03-23
+50770,Samuel Njoroge,Europe,Germany,Consumer,2023-01-26
+50771,Amina Okafor,North America,Canada,Enterprise,2022-04-02
+50772,Sophia Taylor,Europe,France,Consumer,2025-07-03
+50773,Olivia Njoroge,Europe,France,Consumer,2024-12-22
+50774,Tunde Clark,West Africa,Nigeria,SMB,2022-05-22
+50775,Sophia Martin,North America,United States,SMB,2022-11-22
+50776,Grace Taylor,West Africa,Nigeria,SMB,2022-11-10
+50777,Kwame Johnson,Europe,Germany,Consumer,2023-10-24
+50778,Liam Brown,North America,Canada,Consumer,2024-01-18
+50779,David Martin,West Africa,Nigeria,Consumer,2023-04-20
+50780,Samuel Smith,West Africa,Nigeria,Consumer,2026-03-08
+50781,Daniel Njoroge,North America,United States,Consumer,2022-12-16
+50782,Grace Adebayo,East Africa,Kenya,Consumer,2024-07-11
+50783,Liam Mensah,Europe,France,Consumer,2023-12-21
+50784,Liam Mensah,Europe,France,Consumer,2023-09-29
+50785,Fatima Njoroge,East Africa,Uganda,Consumer,2025-09-17
+50786,Maya Taylor,Europe,United Kingdom,Consumer,2026-05-26
+50787,David Walker,West Africa,Ghana,Consumer,2022-01-10
+50788,Olivia Bello,North America,Canada,Consumer,2024-02-01
+50789,Sophia Bello,West Africa,Ghana,Consumer,2022-07-15
+50790,David Okafor,Europe,United Kingdom,Consumer,2023-12-14
+50791,Zainab Ali,North America,United States,Consumer,2024-10-10
+50792,Liam Johnson,Europe,United Kingdom,SMB,2023-11-07
+50793,Samuel Muller,North America,United States,Consumer,2023-05-23
+50794,Zainab Walker,North America,Canada,Consumer,2023-05-28
+50795,Emma Khan,North America,Canada,Consumer,2023-05-08
+50796,Sophia Mensah,North America,Canada,Enterprise,2023-06-19
+50797,Amina Martin,North America,Canada,SMB,2023-09-07
+50798,Tunde Bello,North America,Canada,Consumer,2025-02-03
+50799,Noah Taylor,West Africa,Nigeria,Consumer,2022-06-07
+50800,Noah Wilson,West Africa,Nigeria,Consumer,2022-03-09
+50801,Samuel Bello,West Africa,Ghana,Enterprise,2024-04-28
+50802,Maya Muller,North America,United States,Consumer,2025-01-24
+50803,Olivia Martin,East Africa,Kenya,Consumer,2023-03-01
+50804,Maya Njoroge,Europe,France,Enterprise,2022-11-27
+50805,Sophia Taylor,North America,Canada,SMB,2024-10-22
+50806,Emma Smith,North America,Canada,Consumer,2023-09-23
+50807,Kwame Njoroge,West Africa,Nigeria,Consumer,2025-04-23
+50808,Grace Taylor,North America,United States,Consumer,2022-08-29
+50809,Amina Taylor,Europe,France,Consumer,2022-07-18
+50810,Olivia Ali,East Africa,Uganda,Consumer,2024-06-26
+50811,Amina Bello,North America,United States,Enterprise,2023-10-07
+50812,Amina Mensah,North America,United States,Enterprise,2025-04-12
+50813,Tunde Adebayo,East Africa,Uganda,Consumer,2024-04-11
+50814,Noah Mensah,Europe,Germany,Consumer,2023-08-06
+50815,Emma Johnson,North America,Canada,Consumer,2022-09-20
+50816,Emma Wilson,East Africa,Kenya,Consumer,2022-09-26
+50817,Zainab Wilson,East Africa,Kenya,SMB,2025-05-26
+50818,Amina Wilson,Europe,Germany,Consumer,2023-01-07
+50819,Maya Johnson,Europe,Germany,Consumer,2024-04-05
+50820,Noah Walker,North America,United States,Consumer,2025-09-05
+50821,Chidi Adebayo,North America,Canada,Consumer,2026-01-14
+50822,Amina Njoroge,Europe,France,Consumer,2023-03-16
+50823,Tunde Muller,North America,United States,SMB,2022-06-29
+50824,Amina Clark,West Africa,Nigeria,SMB,2025-06-26
+50825,Maya Khan,West Africa,Nigeria,Consumer,2025-02-02
+50826,Liam Mensah,North America,United States,SMB,2023-06-28
+50827,Amina Mensah,Europe,United Kingdom,Consumer,2024-09-01
+50828,Liam Ali,North America,Canada,SMB,2022-11-06
+50829,Tunde Smith,West Africa,Nigeria,Consumer,2025-02-24
+50830,Amina Walker,North America,United States,Consumer,2025-04-09
+50831,Sophia Walker,Europe,France,Enterprise,2023-05-07
+50832,Sophia Njoroge,Europe,United Kingdom,Consumer,2024-02-09
+50833,Kwame Wilson,Europe,Germany,Consumer,2023-07-03
+50834,Daniel Njoroge,West Africa,Nigeria,Consumer,2022-02-21
+50835,Sophia Taylor,West Africa,Ghana,Consumer,2022-07-29
+50836,Noah Wilson,Europe,United Kingdom,Consumer,2026-04-26
+50837,Chidi Bello,West Africa,Ghana,Consumer,2024-01-19
+50838,Noah Ali,East Africa,Uganda,SMB,2022-08-31
+50839,Emma Martin,Europe,France,Consumer,2022-03-14
+50840,Amina Taylor,Europe,Germany,Consumer,2023-08-04
+50841,Olivia Martin,North America,United States,Consumer,2026-06-02
+50842,Maya Okafor,West Africa,Ghana,SMB,2023-09-24
+50843,Sophia Wilson,Europe,France,Consumer,2026-06-30
+50844,Tunde Njoroge,Europe,France,Consumer,2024-03-14
+50845,Emma Wilson,North America,United States,Consumer,2025-06-08
+50846,David Johnson,East Africa,Uganda,SMB,2025-07-13
+50847,Amina Walker,Europe,Germany,SMB,2022-02-16
+50848,Chidi Johnson,West Africa,Nigeria,Consumer,2022-01-11
+50849,Liam Walker,North America,United States,SMB,2026-02-23
+50850,Maya Brown,East Africa,Kenya,Consumer,2026-03-12
+50851,Samuel Taylor,North America,United States,Consumer,2022-08-06
+50852,Sophia Clark,North America,Canada,Consumer,2024-11-26
+50853,Zainab Walker,West Africa,Ghana,Consumer,2026-02-25
+50854,Sophia Smith,East Africa,Kenya,Consumer,2026-04-10
+50855,Daniel Brown,North America,Canada,Consumer,2023-05-02
+50856,Sophia Okafor,Europe,Germany,Consumer,2025-09-04
+50857,Noah Martin,West Africa,Nigeria,Consumer,2024-11-27
+50858,Olivia Njoroge,West Africa,Ghana,Consumer,2026-03-04
+50859,Emma Smith,Europe,Germany,SMB,2022-08-29
+50860,Samuel Adebayo,Europe,United Kingdom,Consumer,2024-09-13
+50861,Fatima Bello,West Africa,Nigeria,Consumer,2022-02-10
+50862,Samuel Bello,West Africa,Nigeria,Consumer,2023-08-10
+50863,Fatima Wilson,West Africa,Nigeria,Consumer,2022-01-19
+50864,David Adebayo,Europe,Germany,Consumer,2023-12-29
+50865,Chidi Adebayo,North America,United States,Consumer,2025-08-24
+50866,Maya Smith,East Africa,Kenya,Consumer,2024-12-16
+50867,Amina Johnson,West Africa,Ghana,SMB,2023-06-05
+50868,Olivia Bello,West Africa,Ghana,Consumer,2023-12-03
+50869,Maya Bello,North America,Canada,Consumer,2023-08-27
+50870,Kwame Bello,North America,United States,Consumer,2025-04-16
+50871,David Okafor,West Africa,Ghana,SMB,2023-03-14
+50872,Chidi Johnson,North America,United States,Consumer,2022-05-31
+50873,Emma Adebayo,East Africa,Uganda,SMB,2024-04-12
+50874,David Walker,Europe,France,Consumer,2025-09-24
+50875,Maya Smith,West Africa,Nigeria,Consumer,2024-02-23
+50876,Amina Wilson,East Africa,Kenya,Consumer,2022-12-02
+50877,Maya Ali,Europe,United Kingdom,Consumer,2022-03-17
+50878,David Okafor,North America,Canada,SMB,2026-03-30
+50879,Kwame Mensah,Europe,Germany,Consumer,2025-06-03
+50880,Zainab Ali,Europe,France,Enterprise,2022-09-13
+50881,Kwame Mensah,Europe,United Kingdom,Consumer,2022-05-02
+50882,Olivia Smith,Europe,France,SMB,2022-08-01
+50883,Noah Okafor,East Africa,Kenya,Enterprise,2023-09-11
+50884,David Ali,Europe,United Kingdom,Consumer,2025-08-26
+50885,David Bello,North America,Canada,Consumer,2022-09-20
+50886,Sophia Okafor,Europe,United Kingdom,SMB,2025-09-06
+50887,Noah Mensah,Europe,France,Consumer,2022-01-04
+50888,Kwame Khan,North America,United States,Enterprise,2025-04-28
+50889,Grace Walker,North America,Canada,Consumer,2023-04-09
+50890,Zainab Njoroge,West Africa,Ghana,Consumer,2026-04-27
+50891,Zainab Okafor,North America,Canada,Consumer,2024-02-21
+50892,Olivia Ali,East Africa,Kenya,SMB,2023-03-21
+50893,Olivia Johnson,North America,Canada,Enterprise,2023-02-03
+50894,Amina Johnson,North America,United States,Consumer,2025-09-19
+50895,David Walker,West Africa,Ghana,SMB,2023-10-24
+50896,Amina Clark,East Africa,Uganda,Enterprise,2023-08-02
+50897,Olivia Ali,North America,United States,Consumer,2025-04-22
+50898,Kwame Adebayo,North America,Canada,Consumer,2024-06-01
+50899,Sophia Njoroge,North America,Canada,SMB,2024-12-26
+50900,Zainab Taylor,Europe,Germany,Consumer,2024-01-02
+50901,Fatima Smith,Europe,United Kingdom,Consumer,2022-04-16
+50902,Amina Njoroge,North America,Canada,SMB,2022-01-10
+50903,Olivia Muller,North America,United States,Consumer,2022-03-06
+50904,Amina Ali,Europe,France,SMB,2024-08-01
+50905,Tunde Mensah,East Africa,Uganda,SMB,2024-04-23
+50906,Zainab Johnson,West Africa,Nigeria,SMB,2025-05-12
+50907,David Muller,Europe,France,Consumer,2026-01-08
+50908,Amina Martin,North America,Canada,Consumer,2022-10-14
+50909,Kwame Muller,North America,United States,Consumer,2026-04-21
+50910,Maya Muller,North America,United States,Consumer,2026-03-10
+50911,Tunde Johnson,West Africa,Ghana,Consumer,2024-10-08
+50912,Chidi Bello,West Africa,Nigeria,Consumer,2024-05-20
+50913,Sophia Ali,East Africa,Kenya,Consumer,2022-10-18
+50914,Chidi Johnson,East Africa,Uganda,Consumer,2022-10-20
+50915,Sophia Wilson,East Africa,Kenya,Consumer,2022-01-31
+50916,Kwame Mensah,East Africa,Kenya,Consumer,2024-11-26
+50917,Zainab Johnson,North America,Canada,Consumer,2023-12-13
+50918,Grace Ali,North America,United States,SMB,2022-11-12
+50919,David Ali,North America,Canada,Consumer,2022-08-08
+50920,Zainab Khan,Europe,United Kingdom,SMB,2022-04-15
+50921,Chidi Taylor,North America,United States,SMB,2024-11-18
+50922,Fatima Walker,West Africa,Ghana,Consumer,2025-01-30
+50923,Olivia Johnson,Europe,Germany,Consumer,2024-11-03
+50924,Sophia Okafor,Europe,United Kingdom,Consumer,2022-07-01
+50925,Liam Clark,North America,Canada,Consumer,2022-03-09
+50926,Chidi Taylor,North America,Canada,Consumer,2022-06-24
+50927,Noah Smith,North America,United States,Consumer,2025-05-19
+50928,Sophia Walker,West Africa,Nigeria,SMB,2025-04-29
+50929,Noah Taylor,Europe,United Kingdom,Enterprise,2023-04-30
+50930,Sophia Martin,West Africa,Ghana,SMB,2022-04-01
+50931,Maya Wilson,North America,United States,Consumer,2023-06-10
+50932,Noah Muller,Europe,United Kingdom,Consumer,2025-08-22
+50933,Noah Ali,Europe,France,Enterprise,2022-08-24
+50934,Sophia Khan,West Africa,Ghana,Consumer,2025-07-31
+50935,Samuel Muller,West Africa,Ghana,Consumer,2024-01-31
+50936,Fatima Okafor,North America,Canada,Consumer,2022-08-21
+50937,Samuel Brown,East Africa,Kenya,Consumer,2026-03-14
+50938,Samuel Clark,North America,Canada,Consumer,2024-05-01
+50939,Tunde Mensah,East Africa,Uganda,Consumer,2025-01-07
+50940,Zainab Njoroge,North America,United States,Consumer,2022-06-08
+50941,Zainab Mensah,North America,Canada,Consumer,2023-09-03
+50942,David Bello,West Africa,Ghana,Consumer,2024-11-04
+50943,David Wilson,North America,Canada,Consumer,2024-11-25
+50944,Olivia Wilson,Europe,United Kingdom,Consumer,2022-04-14
+50945,Tunde Wilson,Europe,France,SMB,2024-09-19
+50946,Zainab Bello,North America,United States,Consumer,2026-03-31
+50947,Chidi Njoroge,West Africa,Ghana,SMB,2025-07-15
+50948,Maya Mensah,West Africa,Ghana,SMB,2022-12-08
+50949,David Taylor,West Africa,Ghana,Consumer,2026-02-07
+50950,Noah Wilson,North America,United States,SMB,2025-01-26
+50951,Chidi Adebayo,Europe,United Kingdom,SMB,2022-04-04
+50952,Chidi Ali,North America,United States,Consumer,2022-07-30
+50953,David Njoroge,North America,United States,Consumer,2026-02-21
+50954,Zainab Ali,North America,Canada,Consumer,2022-12-11
+50955,Kwame Taylor,East Africa,Uganda,Enterprise,2022-06-08
+50956,Chidi Khan,East Africa,Kenya,SMB,2024-01-11
+50957,Amina Martin,West Africa,Ghana,Enterprise,2024-05-13
+50958,Sophia Wilson,Europe,France,SMB,2024-07-30
+50959,Kwame Bello,Europe,Germany,Consumer,2024-12-17
+50960,Zainab Johnson,Europe,Germany,SMB,2026-06-29
+50961,Amina Smith,Europe,United Kingdom,Consumer,2025-05-31
+50962,Chidi Muller,Europe,Germany,SMB,2022-02-12
+50963,Samuel Muller,North America,Canada,Consumer,2022-05-26
+50964,Maya Taylor,North America,United States,Consumer,2022-01-01
+50965,Noah Bello,East Africa,Kenya,SMB,2023-10-11
+50966,Samuel Smith,Europe,France,SMB,2023-07-30
+50967,Olivia Ali,East Africa,Kenya,Consumer,2026-03-13
+50968,Amina Njoroge,North America,United States,Consumer,2023-08-25
+50969,Chidi Walker,Europe,France,Consumer,2022-02-20
+50970,Amina Muller,North America,Canada,Enterprise,2025-12-22
+50971,Chidi Brown,North America,Canada,Consumer,2023-03-04
+50972,Kwame Wilson,North America,United States,Consumer,2026-02-07
+50973,Noah Johnson,North America,Canada,Consumer,2025-06-25
+50974,Amina Muller,East Africa,Uganda,Consumer,2025-12-16
+50975,Tunde Martin,North America,United States,Consumer,2025-09-07
+50976,Maya Brown,Europe,Germany,Consumer,2022-08-24
+50977,Maya Clark,Europe,United Kingdom,SMB,2024-10-25
+50978,Amina Njoroge,Europe,United Kingdom,SMB,2023-11-08
+50979,Emma Clark,Europe,United Kingdom,Enterprise,2024-10-29
+50980,Liam Wilson,North America,Canada,Consumer,2025-05-09
+50981,Samuel Taylor,East Africa,Kenya,Consumer,2024-04-02
+50982,Maya Okafor,West Africa,Ghana,SMB,2023-05-29
+50983,Zainab Clark,West Africa,Ghana,SMB,2026-02-13
+50984,Fatima Muller,Europe,France,Consumer,2024-12-25
+50985,Daniel Johnson,North America,Canada,SMB,2025-12-25
+50986,David Taylor,East Africa,Kenya,SMB,2023-01-25
+50987,Grace Clark,North America,United States,SMB,2025-10-08
+50988,Emma Wilson,North America,Canada,SMB,2023-06-16
+50989,Noah Taylor,North America,United States,Consumer,2024-01-27
+50990,Daniel Khan,West Africa,Nigeria,Consumer,2025-11-13
+50991,Zainab Njoroge,Europe,Germany,Consumer,2023-08-06
+50992,Amina Wilson,West Africa,Ghana,Consumer,2023-02-16
+50993,Daniel Okafor,West Africa,Nigeria,SMB,2026-02-12
+50994,Chidi Njoroge,North America,United States,Consumer,2026-05-03
+50995,Liam Taylor,East Africa,Uganda,Consumer,2023-05-26
+50996,Kwame Walker,Europe,France,SMB,2023-05-18
+50997,Tunde Martin,Europe,United Kingdom,SMB,2023-01-09
+50998,Amina Njoroge,North America,Canada,SMB,2022-02-08
+50999,Kwame Okafor,East Africa,Uganda,Consumer,2024-06-26
+51000,Olivia Clark,North America,United States,SMB,2023-02-23
+51001,Emma Clark,North America,United States,Consumer,2025-10-26
+51002,Samuel Walker,Europe,United Kingdom,Consumer,2022-10-09
+51003,Emma Walker,North America,Canada,Consumer,2024-11-09
+51004,Amina Walker,North America,United States,Consumer,2024-04-12
+51005,Daniel Njoroge,Europe,Germany,SMB,2024-10-01
+51006,Maya Johnson,Europe,United Kingdom,Consumer,2022-07-05
+51007,Olivia Khan,East Africa,Kenya,Consumer,2024-02-06
+51008,Sophia Ali,North America,United States,SMB,2024-10-24
+51009,Maya Bello,West Africa,Ghana,SMB,2023-07-14
+51010,Liam Bello,Europe,United Kingdom,Consumer,2025-12-07
+51011,Amina Khan,West Africa,Nigeria,Enterprise,2024-05-19
+51012,Daniel Muller,Europe,France,SMB,2023-08-19
+51013,Fatima Ali,Europe,United Kingdom,Enterprise,2022-02-20
+51014,Liam Okafor,East Africa,Uganda,Enterprise,2022-10-04
+51015,Daniel Clark,North America,United States,SMB,2024-02-22
+51016,Kwame Ali,North America,United States,SMB,2023-10-19
+51017,Kwame Walker,West Africa,Nigeria,Consumer,2025-12-02
+51018,Liam Brown,West Africa,Nigeria,Consumer,2025-07-14
+51019,Emma Bello,North America,United States,Consumer,2022-09-19
+51020,Chidi Martin,Europe,United Kingdom,SMB,2024-08-29
+51021,Tunde Brown,East Africa,Kenya,Consumer,2024-01-17
+51022,Zainab Njoroge,West Africa,Nigeria,SMB,2022-06-16
+51023,Samuel Adebayo,East Africa,Uganda,Consumer,2024-12-29
+51024,Emma Ali,Europe,Germany,Consumer,2024-06-01
+51025,Sophia Walker,West Africa,Nigeria,Consumer,2022-05-24
+51026,Kwame Njoroge,North America,Canada,Consumer,2024-02-08
+51027,Samuel Johnson,East Africa,Uganda,Consumer,2025-04-16
+51028,Amina Njoroge,Europe,France,Consumer,2023-06-22
+51029,Grace Clark,West Africa,Ghana,SMB,2023-08-10
+51030,Emma Bello,Europe,Germany,Consumer,2022-06-30
+51031,Sophia Okafor,Europe,United Kingdom,Consumer,2022-12-02
+51032,David Walker,West Africa,Nigeria,Consumer,2026-05-30
+51033,Zainab Smith,Europe,United Kingdom,Consumer,2024-10-16
+51034,Fatima Brown,East Africa,Kenya,Consumer,2022-10-17
+51035,Tunde Walker,Europe,Germany,SMB,2024-03-03
+51036,Sophia Wilson,West Africa,Nigeria,SMB,2022-11-13
+51037,Samuel Martin,North America,United States,Consumer,2023-12-28
+51038,Chidi Clark,Europe,France,Consumer,2022-08-28
+51039,Noah Adebayo,Europe,France,Consumer,2024-10-13
+51040,Fatima Okafor,North America,Canada,Consumer,2024-07-25
+51041,Grace Khan,North America,Canada,SMB,2024-11-06
+51042,Sophia Martin,West Africa,Ghana,Consumer,2023-12-30
+51043,Maya Clark,West Africa,Ghana,SMB,2023-04-15
+51044,Chidi Johnson,West Africa,Ghana,Consumer,2023-02-14
+51045,Chidi Johnson,North America,United States,Consumer,2022-12-20
+51046,Noah Ali,North America,Canada,Consumer,2023-12-07
+51047,Liam Martin,North America,Canada,Consumer,2024-01-12
+51048,Olivia Taylor,West Africa,Ghana,Enterprise,2025-01-10
+51049,Noah Muller,West Africa,Ghana,Consumer,2022-03-28
+51050,Olivia Ali,North America,United States,SMB,2023-04-08
+51051,Samuel Walker,West Africa,Ghana,SMB,2025-11-01
+51052,Liam Mensah,North America,Canada,Consumer,2026-02-11
+51053,Tunde Taylor,North America,United States,Consumer,2026-03-09
+51054,Grace Ali,North America,United States,Consumer,2023-05-19
+51055,Kwame Johnson,North America,United States,Consumer,2022-08-14
+51056,Zainab Martin,West Africa,Nigeria,SMB,2022-11-22
+51057,Olivia Wilson,East Africa,Kenya,Consumer,2022-08-05
+51058,Maya Adebayo,North America,United States,Enterprise,2026-04-17
+51059,Sophia Johnson,Europe,United Kingdom,Consumer,2025-12-21
+51060,Maya Johnson,West Africa,Ghana,Consumer,2025-08-23
+51061,David Muller,East Africa,Uganda,SMB,2025-04-13
+51062,Sophia Smith,Europe,United Kingdom,Consumer,2023-07-18
+51063,Olivia Bello,North America,United States,SMB,2024-02-21
+51064,Amina Adebayo,Europe,United Kingdom,Consumer,2025-10-13
+51065,Chidi Walker,North America,United States,Enterprise,2025-08-30
+51066,Liam Brown,East Africa,Kenya,SMB,2024-05-01
+51067,Sophia Adebayo,Europe,United Kingdom,SMB,2025-10-07
+51068,Kwame Khan,West Africa,Ghana,Consumer,2023-07-24
+51069,Olivia Walker,North America,United States,SMB,2023-11-10
+51070,Amina Adebayo,Europe,Germany,Consumer,2025-10-10
+51071,Tunde Johnson,West Africa,Ghana,SMB,2023-09-11
+51072,Maya Brown,Europe,United Kingdom,Consumer,2025-05-20
+51073,Emma Okafor,Europe,France,Consumer,2024-01-15
+51074,Tunde Taylor,East Africa,Uganda,Consumer,2023-05-05
+51075,Amina Martin,West Africa,Ghana,Consumer,2022-12-26
+51076,David Wilson,North America,United States,Consumer,2024-09-23
+51077,Sophia Martin,Europe,United Kingdom,SMB,2024-02-27
+51078,Maya Okafor,Europe,Germany,Consumer,2023-08-30
+51079,Grace Khan,Europe,France,SMB,2025-05-05
+51080,Kwame Martin,North America,Canada,Consumer,2022-01-02
+51081,Amina Ali,North America,Canada,SMB,2022-06-01
+51082,Fatima Adebayo,East Africa,Kenya,SMB,2026-04-29
+51083,Daniel Wilson,East Africa,Uganda,Consumer,2024-12-25
+51084,Fatima Smith,West Africa,Ghana,SMB,2024-06-21
+51085,Kwame Okafor,East Africa,Kenya,SMB,2022-01-25
+51086,Amina Ali,West Africa,Ghana,SMB,2024-09-09
+51087,Fatima Mensah,West Africa,Ghana,Consumer,2023-12-15
+51088,Liam Okafor,West Africa,Nigeria,Consumer,2024-09-12
+51089,Noah Martin,Europe,United Kingdom,SMB,2022-03-09
+51090,Daniel Okafor,Europe,France,Consumer,2024-06-23
+51091,Noah Clark,North America,Canada,SMB,2024-08-06
+51092,Noah Brown,West Africa,Nigeria,Consumer,2023-04-22
+51093,Sophia Wilson,North America,United States,SMB,2022-03-31
+51094,Daniel Njoroge,North America,Canada,Consumer,2026-05-15
+51095,David Muller,Europe,Germany,Consumer,2025-03-10
+51096,Sophia Mensah,Europe,United Kingdom,Enterprise,2024-10-17
+51097,Zainab Clark,North America,Canada,SMB,2025-06-13
+51098,Liam Taylor,West Africa,Ghana,SMB,2025-01-06
+51099,Daniel Clark,West Africa,Nigeria,Enterprise,2022-08-09
+51100,Emma Adebayo,North America,Canada,Consumer,2024-01-17
+51101,Noah Martin,North America,United States,Consumer,2025-12-30
+51102,Tunde Ali,North America,Canada,Consumer,2023-04-18
+51103,Kwame Njoroge,West Africa,Nigeria,Consumer,2026-05-16
+51104,Noah Brown,West Africa,Ghana,Consumer,2022-04-16
+51105,Olivia Ali,North America,United States,Enterprise,2023-06-28
+51106,Amina Njoroge,West Africa,Ghana,Consumer,2023-07-30
+51107,Noah Ali,North America,United States,Consumer,2024-10-10
+51108,Grace Mensah,Europe,France,Consumer,2022-10-17
+51109,Zainab Muller,East Africa,Uganda,Consumer,2023-01-12
+51110,David Walker,North America,Canada,Consumer,2024-12-23
+51111,Fatima Martin,North America,Canada,Consumer,2023-04-13
+51112,Chidi Okafor,Europe,France,Consumer,2025-12-14
+51113,David Adebayo,Europe,France,Consumer,2025-11-29
+51114,Olivia Bello,East Africa,Kenya,SMB,2023-05-13
+51115,Zainab Khan,East Africa,Uganda,Consumer,2024-07-08
+51116,Fatima Taylor,North America,Canada,SMB,2023-07-01
+51117,Emma Smith,North America,United States,Consumer,2023-07-21
+51118,Maya Mensah,West Africa,Nigeria,Consumer,2025-01-05
+51119,Liam Brown,North America,Canada,Consumer,2023-04-27
+51120,Samuel Martin,East Africa,Kenya,Enterprise,2022-09-03
+51121,Maya Smith,West Africa,Ghana,Consumer,2023-03-02
+51122,Tunde Smith,North America,Canada,Consumer,2026-03-07
+51123,Grace Adebayo,West Africa,Ghana,Consumer,2023-03-02
+51124,Amina Adebayo,North America,Canada,SMB,2023-08-21
+51125,Samuel Clark,Europe,United Kingdom,Consumer,2024-10-29
+51126,Amina Brown,Europe,United Kingdom,Consumer,2022-06-16
+51127,Olivia Ali,Europe,United Kingdom,SMB,2023-03-17
+51128,Sophia Johnson,West Africa,Nigeria,SMB,2022-10-14
+51129,Sophia Brown,West Africa,Nigeria,Consumer,2026-02-26
+51130,Chidi Taylor,East Africa,Uganda,Consumer,2026-03-12
+51131,Maya Martin,East Africa,Kenya,Consumer,2025-05-25
+51132,Amina Muller,Europe,France,Enterprise,2023-02-10
+51133,Maya Wilson,North America,Canada,Consumer,2024-10-09
+51134,Fatima Bello,West Africa,Ghana,Consumer,2024-12-23
+51135,Olivia Adebayo,East Africa,Uganda,Consumer,2025-11-28
+51136,Amina Okafor,North America,Canada,Consumer,2022-09-14
+51137,Emma Khan,Europe,Germany,SMB,2025-04-23
+51138,Zainab Johnson,Europe,France,Consumer,2022-11-15
+51139,Maya Muller,North America,United States,SMB,2024-07-22
+51140,Noah Ali,West Africa,Nigeria,Consumer,2025-12-14
+51141,Grace Adebayo,North America,Canada,Consumer,2022-04-12
+51142,Maya Martin,West Africa,Nigeria,Consumer,2022-09-01
+51143,Sophia Wilson,West Africa,Ghana,SMB,2025-08-28
+51144,Grace Khan,West Africa,Nigeria,Consumer,2022-01-31
+51145,Chidi Taylor,Europe,France,Consumer,2025-01-29
+51146,Emma Smith,North America,Canada,SMB,2024-04-03
+51147,Amina Muller,West Africa,Nigeria,Consumer,2023-07-24
+51148,Samuel Mensah,West Africa,Ghana,Consumer,2025-11-17
+51149,Chidi Martin,Europe,Germany,Consumer,2025-10-25
+51150,Samuel Clark,East Africa,Kenya,SMB,2023-06-20
+51151,David Khan,North America,Canada,Consumer,2022-01-08
+51152,Chidi Ali,West Africa,Ghana,Consumer,2022-07-30
+51153,David Muller,North America,United States,Consumer,2022-06-26
+51154,Kwame Muller,North America,United States,Consumer,2026-06-01
+51155,David Wilson,Europe,United Kingdom,Consumer,2024-09-07
+51156,Zainab Ali,North America,Canada,Consumer,2025-01-16
+51157,Tunde Clark,North America,Canada,Consumer,2023-01-15
+51158,Emma Ali,North America,United States,Consumer,2025-10-28
+51159,Fatima Khan,Europe,Germany,SMB,2025-04-01
+51160,Liam Khan,West Africa,Ghana,Consumer,2025-05-20
+51161,Chidi Khan,North America,United States,Consumer,2024-02-08
+51162,Maya Smith,West Africa,Ghana,SMB,2025-02-20
+51163,Emma Njoroge,West Africa,Nigeria,SMB,2024-06-12
+51164,Daniel Johnson,North America,United States,SMB,2023-09-24
+51165,Grace Wilson,North America,United States,Consumer,2024-09-03
+51166,Samuel Brown,West Africa,Nigeria,Consumer,2023-06-17
+51167,Fatima Ali,West Africa,Ghana,Consumer,2026-04-14
+51168,Amina Walker,Europe,Germany,Consumer,2025-03-23
+51169,Maya Muller,West Africa,Ghana,Consumer,2025-04-28
+51170,Tunde Clark,North America,United States,Consumer,2025-03-22
+51171,Sophia Muller,Europe,United Kingdom,Consumer,2024-01-07
+51172,Samuel Khan,West Africa,Ghana,Consumer,2026-04-10
+51173,Emma Mensah,North America,United States,Consumer,2022-12-08
+51174,Maya Ali,West Africa,Ghana,Consumer,2024-07-22
+51175,Sophia Smith,Europe,Germany,SMB,2022-04-24
+51176,Daniel Johnson,West Africa,Ghana,SMB,2023-04-29
+51177,Amina Taylor,Europe,United Kingdom,Consumer,2024-08-01
+51178,Chidi Clark,Europe,United Kingdom,Consumer,2024-03-14
+51179,Sophia Adebayo,North America,United States,Consumer,2026-03-26
+51180,Olivia Bello,North America,United States,Consumer,2024-10-04
+51181,Samuel Taylor,West Africa,Ghana,SMB,2023-11-07
+51182,Maya Ali,North America,United States,Consumer,2023-12-02
+51183,Zainab Wilson,North America,United States,Consumer,2024-10-01
+51184,Tunde Wilson,North America,United States,Consumer,2025-07-23
+51185,Zainab Walker,North America,Canada,Consumer,2023-03-31
+51186,Noah Ali,West Africa,Ghana,Consumer,2024-08-17
+51187,Olivia Okafor,Europe,France,Consumer,2024-08-01
+51188,Sophia Johnson,East Africa,Uganda,Enterprise,2022-01-16
+51189,Olivia Clark,North America,United States,Consumer,2026-02-07
+51190,Liam Okafor,West Africa,Nigeria,Consumer,2024-07-24
+51191,Emma Clark,Europe,France,Consumer,2023-02-02
+51192,Amina Wilson,Europe,Germany,Consumer,2024-11-06
+51193,Daniel Brown,West Africa,Ghana,Consumer,2025-01-17
+51194,Olivia Mensah,East Africa,Uganda,Consumer,2026-02-11
+51195,Zainab Taylor,West Africa,Nigeria,SMB,2022-02-25
+51196,David Wilson,North America,Canada,Consumer,2023-11-11
+51197,David Clark,North America,United States,Consumer,2022-10-23
+51198,Kwame Martin,West Africa,Nigeria,Consumer,2024-08-01
+51199,Fatima Adebayo,North America,United States,Consumer,2024-04-03
+51200,Liam Martin,West Africa,Ghana,Consumer,2024-02-19
+51201,Zainab Muller,Europe,France,SMB,2026-06-01
+51202,Fatima Walker,Europe,France,Consumer,2024-05-22
+51203,Sophia Clark,West Africa,Ghana,Consumer,2023-11-06
+51204,Amina Taylor,West Africa,Ghana,SMB,2022-04-21
+51205,Olivia Muller,North America,United States,Consumer,2023-04-21
+51206,David Martin,North America,United States,Consumer,2026-01-13
+51207,David Smith,Europe,Germany,Consumer,2024-01-12
+51208,Grace Brown,Europe,Germany,SMB,2026-02-03
+51209,Chidi Bello,North America,United States,Consumer,2024-05-24
+51210,Liam Ali,Europe,France,SMB,2024-06-18
+51211,Grace Okafor,West Africa,Nigeria,SMB,2023-12-07
+51212,Liam Muller,West Africa,Nigeria,SMB,2024-07-02
+51213,Grace Adebayo,Europe,France,Enterprise,2022-04-20
+51214,Amina Muller,Europe,France,SMB,2022-04-05
+51215,Chidi Ali,North America,United States,SMB,2024-02-21
+51216,Noah Wilson,Europe,United Kingdom,SMB,2024-09-08
+51217,Fatima Smith,North America,Canada,SMB,2024-06-23
+51218,Tunde Okafor,Europe,Germany,SMB,2023-12-06
+51219,Samuel Njoroge,West Africa,Ghana,Enterprise,2023-04-28
+51220,Kwame Ali,North America,Canada,Consumer,2025-03-10
+51221,Samuel Martin,North America,Canada,Consumer,2024-09-19
+51222,Maya Smith,North America,Canada,Consumer,2022-03-19
+51223,Olivia Clark,East Africa,Uganda,SMB,2024-01-13
+51224,Chidi Khan,West Africa,Nigeria,Consumer,2025-03-13
+51225,Fatima Brown,North America,Canada,SMB,2025-07-11
+51226,Olivia Wilson,East Africa,Kenya,SMB,2023-04-17
+51227,Daniel Mensah,Europe,United Kingdom,Enterprise,2026-02-27
+51228,Sophia Smith,Europe,Germany,Consumer,2024-12-06
+51229,Maya Khan,East Africa,Kenya,SMB,2023-12-20
+51230,Liam Okafor,North America,Canada,SMB,2024-10-26
+51231,Emma Wilson,North America,United States,Enterprise,2025-12-02
+51232,Emma Njoroge,Europe,United Kingdom,SMB,2023-01-08
+51233,Liam Brown,North America,United States,Consumer,2022-09-04
+51234,Tunde Brown,West Africa,Ghana,Consumer,2023-12-25
+51235,Grace Wilson,North America,Canada,Consumer,2022-05-18
+51236,Amina Martin,North America,Canada,Enterprise,2025-10-04
+51237,Sophia Wilson,North America,United States,Consumer,2026-05-13
+51238,Tunde Adebayo,Europe,United Kingdom,SMB,2024-09-21
+51239,Emma Brown,North America,Canada,SMB,2026-05-28
+51240,Noah Taylor,North America,Canada,Consumer,2022-04-23
+51241,Maya Bello,West Africa,Ghana,Consumer,2024-11-04
+51242,David Ali,North America,United States,Consumer,2023-12-29
+51243,Sophia Walker,Europe,United Kingdom,SMB,2023-04-01
+51244,Sophia Ali,North America,United States,Consumer,2023-05-27
+51245,Olivia Clark,North America,United States,Consumer,2024-06-14
+51246,Samuel Muller,North America,United States,SMB,2024-11-19
+51247,Sophia Johnson,Europe,Germany,Consumer,2022-09-27
+51248,Fatima Taylor,North America,United States,SMB,2024-10-06
+51249,Sophia Walker,East Africa,Uganda,Consumer,2026-03-02
+51250,Fatima Ali,East Africa,Kenya,Consumer,2022-01-18
+51251,Noah Muller,North America,United States,Consumer,2025-12-13
+51252,Tunde Martin,North America,United States,Consumer,2024-09-24
+51253,Olivia Ali,North America,United States,Consumer,2023-07-16
+51254,David Bello,Europe,Germany,SMB,2025-04-21
+51255,David Okafor,North America,Canada,Consumer,2024-10-11
+51256,Samuel Khan,West Africa,Ghana,Consumer,2025-06-16
+51257,Maya Smith,West Africa,Ghana,Consumer,2022-05-14
+51258,Maya Njoroge,West Africa,Nigeria,Consumer,2022-04-07
+51259,Amina Muller,Europe,United Kingdom,Enterprise,2024-11-20
+51260,Noah Johnson,East Africa,Uganda,Consumer,2023-05-14
+51261,Maya Adebayo,North America,United States,Enterprise,2023-01-27
+51262,Noah Adebayo,Europe,United Kingdom,Consumer,2023-11-23
+51263,Noah Clark,North America,Canada,Consumer,2025-04-05
+51264,Kwame Taylor,East Africa,Uganda,Consumer,2022-10-23
+51265,Maya Ali,Europe,France,Consumer,2026-05-17
+51266,Grace Khan,West Africa,Nigeria,SMB,2023-11-22
+51267,Daniel Taylor,North America,Canada,Consumer,2022-09-05
+51268,Samuel Njoroge,East Africa,Uganda,Consumer,2022-04-27
+51269,Olivia Njoroge,Europe,France,Consumer,2025-11-08
+51270,Samuel Taylor,Europe,France,Consumer,2022-07-05
+51271,Fatima Adebayo,East Africa,Kenya,Enterprise,2023-11-19
+51272,Kwame Brown,Europe,France,Enterprise,2025-01-02
+51273,Samuel Adebayo,Europe,France,SMB,2024-04-22
+51274,Kwame Muller,Europe,Germany,SMB,2023-03-08
+51275,Chidi Brown,North America,Canada,SMB,2022-06-27
+51276,Maya Brown,North America,United States,Consumer,2025-03-14
+51277,Zainab Muller,North America,Canada,SMB,2024-03-16
+51278,Tunde Martin,North America,Canada,Consumer,2022-03-20
+51279,Fatima Walker,West Africa,Ghana,SMB,2022-10-25
+51280,Grace Muller,Europe,United Kingdom,Enterprise,2024-07-12
+51281,Fatima Martin,North America,Canada,Consumer,2022-10-04
+51282,Samuel Taylor,Europe,France,SMB,2023-10-05
+51283,Chidi Brown,Europe,United Kingdom,Enterprise,2022-07-24
+51284,Fatima Walker,Europe,United Kingdom,Consumer,2025-08-01
+51285,Kwame Brown,East Africa,Uganda,Consumer,2024-11-01
+51286,Sophia Njoroge,East Africa,Uganda,Enterprise,2025-07-11
+51287,Zainab Khan,Europe,United Kingdom,Enterprise,2022-03-28
+51288,Fatima Clark,North America,United States,Consumer,2023-09-09
+51289,Chidi Brown,Europe,France,Consumer,2023-03-16
+51290,Chidi Muller,Europe,United Kingdom,SMB,2024-10-19
+51291,David Ali,Europe,United Kingdom,Consumer,2025-09-10
+51292,Kwame Muller,West Africa,Nigeria,Consumer,2023-01-09
+51293,Olivia Muller,Europe,Germany,Consumer,2025-06-17
+51294,Samuel Bello,North America,Canada,Consumer,2024-08-11
+51295,Emma Okafor,North America,Canada,Consumer,2025-09-15
+51296,Kwame Walker,Europe,United Kingdom,Consumer,2022-05-14
+51297,David Mensah,North America,Canada,Consumer,2026-06-16
+51298,Sophia Taylor,North America,Canada,SMB,2023-12-15
+51299,Samuel Wilson,West Africa,Ghana,Consumer,2023-04-05
+51300,Fatima Brown,Europe,Germany,Consumer,2022-10-28
+51301,Amina Mensah,North America,United States,Consumer,2026-06-06
+51302,Emma Adebayo,Europe,France,Consumer,2025-12-21
+51303,Olivia Walker,West Africa,Ghana,Consumer,2022-08-04
+51304,Fatima Johnson,North America,United States,Consumer,2024-01-01
+51305,Zainab Bello,West Africa,Ghana,Consumer,2025-04-19
+51306,Emma Bello,East Africa,Kenya,Consumer,2024-08-28
+51307,Fatima Martin,Europe,United Kingdom,Consumer,2022-11-07
+51308,Grace Ali,West Africa,Nigeria,Consumer,2023-08-15
+51309,Kwame Khan,North America,Canada,Enterprise,2023-08-28
+51310,Samuel Brown,East Africa,Uganda,SMB,2023-04-20
+51311,Daniel Martin,Europe,United Kingdom,Consumer,2026-04-27
+51312,Grace Taylor,East Africa,Uganda,Consumer,2022-11-30
+51313,Zainab Clark,Europe,United Kingdom,Consumer,2025-03-06
+51314,Fatima Adebayo,North America,Canada,Consumer,2026-02-06
+51315,Tunde Johnson,North America,Canada,Consumer,2025-07-29
+51316,Daniel Walker,West Africa,Nigeria,Consumer,2025-08-05
+51317,Maya Muller,Europe,United Kingdom,Consumer,2022-09-18
+51318,Tunde Martin,North America,United States,Consumer,2022-08-07
+51319,Grace Okafor,West Africa,Nigeria,SMB,2025-07-09
+51320,Zainab Bello,West Africa,Ghana,SMB,2025-05-11
+51321,Samuel Njoroge,Europe,United Kingdom,SMB,2025-05-03
+51322,Olivia Walker,Europe,United Kingdom,Consumer,2023-11-19
+51323,Olivia Walker,North America,United States,Consumer,2024-05-09
+51324,Amina Smith,West Africa,Ghana,Consumer,2022-01-26
+51325,David Johnson,North America,Canada,SMB,2023-04-23
+51326,Olivia Bello,West Africa,Ghana,Consumer,2024-05-17
+51327,Noah Walker,Europe,France,Consumer,2022-07-26
+51328,Amina Ali,Europe,United Kingdom,Consumer,2022-08-02
+51329,Fatima Adebayo,North America,United States,Enterprise,2022-03-16
+51330,Amina Ali,North America,United States,Consumer,2022-12-11
+51331,Grace Wilson,West Africa,Nigeria,Consumer,2026-06-19
+51332,Tunde Smith,Europe,United Kingdom,Consumer,2025-02-16
+51333,Zainab Okafor,Europe,Germany,Consumer,2026-04-07
+51334,Chidi Muller,East Africa,Kenya,Consumer,2023-02-27
+51335,Grace Clark,East Africa,Kenya,Consumer,2024-09-10
+51336,Olivia Khan,West Africa,Ghana,Consumer,2026-01-04
+51337,Sophia Clark,North America,United States,SMB,2023-08-02
+51338,Chidi Clark,Europe,United Kingdom,Consumer,2024-12-15
+51339,Samuel Bello,West Africa,Ghana,SMB,2025-02-11
+51340,Amina Taylor,Europe,France,Consumer,2025-09-28
+51341,Noah Okafor,North America,Canada,SMB,2026-05-11
+51342,Tunde Khan,West Africa,Nigeria,Consumer,2024-10-07
+51343,Fatima Walker,Europe,Germany,Consumer,2024-08-14
+51344,Olivia Ali,Europe,Germany,Consumer,2025-11-27
+51345,David Ali,East Africa,Uganda,Enterprise,2025-01-28
+51346,Kwame Martin,Europe,United Kingdom,Consumer,2023-08-17
+51347,Noah Khan,Europe,France,SMB,2024-10-31
+51348,Zainab Mensah,Europe,Germany,SMB,2024-06-20
+51349,Fatima Martin,Europe,United Kingdom,Consumer,2023-01-11
+51350,David Adebayo,North America,Canada,Consumer,2024-04-27
+51351,Noah Khan,West Africa,Ghana,Consumer,2024-10-20
+51352,Emma Martin,West Africa,Nigeria,Consumer,2026-01-24
+51353,David Clark,North America,Canada,Consumer,2024-08-11
+51354,Chidi Wilson,North America,United States,Consumer,2022-09-28
+51355,Olivia Muller,West Africa,Nigeria,Consumer,2026-06-10
+51356,Daniel Njoroge,North America,United States,Consumer,2024-08-07
+51357,Daniel Bello,Europe,Germany,SMB,2023-04-17
+51358,Grace Muller,Europe,United Kingdom,Consumer,2025-05-23
+51359,David Smith,West Africa,Nigeria,SMB,2023-09-24
+51360,Sophia Brown,North America,United States,Consumer,2023-08-31
+51361,Sophia Ali,West Africa,Ghana,Consumer,2025-10-10
+51362,Daniel Wilson,Europe,France,Consumer,2025-11-25
+51363,Amina Wilson,Europe,France,SMB,2024-05-10
+51364,Tunde Muller,North America,Canada,Consumer,2023-09-05
+51365,Kwame Okafor,Europe,France,Enterprise,2025-11-18
+51366,Fatima Okafor,Europe,United Kingdom,Consumer,2022-10-12
+51367,Noah Ali,North America,United States,Consumer,2025-05-11
+51368,Grace Muller,North America,Canada,Consumer,2024-08-17
+51369,Samuel Taylor,North America,Canada,Consumer,2025-11-03
+51370,Tunde Clark,North America,United States,Consumer,2023-11-22
+51371,Daniel Wilson,North America,Canada,Consumer,2025-09-28
+51372,Zainab Bello,East Africa,Uganda,Consumer,2022-01-25
+51373,Noah Smith,Europe,Germany,Consumer,2025-05-30
+51374,Emma Walker,West Africa,Ghana,Consumer,2022-04-25
+51375,Noah Johnson,East Africa,Kenya,Enterprise,2024-11-20
+51376,Grace Adebayo,North America,United States,Consumer,2022-11-17
+51377,Samuel Njoroge,West Africa,Ghana,Consumer,2026-05-02
+51378,Noah Walker,West Africa,Ghana,Enterprise,2025-06-17
+51379,Emma Martin,Europe,United Kingdom,Consumer,2022-06-21
+51380,Tunde Muller,Europe,United Kingdom,Consumer,2026-01-04
+51381,Amina Okafor,Europe,France,SMB,2023-02-18
+51382,David Smith,North America,Canada,SMB,2024-06-14
+51383,Fatima Wilson,Europe,France,SMB,2022-05-21
+51384,Tunde Brown,East Africa,Uganda,Consumer,2022-06-23
+51385,Sophia Okafor,East Africa,Uganda,Enterprise,2023-02-01
+51386,Kwame Clark,North America,Canada,Consumer,2024-05-27
+51387,Liam Adebayo,West Africa,Ghana,Enterprise,2024-06-10
+51388,Daniel Bello,North America,United States,SMB,2025-11-05
+51389,Daniel Martin,East Africa,Uganda,Enterprise,2022-09-29
+51390,Grace Brown,North America,Canada,Consumer,2025-05-15
+51391,Kwame Adebayo,East Africa,Kenya,Consumer,2022-01-10
+51392,Noah Smith,West Africa,Ghana,Consumer,2023-04-23
+51393,Zainab Muller,North America,United States,Consumer,2022-10-15
+51394,Liam Mensah,North America,Canada,Consumer,2022-07-23
+51395,Olivia Johnson,West Africa,Nigeria,Enterprise,2024-08-17
+51396,David Johnson,North America,Canada,Consumer,2026-01-18
+51397,Emma Brown,Europe,Germany,Consumer,2024-12-31
+51398,Maya Bello,East Africa,Uganda,Consumer,2025-11-03
+51399,Grace Mensah,Europe,France,Consumer,2024-08-29
+51400,Amina Okafor,Europe,United Kingdom,Consumer,2022-03-30
+51401,David Muller,Europe,France,Consumer,2023-07-23
+51402,Sophia Clark,North America,Canada,SMB,2025-09-14
+51403,Samuel Njoroge,East Africa,Uganda,SMB,2022-03-14
+51404,Kwame Clark,North America,Canada,Consumer,2022-06-09
+51405,Kwame Khan,North America,United States,Consumer,2025-10-01
+51406,Zainab Walker,North America,United States,Consumer,2022-04-14
+51407,Grace Clark,East Africa,Kenya,SMB,2026-04-25
+51408,Sophia Walker,North America,United States,SMB,2025-05-30
+51409,Liam Muller,West Africa,Nigeria,Consumer,2024-12-28
+51410,Zainab Njoroge,West Africa,Nigeria,SMB,2024-05-30
+51411,Fatima Khan,West Africa,Ghana,Consumer,2022-05-27
+51412,Maya Clark,East Africa,Kenya,Consumer,2023-11-12
+51413,Noah Adebayo,West Africa,Ghana,SMB,2025-08-19
+51414,Noah Muller,East Africa,Kenya,Consumer,2026-01-24
+51415,Chidi Adebayo,North America,United States,Consumer,2024-01-04
+51416,David Muller,West Africa,Nigeria,Consumer,2025-10-10
+51417,Kwame Njoroge,Europe,United Kingdom,Consumer,2025-06-29
+51418,Samuel Martin,Europe,Germany,Consumer,2022-04-05
+51419,Emma Muller,East Africa,Kenya,Consumer,2024-10-15
+51420,Zainab Muller,East Africa,Kenya,Consumer,2024-10-08
+51421,Liam Mensah,West Africa,Ghana,Consumer,2024-06-10
+51422,Maya Smith,Europe,Germany,SMB,2025-06-22
+51423,Noah Taylor,Europe,France,Consumer,2025-12-31
+51424,Noah Muller,Europe,United Kingdom,Enterprise,2024-06-22
+51425,Fatima Adebayo,Europe,United Kingdom,Consumer,2023-06-11
+51426,Olivia Muller,Europe,Germany,Consumer,2026-06-03
+51427,Olivia Smith,North America,Canada,Consumer,2026-05-02
+51428,Daniel Muller,North America,Canada,SMB,2025-01-31
+51429,Liam Smith,West Africa,Nigeria,Consumer,2024-11-17
+51430,Zainab Okafor,Europe,France,SMB,2022-06-21
+51431,Chidi Bello,East Africa,Kenya,Consumer,2023-10-22
+51432,Sophia Clark,Europe,Germany,Consumer,2022-11-22
+51433,Fatima Walker,North America,Canada,Consumer,2024-04-25
+51434,Zainab Njoroge,North America,Canada,Consumer,2025-09-18
+51435,Grace Bello,North America,Canada,Consumer,2023-01-04
+51436,Chidi Khan,East Africa,Uganda,Consumer,2026-06-25
+51437,David Ali,North America,Canada,Consumer,2022-08-01
+51438,Maya Brown,Europe,France,Consumer,2022-06-11
+51439,Sophia Khan,East Africa,Kenya,Consumer,2026-05-20
+51440,Kwame Bello,East Africa,Uganda,Consumer,2022-06-14
+51441,Kwame Mensah,North America,Canada,Consumer,2025-04-22
+51442,Noah Bello,North America,Canada,Consumer,2025-06-07
+51443,Maya Adebayo,North America,Canada,Consumer,2023-06-27
+51444,Maya Khan,North America,United States,Consumer,2022-04-16
+51445,Fatima Walker,North America,Canada,Consumer,2023-05-22
+51446,Grace Johnson,Europe,France,SMB,2022-04-23
+51447,Daniel Brown,East Africa,Kenya,Consumer,2025-01-08
+51448,Amina Khan,Europe,United Kingdom,Consumer,2025-12-30
+51449,Kwame Bello,Europe,Germany,SMB,2026-06-26
+51450,Grace Johnson,North America,Canada,Consumer,2025-08-07
+51451,Chidi Njoroge,West Africa,Nigeria,Consumer,2025-06-25
+51452,Chidi Brown,Europe,France,Enterprise,2025-12-18
+51453,Fatima Taylor,West Africa,Ghana,Enterprise,2025-06-18
+51454,Grace Okafor,East Africa,Uganda,SMB,2024-12-04
+51455,Amina Wilson,North America,United States,Consumer,2026-06-24
+51456,Liam Bello,North America,Canada,Consumer,2023-06-14
+51457,Tunde Bello,North America,Canada,Enterprise,2023-11-09
+51458,Maya Muller,Europe,France,Enterprise,2026-01-28
+51459,Tunde Muller,East Africa,Kenya,Consumer,2023-05-26
+51460,Grace Mensah,Europe,France,Consumer,2023-05-06
+51461,Tunde Bello,West Africa,Ghana,Consumer,2022-09-07
+51462,Amina Johnson,Europe,United Kingdom,Consumer,2023-03-29
+51463,Zainab Walker,North America,United States,SMB,2024-09-01
+51464,Tunde Okafor,North America,Canada,Consumer,2025-12-26
+51465,Zainab Taylor,West Africa,Nigeria,Consumer,2022-08-12
+51466,Maya Smith,West Africa,Ghana,Consumer,2025-01-22
+51467,Tunde Ali,Europe,United Kingdom,Consumer,2025-06-12
+51468,Olivia Smith,North America,Canada,Consumer,2026-01-10
+51469,Grace Adebayo,West Africa,Ghana,Consumer,2025-05-16
+51470,Chidi Brown,North America,Canada,Consumer,2022-09-13
+51471,Daniel Johnson,East Africa,Uganda,Enterprise,2024-03-13
+51472,Maya Walker,North America,Canada,Consumer,2026-04-13
+51473,Kwame Martin,North America,Canada,Consumer,2026-01-31
+51474,Amina Walker,Europe,Germany,Consumer,2024-10-03
+51475,Kwame Njoroge,Europe,Germany,Consumer,2026-05-01
+51476,Noah Khan,Europe,Germany,Consumer,2025-01-01
+51477,Kwame Taylor,Europe,United Kingdom,Consumer,2022-04-17
+51478,Amina Muller,East Africa,Uganda,Consumer,2026-02-09
+51479,Chidi Martin,Europe,United Kingdom,Consumer,2022-10-04
+51480,Tunde Johnson,Europe,Germany,Consumer,2023-09-18
+51481,Liam Brown,Europe,United Kingdom,Consumer,2023-01-26
+51482,Tunde Muller,North America,Canada,Consumer,2025-03-27
+51483,Amina Mensah,Europe,France,Consumer,2022-02-19
+51484,Zainab Brown,North America,United States,Consumer,2024-11-17
+51485,Tunde Wilson,Europe,Germany,Consumer,2025-11-20
+51486,Amina Adebayo,North America,United States,Consumer,2025-07-17
+51487,Tunde Smith,East Africa,Uganda,Consumer,2023-05-20
+51488,Emma Mensah,Europe,United Kingdom,Consumer,2026-01-12
+51489,Emma Clark,East Africa,Uganda,Enterprise,2023-08-18
+51490,Zainab Clark,Europe,Germany,Enterprise,2025-01-21
+51491,Emma Njoroge,North America,Canada,Enterprise,2024-04-11
+51492,Tunde Smith,West Africa,Ghana,Consumer,2022-04-22
+51493,Tunde Smith,West Africa,Nigeria,Consumer,2022-01-05
+51494,Noah Brown,West Africa,Ghana,Consumer,2022-10-28
+51495,David Walker,Europe,Germany,Consumer,2026-03-15
+51496,Amina Walker,Europe,Germany,Consumer,2026-04-16
+51497,Olivia Bello,West Africa,Ghana,Consumer,2023-11-05
+51498,Amina Mensah,Europe,Germany,Consumer,2026-05-10
+51499,David Okafor,North America,United States,Consumer,2022-03-23
+51500,Noah Okafor,West Africa,Ghana,Consumer,2026-05-08
+51501,Amina Khan,West Africa,Ghana,SMB,2023-01-15
+51502,Tunde Mensah,East Africa,Uganda,Consumer,2022-03-02
+51503,Olivia Muller,Europe,France,SMB,2025-05-29
+51504,Noah Adebayo,Europe,France,Consumer,2023-09-20
+51505,Olivia Taylor,West Africa,Nigeria,Consumer,2023-04-26
+51506,Samuel Ali,Europe,United Kingdom,Consumer,2025-06-01
+51507,Emma Johnson,West Africa,Ghana,Consumer,2023-07-01
+51508,Maya Njoroge,Europe,United Kingdom,Consumer,2025-05-21
+51509,Chidi Adebayo,North America,Canada,Consumer,2022-11-17
+51510,Olivia Muller,West Africa,Ghana,Consumer,2022-05-22
+51511,Chidi Taylor,North America,United States,Consumer,2023-06-18
+51512,Samuel Mensah,North America,Canada,Consumer,2024-09-27
+51513,Chidi Okafor,Europe,France,Enterprise,2023-01-05
+51514,Liam Taylor,West Africa,Nigeria,Consumer,2022-08-23
+51515,Noah Martin,East Africa,Kenya,Consumer,2025-05-15
+51516,Liam Muller,North America,Canada,Consumer,2024-03-20
+51517,Grace Okafor,North America,United States,Consumer,2023-12-10
+51518,Amina Khan,East Africa,Uganda,Consumer,2023-01-29
+51519,Sophia Ali,North America,United States,Consumer,2022-01-30
+51520,Sophia Adebayo,North America,Canada,SMB,2022-03-29
+51521,Kwame Muller,North America,Canada,Consumer,2025-01-24
+51522,David Brown,Europe,United Kingdom,Consumer,2022-05-12
+51523,David Okafor,East Africa,Uganda,Consumer,2023-02-10
+51524,Kwame Brown,West Africa,Ghana,SMB,2026-02-04
+51525,Daniel Brown,West Africa,Ghana,SMB,2023-07-19
+51526,Sophia Smith,North America,Canada,Enterprise,2025-05-07
+51527,Maya Smith,North America,United States,Consumer,2023-07-18
+51528,Olivia Okafor,Europe,United Kingdom,Consumer,2026-03-11
+51529,Noah Ali,North America,United States,Consumer,2025-09-11
+51530,Emma Johnson,North America,Canada,SMB,2024-02-11
+51531,Chidi Khan,North America,Canada,Consumer,2025-01-28
+51532,David Njoroge,North America,Canada,Consumer,2023-11-10
+51533,Sophia Martin,Europe,France,Consumer,2026-03-31
+51534,Noah Taylor,West Africa,Ghana,Consumer,2023-08-12
+51535,Kwame Adebayo,North America,United States,Consumer,2025-10-05
+51536,Olivia Martin,Europe,France,Consumer,2024-10-08
+51537,Tunde Clark,West Africa,Nigeria,Consumer,2024-11-22
+51538,Noah Bello,West Africa,Nigeria,SMB,2023-08-01
+51539,Sophia Wilson,West Africa,Ghana,Consumer,2025-09-29
+51540,David Khan,Europe,United Kingdom,SMB,2025-05-10
+51541,Maya Muller,West Africa,Ghana,Consumer,2025-08-31
+51542,Fatima Khan,North America,United States,SMB,2025-08-08
+51543,Samuel Njoroge,Europe,United Kingdom,Consumer,2022-09-16
+51544,Liam Johnson,North America,United States,Enterprise,2025-12-09
+51545,David Walker,Europe,France,Consumer,2025-10-14
+51546,Emma Martin,Europe,Germany,Consumer,2023-02-03
+51547,Tunde Johnson,North America,United States,Consumer,2026-05-31
+51548,Sophia Ali,West Africa,Ghana,Consumer,2024-05-15
+51549,Tunde Njoroge,North America,Canada,Consumer,2023-06-13
+51550,Liam Ali,North America,United States,SMB,2023-01-02
+51551,Chidi Bello,North America,United States,Enterprise,2023-08-22
+51552,Kwame Adebayo,Europe,United Kingdom,Consumer,2022-03-03
+51553,Olivia Okafor,North America,United States,Consumer,2025-02-08
+51554,Liam Taylor,Europe,United Kingdom,Consumer,2025-03-08
+51555,Noah Adebayo,North America,United States,SMB,2025-01-01
+51556,Maya Okafor,West Africa,Ghana,SMB,2024-06-20
+51557,Emma Taylor,East Africa,Uganda,Consumer,2023-08-19
+51558,Liam Mensah,Europe,Germany,Enterprise,2025-04-03
+51559,Liam Taylor,West Africa,Nigeria,Consumer,2025-12-01
+51560,Fatima Bello,West Africa,Nigeria,SMB,2022-05-24
+51561,Chidi Taylor,East Africa,Kenya,Enterprise,2023-09-21
+51562,Zainab Khan,Europe,United Kingdom,SMB,2026-06-23
+51563,Liam Brown,East Africa,Kenya,Consumer,2025-11-16
+51564,Noah Clark,East Africa,Kenya,Consumer,2026-06-21
+51565,Kwame Khan,West Africa,Ghana,Consumer,2022-10-28
+51566,Kwame Muller,Europe,Germany,SMB,2024-02-03
+51567,Zainab Khan,North America,United States,Consumer,2022-08-03
+51568,Tunde Okafor,North America,Canada,SMB,2025-11-23
+51569,Maya Johnson,Europe,United Kingdom,SMB,2024-05-01
+51570,Liam Bello,Europe,France,Consumer,2023-02-04
+51571,Zainab Ali,Europe,Germany,Consumer,2022-05-29
+51572,Amina Martin,Europe,United Kingdom,Consumer,2025-04-26
+51573,Maya Khan,Europe,Germany,Consumer,2025-08-26
+51574,Maya Mensah,West Africa,Nigeria,Consumer,2025-12-14
+51575,Sophia Martin,North America,United States,Consumer,2026-05-15
+51576,Emma Smith,North America,Canada,Consumer,2025-08-30
+51577,Daniel Ali,West Africa,Ghana,Consumer,2025-07-15
+51578,Tunde Taylor,West Africa,Ghana,Consumer,2025-08-25
+51579,Kwame Khan,East Africa,Kenya,Consumer,2026-06-28
+51580,Emma Martin,West Africa,Nigeria,Consumer,2024-01-31
+51581,David Mensah,East Africa,Kenya,Consumer,2025-05-30
+51582,Grace Brown,North America,Canada,Consumer,2025-09-08
+51583,Kwame Bello,Europe,Germany,SMB,2022-07-10
+51584,Emma Okafor,North America,United States,Consumer,2025-02-08
+51585,Maya Taylor,Europe,France,Consumer,2023-07-11
+51586,Maya Muller,East Africa,Uganda,Enterprise,2022-08-06
+51587,Emma Brown,North America,Canada,Consumer,2022-10-07
+51588,Noah Njoroge,Europe,Germany,Consumer,2022-07-07
+51589,Amina Walker,North America,United States,Consumer,2026-01-14
+51590,Liam Smith,North America,Canada,Consumer,2025-06-21
+51591,Liam Bello,North America,United States,Consumer,2022-06-17
+51592,Sophia Muller,North America,United States,SMB,2024-10-24
+51593,Chidi Mensah,East Africa,Kenya,SMB,2024-12-20
+51594,Grace Adebayo,Europe,United Kingdom,Consumer,2024-05-02
+51595,Fatima Brown,West Africa,Ghana,Consumer,2024-09-22
+51596,Samuel Johnson,West Africa,Nigeria,Consumer,2026-01-29
+51597,Noah Ali,North America,United States,Consumer,2024-05-01
+51598,Kwame Bello,North America,United States,Consumer,2024-12-19
+51599,Samuel Muller,West Africa,Nigeria,SMB,2024-07-26
+51600,Amina Bello,North America,United States,SMB,2023-10-13
+51601,Noah Taylor,East Africa,Kenya,Consumer,2026-01-02
+51602,Emma Ali,North America,Canada,Consumer,2023-11-11
+51603,Daniel Brown,West Africa,Nigeria,Consumer,2025-08-06
+51604,Maya Brown,West Africa,Nigeria,Consumer,2024-09-20
+51605,Grace Bello,North America,United States,SMB,2025-01-29
+51606,Amina Taylor,North America,United States,Consumer,2025-06-02
+51607,Zainab Johnson,East Africa,Uganda,SMB,2025-04-23
+51608,Zainab Adebayo,North America,United States,SMB,2024-07-15
+51609,Fatima Johnson,Europe,France,SMB,2024-10-07
+51610,Emma Smith,Europe,France,Consumer,2024-04-15
+51611,Kwame Muller,North America,United States,Consumer,2023-07-11
+51612,Liam Martin,West Africa,Nigeria,SMB,2025-04-08
+51613,Olivia Brown,West Africa,Nigeria,SMB,2025-12-14
+51614,Daniel Smith,Europe,France,Consumer,2025-03-04
+51615,Noah Taylor,West Africa,Nigeria,SMB,2025-06-21
+51616,Liam Mensah,North America,Canada,Consumer,2025-09-25
+51617,Grace Wilson,North America,United States,Consumer,2023-08-27
+51618,Amina Clark,Europe,France,SMB,2022-04-13
+51619,Kwame Khan,East Africa,Kenya,Consumer,2023-07-09
+51620,Kwame Martin,North America,Canada,Consumer,2025-05-24
+51621,Grace Muller,North America,United States,Enterprise,2025-09-01
+51622,Olivia Clark,Europe,Germany,SMB,2024-04-23
+51623,Emma Wilson,West Africa,Nigeria,SMB,2025-07-02
+51624,Sophia Mensah,North America,United States,Consumer,2022-05-03
+51625,Tunde Clark,Europe,Germany,Enterprise,2024-11-23
+51626,Grace Okafor,West Africa,Nigeria,Consumer,2025-01-19
+51627,Emma Clark,Europe,United Kingdom,Consumer,2024-04-13
+51628,Olivia Johnson,North America,Canada,Consumer,2025-03-22
+51629,Amina Bello,North America,United States,SMB,2024-03-17
+51630,Daniel Clark,Europe,United Kingdom,SMB,2024-05-09
+51631,Liam Brown,Europe,Germany,SMB,2024-09-18
+51632,Liam Johnson,West Africa,Nigeria,Consumer,2025-07-27
+51633,Grace Brown,West Africa,Ghana,Consumer,2023-02-13
+51634,Zainab Adebayo,West Africa,Nigeria,Consumer,2023-05-09
+51635,Chidi Wilson,East Africa,Kenya,Consumer,2023-11-19
+51636,Sophia Johnson,Europe,United Kingdom,Consumer,2022-11-28
+51637,Liam Mensah,Europe,Germany,Consumer,2023-07-03
+51638,Olivia Mensah,East Africa,Kenya,SMB,2023-07-30
+51639,Amina Taylor,North America,Canada,SMB,2023-05-31
+51640,Grace Johnson,West Africa,Nigeria,SMB,2023-11-05
+51641,Sophia Wilson,West Africa,Ghana,Consumer,2024-04-08
+51642,Zainab Clark,North America,United States,Consumer,2025-02-16
+51643,Sophia Muller,Europe,United Kingdom,Consumer,2023-05-13
+51644,Sophia Okafor,North America,United States,Consumer,2025-10-20
+51645,Samuel Taylor,North America,United States,Consumer,2024-02-27
+51646,Daniel Njoroge,Europe,United Kingdom,Consumer,2025-03-29
+51647,Amina Wilson,North America,Canada,Consumer,2022-07-08
+51648,Maya Wilson,West Africa,Ghana,SMB,2022-10-13
+51649,Sophia Adebayo,East Africa,Uganda,Consumer,2024-01-15
+51650,Kwame Njoroge,West Africa,Ghana,Consumer,2023-08-25
+51651,David Khan,North America,United States,Consumer,2024-03-25
+51652,Kwame Johnson,North America,Canada,Consumer,2022-09-18
+51653,Grace Ali,North America,United States,Consumer,2024-02-17
+51654,Daniel Brown,North America,United States,Consumer,2025-02-01
+51655,Chidi Taylor,East Africa,Kenya,Consumer,2025-04-11
+51656,Sophia Wilson,Europe,Germany,Consumer,2023-02-12
+51657,Tunde Smith,North America,Canada,SMB,2023-07-20
+51658,Tunde Njoroge,West Africa,Nigeria,Consumer,2024-05-12
+51659,Noah Okafor,Europe,France,Consumer,2024-04-30
+51660,Tunde Bello,North America,Canada,Consumer,2025-07-24
+51661,Amina Martin,North America,United States,Consumer,2023-10-03
+51662,Kwame Mensah,Europe,Germany,Consumer,2025-01-06
+51663,Sophia Khan,West Africa,Ghana,SMB,2025-12-22
+51664,Sophia Muller,North America,Canada,Consumer,2023-05-05
+51665,Sophia Clark,East Africa,Uganda,Consumer,2025-09-13
+51666,Amina Clark,West Africa,Ghana,Consumer,2023-07-01
+51667,Chidi Njoroge,West Africa,Ghana,Consumer,2023-07-04
+51668,Liam Muller,North America,Canada,Consumer,2024-12-08
+51669,Tunde Brown,North America,Canada,Consumer,2024-10-17
+51670,Noah Mensah,West Africa,Ghana,Consumer,2024-06-21
+51671,Samuel Brown,North America,Canada,Enterprise,2023-01-15
+51672,Liam Mensah,Europe,United Kingdom,SMB,2022-06-08
+51673,Zainab Brown,West Africa,Nigeria,Enterprise,2026-02-01
+51674,David Taylor,North America,United States,Consumer,2025-12-06
+51675,Daniel Khan,West Africa,Nigeria,SMB,2025-12-26
+51676,Grace Bello,East Africa,Kenya,Consumer,2024-04-21
+51677,Zainab Martin,West Africa,Ghana,Consumer,2025-12-23
+51678,Daniel Clark,Europe,Germany,Enterprise,2024-02-17
+51679,Fatima Smith,West Africa,Ghana,Consumer,2022-05-04
+51680,Olivia Smith,Europe,Germany,SMB,2022-11-22
+51681,Daniel Adebayo,West Africa,Ghana,SMB,2023-03-24
+51682,Chidi Bello,West Africa,Ghana,Consumer,2023-09-12
+51683,Tunde Smith,West Africa,Nigeria,SMB,2026-03-22
+51684,Daniel Mensah,North America,Canada,Consumer,2023-07-01
+51685,Liam Mensah,North America,Canada,SMB,2024-10-02
+51686,Maya Khan,North America,Canada,SMB,2023-03-21
+51687,Samuel Adebayo,Europe,United Kingdom,Consumer,2024-11-22
+51688,Zainab Mensah,Europe,Germany,Consumer,2024-07-20
+51689,Fatima Mensah,Europe,Germany,Consumer,2022-09-05
+51690,Liam Martin,Europe,United Kingdom,Consumer,2024-01-30
+51691,Samuel Brown,West Africa,Nigeria,Consumer,2022-06-23
+51692,Daniel Bello,East Africa,Uganda,SMB,2025-12-31
+51693,Noah Khan,North America,United States,Consumer,2025-03-02
+51694,Tunde Walker,West Africa,Ghana,SMB,2026-03-26
+51695,Emma Mensah,West Africa,Nigeria,Consumer,2025-12-08
+51696,Chidi Martin,Europe,United Kingdom,Consumer,2022-12-27
+51697,Chidi Muller,North America,Canada,Consumer,2025-03-07
+51698,Liam Wilson,West Africa,Ghana,SMB,2022-06-14
+51699,Olivia Johnson,East Africa,Uganda,Consumer,2026-04-27
+51700,Maya Muller,West Africa,Nigeria,Consumer,2025-07-13
+51701,Grace Ali,East Africa,Kenya,Consumer,2025-01-22
+51702,Sophia Mensah,East Africa,Kenya,SMB,2026-06-22
+51703,Samuel Muller,North America,Canada,Consumer,2025-10-22
+51704,Samuel Njoroge,Europe,France,Consumer,2025-11-19
+51705,Amina Okafor,Europe,France,SMB,2022-06-14
+51706,Maya Walker,East Africa,Uganda,SMB,2022-02-08
+51707,David Ali,North America,Canada,Consumer,2026-04-28
+51708,Zainab Ali,Europe,France,Consumer,2023-02-17
+51709,Olivia Okafor,West Africa,Nigeria,Consumer,2023-12-02
+51710,Olivia Ali,North America,Canada,Consumer,2022-03-13
+51711,Noah Njoroge,West Africa,Nigeria,SMB,2024-10-20
+51712,Chidi Clark,Europe,France,Consumer,2025-09-09
+51713,Tunde Martin,East Africa,Kenya,Consumer,2025-10-14
+51714,Amina Muller,East Africa,Uganda,Consumer,2024-08-12
+51715,Zainab Clark,North America,United States,Consumer,2024-12-21
+51716,Tunde Martin,West Africa,Ghana,Consumer,2024-04-23
+51717,David Taylor,North America,Canada,SMB,2024-01-03
+51718,Amina Martin,Europe,France,Consumer,2024-06-29
+51719,Fatima Njoroge,West Africa,Ghana,Enterprise,2026-03-17
+51720,Sophia Ali,West Africa,Nigeria,SMB,2023-02-19
+51721,Daniel Bello,North America,United States,Consumer,2024-02-12
+51722,Chidi Smith,North America,Canada,Consumer,2024-09-14
+51723,Olivia Khan,West Africa,Ghana,Consumer,2024-07-25
+51724,Noah Smith,Europe,Germany,Consumer,2022-02-20
+51725,Kwame Adebayo,Europe,Germany,Consumer,2023-04-17
+51726,Fatima Mensah,North America,Canada,SMB,2024-11-26
+51727,Sophia Okafor,North America,Canada,Consumer,2025-02-13
+51728,Zainab Mensah,West Africa,Nigeria,Consumer,2025-04-20
+51729,Grace Walker,North America,United States,Consumer,2026-06-16
+51730,Noah Clark,Europe,Germany,Consumer,2025-01-10
+51731,Olivia Bello,East Africa,Kenya,Enterprise,2024-08-09
+51732,Samuel Taylor,North America,Canada,Consumer,2023-06-30
+51733,Tunde Mensah,West Africa,Ghana,SMB,2023-09-01
+51734,Maya Muller,North America,Canada,SMB,2025-09-18
+51735,Grace Adebayo,West Africa,Nigeria,Consumer,2024-02-09
+51736,Sophia Taylor,West Africa,Nigeria,Consumer,2025-03-20
+51737,Chidi Taylor,East Africa,Kenya,Consumer,2022-07-23
+51738,Maya Walker,North America,United States,SMB,2022-07-30
+51739,Fatima Ali,Europe,United Kingdom,Consumer,2022-12-20
+51740,Noah Brown,West Africa,Nigeria,Consumer,2022-11-17
+51741,Samuel Clark,North America,Canada,SMB,2024-09-23
+51742,Fatima Khan,North America,United States,SMB,2024-11-12
+51743,Olivia Okafor,North America,United States,Consumer,2024-07-05
+51744,Chidi Wilson,East Africa,Kenya,Consumer,2023-04-21
+51745,Daniel Khan,West Africa,Nigeria,SMB,2024-08-04
+51746,Liam Muller,Europe,Germany,Consumer,2022-07-16
+51747,Kwame Clark,West Africa,Nigeria,SMB,2024-02-16
+51748,Grace Khan,Europe,Germany,Consumer,2022-09-12
+51749,Amina Okafor,Europe,United Kingdom,Consumer,2022-05-07
+51750,Zainab Okafor,Europe,France,SMB,2022-09-29
+51751,Maya Ali,West Africa,Ghana,Consumer,2022-07-02
+51752,Amina Martin,North America,Canada,Consumer,2024-02-24
+51753,Grace Johnson,East Africa,Uganda,Consumer,2024-06-15
+51754,Grace Martin,West Africa,Nigeria,Consumer,2024-09-24
+51755,David Clark,North America,United States,SMB,2023-12-24
+51756,Daniel Okafor,Europe,Germany,Consumer,2022-10-17
+51757,Liam Clark,North America,United States,Consumer,2022-02-04
+51758,Sophia Okafor,East Africa,Kenya,Consumer,2025-03-15
+51759,Olivia Khan,East Africa,Kenya,Enterprise,2026-06-02
+51760,Chidi Okafor,East Africa,Uganda,Consumer,2023-04-07
+51761,Tunde Smith,North America,United States,Enterprise,2022-12-03
+51762,Sophia Clark,North America,Canada,SMB,2023-05-27
+51763,Samuel Brown,North America,United States,Consumer,2022-12-19
+51764,Chidi Smith,North America,United States,SMB,2023-01-02
+51765,Samuel Njoroge,North America,Canada,SMB,2024-03-23
+51766,Fatima Johnson,North America,United States,Consumer,2025-07-13
+51767,Grace Smith,East Africa,Uganda,Consumer,2025-03-15
+51768,Zainab Walker,North America,United States,SMB,2026-04-26
+51769,Tunde Martin,North America,United States,SMB,2023-08-10
+51770,Noah Ali,West Africa,Nigeria,SMB,2024-03-19
+51771,Samuel Walker,Europe,France,Enterprise,2023-09-17
+51772,Daniel Khan,West Africa,Nigeria,Consumer,2022-03-11
+51773,Liam Martin,Europe,France,SMB,2023-09-30
+51774,Emma Johnson,East Africa,Kenya,SMB,2023-03-04
+51775,Chidi Adebayo,Europe,United Kingdom,Consumer,2024-02-26
+51776,Sophia Muller,Europe,Germany,Consumer,2022-09-17
+51777,Zainab Ali,West Africa,Ghana,Consumer,2025-05-02
+51778,Sophia Njoroge,Europe,United Kingdom,SMB,2025-10-15
+51779,Samuel Brown,North America,Canada,Consumer,2026-04-27
+51780,David Martin,Europe,France,SMB,2022-05-20
+51781,Zainab Bello,North America,United States,Consumer,2022-07-13
+51782,Maya Okafor,West Africa,Ghana,Consumer,2026-05-06
+51783,Noah Bello,North America,United States,Consumer,2025-10-24
+51784,Olivia Wilson,North America,United States,Consumer,2024-08-24
+51785,Sophia Martin,North America,United States,SMB,2023-06-12
+51786,Emma Muller,West Africa,Ghana,Consumer,2024-04-30
+51787,Noah Khan,North America,Canada,SMB,2024-05-29
+51788,Emma Adebayo,West Africa,Ghana,Consumer,2025-10-23
+51789,Grace Njoroge,West Africa,Nigeria,Enterprise,2024-05-19
+51790,Kwame Clark,North America,Canada,Consumer,2022-02-15
+51791,Fatima Ali,West Africa,Nigeria,Consumer,2025-02-22
+51792,Emma Okafor,North America,United States,Consumer,2025-06-30
+51793,Zainab Adebayo,North America,Canada,Consumer,2023-05-05
+51794,Kwame Mensah,West Africa,Ghana,Consumer,2022-07-11
+51795,Daniel Adebayo,East Africa,Kenya,SMB,2022-08-22
+51796,Maya Clark,North America,United States,Consumer,2025-10-12
+51797,Tunde Wilson,Europe,France,Consumer,2024-01-05
+51798,Fatima Okafor,North America,Canada,Consumer,2024-05-18
+51799,Sophia Muller,Europe,France,Consumer,2026-04-27
+51800,Liam Mensah,Europe,Germany,SMB,2022-04-11
+51801,Maya Okafor,Europe,United Kingdom,Consumer,2022-12-05
+51802,Liam Johnson,Europe,Germany,SMB,2025-09-30
+51803,Fatima Bello,North America,United States,Enterprise,2024-06-05
+51804,Sophia Johnson,West Africa,Nigeria,Consumer,2022-02-14
+51805,Kwame Clark,West Africa,Nigeria,Consumer,2025-02-28
+51806,Olivia Okafor,West Africa,Ghana,Consumer,2022-08-16
+51807,Olivia Muller,North America,Canada,Consumer,2025-07-08
+51808,Fatima Muller,Europe,United Kingdom,Consumer,2025-08-03
+51809,Sophia Wilson,Europe,United Kingdom,Enterprise,2025-09-15
+51810,Kwame Johnson,North America,Canada,Consumer,2024-02-03
+51811,Grace Ali,North America,United States,Consumer,2023-03-16
+51812,Zainab Johnson,Europe,Germany,SMB,2025-12-18
+51813,David Clark,West Africa,Ghana,Consumer,2024-07-06
+51814,Liam Khan,North America,Canada,SMB,2024-11-09
+51815,Zainab Ali,West Africa,Ghana,Consumer,2022-08-13
+51816,Emma Okafor,Europe,France,Consumer,2024-10-20
+51817,Maya Clark,West Africa,Nigeria,Enterprise,2024-08-10
+51818,Daniel Okafor,Europe,United Kingdom,SMB,2023-04-25
+51819,David Martin,Europe,United Kingdom,SMB,2025-06-13
+51820,Maya Bello,Europe,France,Consumer,2022-08-08
+51821,Chidi Khan,East Africa,Uganda,SMB,2025-03-27
+51822,Noah Bello,Europe,Germany,Consumer,2026-04-28
+51823,Emma Wilson,Europe,France,Consumer,2024-07-20
+51824,Fatima Martin,Europe,Germany,Consumer,2022-06-22
+51825,Maya Walker,West Africa,Ghana,Consumer,2024-06-27
+51826,Daniel Okafor,North America,Canada,Consumer,2024-05-18
+51827,Zainab Mensah,Europe,United Kingdom,Consumer,2024-06-25
+51828,David Mensah,Europe,France,SMB,2023-03-24
+51829,Grace Clark,East Africa,Uganda,SMB,2024-10-25
+51830,Amina Muller,Europe,Germany,Enterprise,2023-03-10
+51831,David Smith,Europe,France,Consumer,2024-07-05
+51832,Maya Wilson,East Africa,Uganda,Enterprise,2024-09-03
+51833,Fatima Clark,Europe,United Kingdom,Consumer,2024-11-26
+51834,Sophia Khan,North America,Canada,Consumer,2025-08-03
+51835,Samuel Okafor,North America,United States,SMB,2025-12-20
+51836,Liam Okafor,North America,United States,Consumer,2025-06-30
+51837,Amina Clark,North America,Canada,Consumer,2025-07-30
+51838,Emma Smith,Europe,France,Consumer,2025-11-27
+51839,Chidi Khan,West Africa,Ghana,Consumer,2023-02-03
+51840,Kwame Okafor,West Africa,Ghana,SMB,2023-04-26
+51841,Liam Khan,North America,Canada,Consumer,2024-05-25
+51842,Daniel Walker,Europe,France,Consumer,2024-02-04
+51843,Maya Brown,North America,United States,Consumer,2025-02-26
+51844,Grace Khan,East Africa,Uganda,Consumer,2022-01-16
+51845,Kwame Smith,North America,United States,SMB,2022-08-17
+51846,Olivia Martin,Europe,Germany,Enterprise,2025-05-11
+51847,Emma Njoroge,North America,Canada,SMB,2025-09-11
+51848,Maya Ali,West Africa,Nigeria,SMB,2023-05-12
+51849,David Muller,Europe,Germany,Consumer,2023-05-26
+51850,Emma Martin,West Africa,Nigeria,SMB,2024-07-10
+51851,Chidi Brown,North America,United States,Consumer,2024-02-23
+51852,Amina Khan,East Africa,Uganda,Consumer,2022-10-05
+51853,Amina Bello,Europe,France,Consumer,2024-04-01
+51854,Noah Johnson,West Africa,Nigeria,Consumer,2025-09-07
+51855,David Wilson,West Africa,Ghana,SMB,2025-04-12
+51856,Daniel Walker,East Africa,Kenya,SMB,2025-09-03
+51857,Liam Smith,North America,United States,Enterprise,2024-11-23
+51858,Chidi Walker,North America,United States,Consumer,2025-12-11
+51859,Chidi Walker,North America,United States,Consumer,2023-02-15
+51860,Maya Okafor,North America,United States,SMB,2022-03-17
+51861,Daniel Brown,Europe,France,Consumer,2022-07-07
+51862,Sophia Johnson,East Africa,Kenya,Consumer,2026-06-18
+51863,Olivia Okafor,East Africa,Uganda,Consumer,2024-11-17
+51864,Amina Smith,Europe,United Kingdom,Enterprise,2023-02-11
+51865,Maya Smith,Europe,Germany,SMB,2025-11-03
+51866,Liam Ali,West Africa,Nigeria,Consumer,2023-05-24
+51867,Zainab Wilson,East Africa,Uganda,Consumer,2024-09-07
+51868,Zainab Taylor,North America,United States,Consumer,2023-02-14
+51869,David Njoroge,Europe,United Kingdom,Consumer,2022-06-05
+51870,Maya Khan,West Africa,Ghana,Consumer,2023-03-16
+51871,David Njoroge,North America,United States,Consumer,2023-01-10
+51872,Samuel Ali,Europe,Germany,Consumer,2024-06-26
+51873,Amina Wilson,East Africa,Kenya,Consumer,2022-02-03
+51874,David Khan,East Africa,Uganda,Consumer,2023-01-29
+51875,David Wilson,East Africa,Uganda,Consumer,2024-07-21
+51876,Grace Clark,West Africa,Nigeria,Consumer,2023-10-09
+51877,Samuel Johnson,North America,United States,SMB,2024-11-10
+51878,Maya Johnson,North America,Canada,Consumer,2024-12-12
+51879,Olivia Martin,Europe,United Kingdom,SMB,2026-05-05
+51880,Grace Johnson,Europe,France,Consumer,2025-10-04
+51881,Samuel Smith,Europe,Germany,Consumer,2023-01-10
+51882,Kwame Bello,Europe,United Kingdom,Consumer,2025-02-11
+51883,Kwame Brown,Europe,United Kingdom,Consumer,2024-10-26
+51884,Olivia Mensah,West Africa,Ghana,Consumer,2024-09-02
+51885,Emma Muller,North America,United States,SMB,2025-08-04
+51886,Sophia Okafor,North America,Canada,SMB,2022-08-31
+51887,Noah Clark,North America,Canada,Consumer,2023-09-09
+51888,Olivia Johnson,North America,United States,Consumer,2025-09-02
+51889,Daniel Walker,West Africa,Ghana,SMB,2026-01-04
+51890,David Okafor,Europe,United Kingdom,Consumer,2022-03-03
+51891,Daniel Njoroge,North America,United States,Consumer,2024-02-14
+51892,Olivia Khan,West Africa,Nigeria,SMB,2023-03-10
+51893,Chidi Martin,Europe,United Kingdom,Consumer,2022-10-03
+51894,David Bello,North America,United States,Consumer,2022-04-04
+51895,Chidi Muller,North America,United States,Consumer,2024-06-02
+51896,Fatima Brown,North America,United States,Consumer,2024-12-31
+51897,Samuel Khan,West Africa,Nigeria,Consumer,2024-05-22
+51898,Emma Wilson,North America,Canada,SMB,2023-08-28
+51899,Zainab Brown,North America,United States,Consumer,2025-06-20
+51900,Maya Ali,North America,Canada,SMB,2024-12-06
+51901,Noah Ali,Europe,Germany,SMB,2026-01-31
+51902,Grace Wilson,North America,Canada,SMB,2023-07-24
+51903,Sophia Taylor,West Africa,Nigeria,Consumer,2023-01-28
+51904,Fatima Martin,North America,Canada,Consumer,2024-01-19
+51905,Samuel Njoroge,Europe,Germany,Consumer,2024-04-12
+51906,Noah Clark,Europe,Germany,Consumer,2024-01-22
+51907,Zainab Bello,Europe,France,SMB,2025-09-28
+51908,Amina Johnson,North America,Canada,Consumer,2022-03-16
+51909,Liam Clark,West Africa,Ghana,SMB,2024-05-16
+51910,Daniel Muller,East Africa,Kenya,Consumer,2023-12-08
+51911,Emma Mensah,North America,United States,Consumer,2022-12-13
+51912,Grace Taylor,North America,United States,Consumer,2024-11-18
+51913,Olivia Khan,East Africa,Uganda,SMB,2025-08-08
+51914,Olivia Taylor,Europe,France,Consumer,2024-06-15
+51915,Fatima Clark,North America,United States,Consumer,2022-05-20
+51916,Fatima Johnson,North America,Canada,SMB,2022-05-04
+51917,Emma Wilson,West Africa,Nigeria,Consumer,2023-11-24
+51918,Sophia Adebayo,West Africa,Ghana,Consumer,2025-01-01
+51919,Olivia Muller,Europe,Germany,Consumer,2023-05-30
+51920,Samuel Bello,East Africa,Kenya,Consumer,2023-05-23
+51921,Daniel Okafor,Europe,United Kingdom,Consumer,2025-11-13
+51922,Amina Muller,North America,Canada,Consumer,2022-01-24
+51923,Olivia Okafor,Europe,United Kingdom,Consumer,2022-05-11
+51924,Zainab Martin,North America,United States,Consumer,2022-09-13
+51925,Liam Clark,North America,United States,Consumer,2026-06-04
+51926,Tunde Johnson,North America,Canada,Consumer,2024-03-27
+51927,Grace Taylor,North America,Canada,Consumer,2022-09-17
+51928,Amina Ali,West Africa,Nigeria,Consumer,2023-05-25
+51929,Samuel Okafor,North America,Canada,Consumer,2026-05-11
+51930,Chidi Okafor,Europe,France,Consumer,2025-02-14
+51931,Sophia Wilson,West Africa,Ghana,Consumer,2023-01-03
+51932,Maya Wilson,Europe,United Kingdom,SMB,2023-01-31
+51933,Noah Brown,West Africa,Nigeria,SMB,2022-05-04
+51934,Grace Johnson,West Africa,Nigeria,Consumer,2025-06-22
+51935,Noah Martin,West Africa,Nigeria,Consumer,2022-08-14
+51936,Samuel Ali,North America,Canada,Consumer,2023-04-16
+51937,Liam Okafor,Europe,France,SMB,2023-07-27
+51938,Sophia Wilson,Europe,France,Consumer,2024-10-16
+51939,Daniel Adebayo,North America,United States,Consumer,2024-09-22
+51940,Samuel Muller,North America,United States,Consumer,2025-08-05
+51941,Noah Khan,North America,United States,Consumer,2023-05-04
+51942,Amina Bello,Europe,France,Consumer,2023-09-26
+51943,Olivia Muller,Europe,France,SMB,2023-10-01
+51944,Samuel Muller,North America,United States,SMB,2022-03-18
+51945,Olivia Muller,West Africa,Ghana,Consumer,2025-04-26
+51946,David Mensah,East Africa,Kenya,Consumer,2024-05-29
+51947,Maya Adebayo,North America,Canada,Consumer,2024-02-21
+51948,Zainab Bello,East Africa,Kenya,Consumer,2026-06-23
+51949,Amina Adebayo,North America,United States,Consumer,2022-10-21
+51950,Zainab Walker,East Africa,Kenya,Consumer,2026-05-11
+51951,Fatima Smith,East Africa,Uganda,SMB,2025-01-22
+51952,Amina Wilson,North America,United States,Enterprise,2022-12-29
+51953,Tunde Johnson,West Africa,Ghana,Consumer,2025-01-19
+51954,Liam Muller,East Africa,Kenya,Consumer,2025-05-25
+51955,Daniel Taylor,East Africa,Uganda,Consumer,2023-08-19
+51956,Sophia Ali,East Africa,Kenya,Consumer,2023-07-21
+51957,Tunde Mensah,Europe,United Kingdom,Consumer,2025-10-03
+51958,Liam Martin,North America,Canada,Consumer,2022-09-21
+51959,Olivia Muller,West Africa,Ghana,Consumer,2022-01-22
+51960,Liam Bello,Europe,France,SMB,2024-12-29
+51961,Liam Smith,Europe,Germany,Consumer,2026-01-28
+51962,Fatima Njoroge,Europe,United Kingdom,Consumer,2024-04-02
+51963,Maya Martin,Europe,Germany,Consumer,2022-08-10
+51964,Samuel Mensah,North America,United States,Enterprise,2024-06-04
+51965,Olivia Adebayo,West Africa,Nigeria,Consumer,2023-02-18
+51966,Maya Adebayo,North America,United States,Consumer,2025-09-20
+51967,Liam Wilson,West Africa,Ghana,Consumer,2024-10-02
+51968,Chidi Ali,West Africa,Nigeria,Consumer,2023-07-07
+51969,Liam Adebayo,Europe,France,Enterprise,2024-10-22
+51970,Amina Okafor,Europe,Germany,Consumer,2024-12-31
+51971,Emma Ali,North America,Canada,SMB,2025-01-19
+51972,David Muller,East Africa,Uganda,Consumer,2023-08-25
+51973,Samuel Brown,West Africa,Nigeria,Consumer,2024-07-25
+51974,Amina Ali,Europe,France,Consumer,2022-03-12
+51975,Zainab Martin,North America,Canada,Consumer,2023-10-25
+51976,Zainab Smith,North America,United States,Consumer,2023-09-13
+51977,Amina Clark,Europe,United Kingdom,Consumer,2024-05-27
+51978,David Ali,East Africa,Uganda,Consumer,2026-04-09
+51979,Fatima Okafor,West Africa,Ghana,SMB,2026-04-15
+51980,Sophia Mensah,North America,Canada,Enterprise,2024-03-04
+51981,Fatima Walker,West Africa,Nigeria,Consumer,2024-11-26
+51982,Daniel Johnson,Europe,United Kingdom,Consumer,2022-06-27
+51983,Kwame Muller,West Africa,Nigeria,SMB,2024-03-02
+51984,Fatima Khan,North America,United States,Consumer,2025-02-03
+51985,Fatima Okafor,Europe,France,SMB,2025-01-26
+51986,Tunde Clark,East Africa,Uganda,Consumer,2026-05-01
+51987,Zainab Walker,North America,United States,SMB,2024-02-05
+51988,Kwame Clark,West Africa,Nigeria,Consumer,2026-01-30
+51989,Olivia Clark,East Africa,Uganda,Consumer,2026-05-27
+51990,Tunde Smith,North America,Canada,Consumer,2024-07-28
+51991,Maya Johnson,North America,United States,Consumer,2022-05-31
+51992,Samuel Bello,West Africa,Nigeria,SMB,2023-09-10
+51993,Tunde Bello,North America,United States,Enterprise,2025-06-09
+51994,Amina Adebayo,North America,Canada,Consumer,2024-08-11
+51995,Liam Njoroge,Europe,France,Consumer,2026-03-18
+51996,Tunde Adebayo,West Africa,Nigeria,Consumer,2025-09-01
+51997,Noah Brown,North America,Canada,Consumer,2022-04-14
+51998,Liam Wilson,North America,Canada,Consumer,2025-11-15
+51999,Noah Muller,West Africa,Ghana,SMB,2023-08-10
+52000,Grace Khan,Europe,Germany,SMB,2025-09-06
+52001,Samuel Okafor,West Africa,Nigeria,Consumer,2024-04-13
+52002,Olivia Martin,Europe,Germany,Consumer,2024-01-18
+52003,Tunde Johnson,East Africa,Uganda,Consumer,2022-04-29
+52004,Samuel Brown,West Africa,Ghana,Consumer,2022-07-15
+52005,Chidi Brown,North America,United States,Consumer,2024-09-04
+52006,Maya Muller,East Africa,Uganda,Consumer,2024-07-23
+52007,Zainab Muller,Europe,Germany,Consumer,2024-06-30
+52008,Zainab Smith,North America,Canada,Consumer,2022-09-14
+52009,Sophia Brown,North America,Canada,SMB,2024-04-17
+52010,Zainab Mensah,West Africa,Ghana,Consumer,2022-04-11
+52011,Sophia Brown,North America,United States,Consumer,2022-08-25
+52012,Sophia Khan,North America,United States,Consumer,2024-03-29
+52013,David Adebayo,North America,United States,SMB,2024-10-10
+52014,Maya Smith,Europe,France,Consumer,2024-12-12
+52015,Tunde Walker,Europe,France,Consumer,2026-06-01
+52016,Daniel Taylor,Europe,France,Consumer,2025-11-03
+52017,Olivia Okafor,North America,Canada,Consumer,2023-09-16
+52018,Kwame Khan,North America,United States,Consumer,2025-07-09
+52019,Amina Muller,Europe,United Kingdom,SMB,2022-06-07
+52020,Fatima Walker,Europe,United Kingdom,Consumer,2025-11-08
+52021,Fatima Brown,West Africa,Ghana,Consumer,2023-09-27
+52022,Liam Wilson,North America,Canada,Consumer,2025-06-02
+52023,Grace Brown,North America,United States,SMB,2026-05-13
+52024,Samuel Smith,North America,United States,SMB,2025-02-28
+52025,Emma Smith,Europe,Germany,SMB,2026-02-20
+52026,Fatima Muller,Europe,Germany,Consumer,2022-01-17
+52027,Daniel Walker,West Africa,Nigeria,SMB,2022-10-08
+52028,Daniel Khan,Europe,Germany,SMB,2024-10-25
+52029,Sophia Smith,Europe,France,Consumer,2024-06-06
+52030,Samuel Mensah,Europe,United Kingdom,Consumer,2022-07-17
+52031,Zainab Clark,North America,Canada,SMB,2025-03-25
+52032,Sophia Walker,Europe,United Kingdom,Consumer,2022-04-07
+52033,Kwame Njoroge,North America,United States,Consumer,2026-06-15
+52034,Maya Clark,Europe,United Kingdom,Consumer,2022-09-14
+52035,Noah Smith,North America,Canada,Consumer,2024-01-02
+52036,Emma Taylor,West Africa,Nigeria,Consumer,2025-09-13
+52037,Amina Clark,East Africa,Kenya,Consumer,2024-04-24
+52038,Chidi Khan,North America,United States,SMB,2025-05-06
+52039,David Njoroge,Europe,Germany,Consumer,2025-03-01
+52040,David Bello,West Africa,Nigeria,Consumer,2026-04-07
+52041,Samuel Bello,North America,Canada,Consumer,2024-02-01
+52042,Daniel Adebayo,West Africa,Ghana,Consumer,2026-05-27
+52043,Olivia Clark,Europe,France,Enterprise,2024-04-28
+52044,Samuel Ali,East Africa,Kenya,Consumer,2026-01-06
+52045,David Clark,East Africa,Kenya,Consumer,2025-04-17
+52046,Fatima Clark,North America,United States,Consumer,2022-08-07
+52047,Daniel Mensah,Europe,United Kingdom,Enterprise,2024-11-22
+52048,Grace Adebayo,Europe,France,Consumer,2025-12-13
+52049,Grace Johnson,North America,United States,SMB,2022-07-30
+52050,Fatima Wilson,North America,Canada,Consumer,2025-10-09
+52051,Chidi Wilson,East Africa,Uganda,Consumer,2022-06-23
+52052,Fatima Okafor,North America,Canada,SMB,2025-12-01
+52053,Amina Walker,Europe,Germany,Consumer,2025-07-19
+52054,Amina Taylor,West Africa,Ghana,SMB,2022-09-07
+52055,Amina Ali,North America,United States,Consumer,2025-04-07
+52056,Amina Taylor,Europe,Germany,SMB,2022-07-11
+52057,Kwame Mensah,East Africa,Kenya,SMB,2024-07-21
+52058,Zainab Muller,Europe,France,SMB,2026-02-25
+52059,Chidi Okafor,North America,Canada,Consumer,2022-12-05
+52060,Kwame Adebayo,North America,Canada,SMB,2022-10-13
+52061,Amina Khan,East Africa,Kenya,Enterprise,2023-11-26
+52062,Olivia Khan,North America,United States,Consumer,2023-08-29
+52063,Samuel Martin,Europe,Germany,Consumer,2022-03-21
+52064,Amina Taylor,North America,Canada,SMB,2024-01-19
+52065,Zainab Adebayo,Europe,United Kingdom,Consumer,2023-03-03
+52066,Fatima Martin,East Africa,Uganda,Consumer,2022-07-24
+52067,Amina Smith,Europe,France,SMB,2023-03-30
+52068,Zainab Njoroge,East Africa,Uganda,Consumer,2022-02-03
+52069,Noah Bello,North America,Canada,Consumer,2026-02-11
+52070,Samuel Bello,Europe,France,Consumer,2026-06-21
+52071,Maya Clark,West Africa,Nigeria,Consumer,2023-08-27
+52072,Daniel Bello,Europe,France,SMB,2025-12-10
+52073,Olivia Clark,North America,Canada,Consumer,2024-01-28
+52074,Sophia Adebayo,West Africa,Nigeria,Consumer,2026-02-07
+52075,Liam Okafor,Europe,United Kingdom,SMB,2022-10-12
+52076,Olivia Njoroge,Europe,Germany,Consumer,2023-04-13
+52077,Tunde Okafor,East Africa,Kenya,SMB,2025-04-29
+52078,Zainab Martin,North America,United States,Consumer,2022-12-28
+52079,Emma Walker,North America,United States,Consumer,2025-09-14
+52080,Amina Clark,North America,Canada,Consumer,2023-12-01
+52081,David Ali,Europe,United Kingdom,SMB,2023-10-26
+52082,Daniel Martin,North America,United States,SMB,2024-01-15
+52083,Fatima Njoroge,West Africa,Nigeria,SMB,2025-08-03
+52084,Emma Brown,North America,Canada,Enterprise,2022-01-10
+52085,Fatima Okafor,West Africa,Ghana,SMB,2025-05-17
+52086,Grace Johnson,North America,United States,SMB,2025-07-03
+52087,Grace Khan,North America,United States,Consumer,2025-09-10
+52088,Noah Muller,North America,United States,SMB,2026-06-25
+52089,Liam Wilson,West Africa,Ghana,Consumer,2025-07-08
+52090,Amina Wilson,Europe,France,SMB,2024-05-18
+52091,Chidi Khan,Europe,France,Consumer,2024-02-05
+52092,Noah Khan,West Africa,Ghana,Consumer,2023-09-30
+52093,Samuel Ali,Europe,United Kingdom,SMB,2025-09-20
+52094,Noah Bello,North America,United States,Consumer,2023-10-07
+52095,Emma Adebayo,East Africa,Kenya,Consumer,2024-07-29
+52096,Grace Brown,North America,Canada,Enterprise,2022-06-07
+52097,Sophia Brown,North America,United States,Consumer,2023-06-06
+52098,Noah Taylor,Europe,France,Consumer,2023-03-14
+52099,Emma Okafor,North America,Canada,Consumer,2023-12-16
+52100,Fatima Bello,North America,Canada,Consumer,2024-04-04
+52101,Kwame Bello,West Africa,Nigeria,Consumer,2025-03-22
+52102,Zainab Njoroge,North America,Canada,Enterprise,2023-12-11
+52103,Liam Clark,West Africa,Ghana,Enterprise,2022-09-04
+52104,Maya Taylor,East Africa,Uganda,Consumer,2024-06-13
+52105,Liam Martin,Europe,France,SMB,2022-03-31
+52106,Zainab Martin,West Africa,Nigeria,Consumer,2025-10-26
+52107,Kwame Bello,West Africa,Ghana,SMB,2025-06-19
+52108,Sophia Johnson,East Africa,Kenya,Consumer,2023-01-05
+52109,Samuel Taylor,North America,United States,Consumer,2023-03-09
+52110,Liam Khan,North America,Canada,Enterprise,2022-02-15
+52111,Chidi Clark,Europe,France,SMB,2023-08-22
+52112,Liam Martin,Europe,Germany,Consumer,2022-03-04
+52113,Chidi Muller,North America,Canada,SMB,2026-03-18
+52114,Daniel Okafor,Europe,France,Consumer,2022-08-09
+52115,Amina Johnson,North America,United States,Consumer,2024-12-18
+52116,Zainab Brown,East Africa,Uganda,Consumer,2024-07-25
+52117,Olivia Ali,North America,United States,Consumer,2023-01-24
+52118,Chidi Mensah,North America,Canada,Consumer,2025-08-20
+52119,Liam Brown,North America,United States,Consumer,2022-06-28
+52120,Noah Khan,North America,Canada,Consumer,2025-12-27
+52121,Liam Martin,North America,United States,Consumer,2025-04-30
+52122,Tunde Taylor,North America,United States,Enterprise,2024-11-08
+52123,Liam Walker,North America,Canada,Consumer,2025-12-15
+52124,Samuel Njoroge,North America,Canada,SMB,2023-10-24
+52125,Maya Njoroge,Europe,France,Consumer,2023-04-08
+52126,Maya Njoroge,Europe,France,Consumer,2022-09-11
+52127,Grace Mensah,North America,Canada,SMB,2026-02-26
+52128,Grace Ali,North America,Canada,Consumer,2023-10-22
+52129,Sophia Muller,North America,Canada,Consumer,2025-09-23
+52130,Liam Martin,North America,United States,Consumer,2023-06-30
+52131,Maya Mensah,North America,United States,Consumer,2026-04-18
+52132,Kwame Njoroge,West Africa,Ghana,Consumer,2025-11-29
+52133,Samuel Muller,East Africa,Kenya,Consumer,2023-05-21
+52134,Samuel Ali,East Africa,Kenya,Consumer,2024-03-10
+52135,Maya Taylor,Europe,United Kingdom,Consumer,2025-07-27
+52136,Liam Bello,Europe,France,Consumer,2023-01-07
+52137,Chidi Smith,North America,United States,Consumer,2022-02-08
+52138,Olivia Brown,West Africa,Nigeria,SMB,2023-04-20
+52139,Grace Clark,West Africa,Nigeria,Consumer,2024-08-27
+52140,Zainab Ali,West Africa,Ghana,Consumer,2022-08-13
+52141,David Johnson,East Africa,Kenya,Consumer,2023-07-02
+52142,Daniel Adebayo,Europe,United Kingdom,Consumer,2026-02-17
+52143,Grace Muller,West Africa,Nigeria,Consumer,2022-05-04
+52144,Samuel Brown,West Africa,Ghana,Consumer,2022-03-24
+52145,Samuel Khan,North America,Canada,Consumer,2023-11-27
+52146,David Njoroge,East Africa,Uganda,Enterprise,2022-01-22
+52147,Samuel Taylor,North America,Canada,SMB,2022-02-15
+52148,Fatima Smith,East Africa,Uganda,Consumer,2022-10-28
+52149,Amina Clark,West Africa,Nigeria,Consumer,2022-06-17
+52150,David Johnson,North America,United States,Consumer,2025-08-24
+52151,Fatima Martin,West Africa,Nigeria,SMB,2022-07-21
+52152,David Clark,North America,Canada,SMB,2024-05-09
+52153,Noah Ali,West Africa,Ghana,Consumer,2025-03-04
+52154,Fatima Ali,West Africa,Ghana,Consumer,2024-10-24
+52155,Noah Ali,Europe,Germany,Consumer,2024-12-09
+52156,Daniel Bello,West Africa,Ghana,SMB,2023-08-11
+52157,Sophia Ali,North America,Canada,SMB,2025-12-30
+52158,Fatima Bello,North America,United States,Consumer,2022-04-23
+52159,Chidi Mensah,Europe,United Kingdom,Consumer,2022-06-26
+52160,Tunde Walker,North America,Canada,Consumer,2025-11-06
+52161,Zainab Muller,Europe,Germany,SMB,2022-04-23
+52162,Grace Walker,North America,Canada,SMB,2022-11-12
+52163,Olivia Bello,Europe,Germany,Consumer,2022-10-12
+52164,Grace Mensah,Europe,United Kingdom,Consumer,2022-02-24
+52165,Daniel Taylor,West Africa,Ghana,Consumer,2022-07-12
+52166,Tunde Ali,North America,United States,Consumer,2024-07-29
+52167,Samuel Wilson,East Africa,Kenya,SMB,2024-12-21
+52168,Sophia Bello,Europe,France,Consumer,2022-05-17
+52169,Kwame Brown,North America,Canada,SMB,2026-03-28
+52170,David Taylor,Europe,United Kingdom,Consumer,2022-06-07
+52171,Kwame Wilson,Europe,France,Consumer,2025-02-02
+52172,Sophia Mensah,North America,Canada,Consumer,2025-08-07
+52173,Sophia Smith,Europe,Germany,Consumer,2024-05-05
+52174,Grace Taylor,North America,United States,Consumer,2024-03-18
+52175,Zainab Mensah,North America,United States,Consumer,2022-06-29
+52176,Amina Clark,Europe,United Kingdom,Consumer,2023-02-01
+52177,Grace Njoroge,Europe,Germany,Consumer,2025-10-28
+52178,Emma Walker,West Africa,Ghana,Consumer,2023-07-27
+52179,Noah Johnson,North America,United States,Consumer,2022-02-26
+52180,David Mensah,East Africa,Kenya,SMB,2025-04-12
+52181,David Khan,West Africa,Ghana,Enterprise,2025-01-27
+52182,Emma Okafor,East Africa,Uganda,Consumer,2022-04-19
+52183,Chidi Ali,West Africa,Ghana,SMB,2022-03-25
+52184,David Taylor,North America,United States,SMB,2022-07-11
+52185,Chidi Okafor,Europe,United Kingdom,Enterprise,2022-03-25
+52186,Chidi Khan,North America,United States,Consumer,2024-10-08
+52187,Maya Muller,West Africa,Nigeria,Consumer,2022-08-06
+52188,Amina Bello,Europe,Germany,Consumer,2024-09-23
+52189,Fatima Adebayo,North America,United States,SMB,2022-10-17
+52190,Daniel Walker,East Africa,Kenya,SMB,2026-05-16
+52191,Noah Wilson,North America,Canada,Consumer,2025-04-06
+52192,Maya Brown,Europe,France,Consumer,2023-09-08
+52193,Sophia Brown,West Africa,Nigeria,SMB,2023-12-05
+52194,Grace Ali,North America,United States,SMB,2022-04-17
+52195,Fatima Adebayo,Europe,France,Consumer,2022-04-01
+52196,Liam Njoroge,West Africa,Nigeria,Consumer,2024-06-01
+52197,Olivia Okafor,North America,United States,Consumer,2022-02-07
+52198,Maya Bello,Europe,United Kingdom,Consumer,2024-11-14
+52199,Sophia Muller,North America,Canada,Consumer,2023-09-20
+52200,Chidi Mensah,West Africa,Ghana,SMB,2022-08-18
+52201,David Brown,North America,Canada,Enterprise,2024-05-29
+52202,Grace Bello,East Africa,Kenya,Consumer,2024-06-26
+52203,Daniel Bello,East Africa,Kenya,Consumer,2025-05-10
+52204,Daniel Okafor,North America,United States,Consumer,2022-11-21
+52205,Noah Adebayo,North America,Canada,Consumer,2024-06-17
+52206,Grace Njoroge,Europe,Germany,Consumer,2025-10-19
+52207,Kwame Taylor,West Africa,Nigeria,Consumer,2023-03-20
+52208,Samuel Mensah,Europe,France,Consumer,2025-10-03
+52209,Amina Wilson,North America,Canada,Consumer,2025-04-02
+52210,Emma Bello,North America,Canada,Consumer,2023-12-07
+52211,Chidi Wilson,East Africa,Uganda,SMB,2025-12-21
+52212,Kwame Clark,Europe,United Kingdom,Consumer,2026-05-07
+52213,Daniel Okafor,West Africa,Nigeria,Consumer,2023-01-24
+52214,Kwame Smith,Europe,Germany,SMB,2026-05-28
+52215,Kwame Muller,East Africa,Kenya,Consumer,2022-01-04
+52216,Maya Martin,North America,United States,Consumer,2022-08-01
+52217,Amina Smith,North America,Canada,Consumer,2022-03-12
+52218,Olivia Mensah,East Africa,Uganda,Consumer,2023-08-27
+52219,Kwame Wilson,East Africa,Kenya,Consumer,2026-03-19
+52220,Olivia Smith,North America,United States,Consumer,2024-09-12
+52221,Sophia Brown,North America,United States,Consumer,2024-10-09
+52222,Fatima Brown,Europe,United Kingdom,Consumer,2022-05-20
+52223,Emma Ali,Europe,Germany,Consumer,2024-04-27
+52224,Noah Khan,North America,Canada,Consumer,2023-09-21
+52225,Noah Brown,East Africa,Kenya,Consumer,2024-02-27
+52226,David Clark,North America,Canada,Consumer,2023-03-05
+52227,Grace Clark,West Africa,Ghana,SMB,2022-11-27
+52228,Liam Smith,North America,Canada,Consumer,2026-04-13
+52229,David Adebayo,North America,United States,Consumer,2024-07-05
+52230,Fatima Wilson,West Africa,Ghana,Consumer,2023-11-07
+52231,Liam Brown,North America,United States,Consumer,2022-05-02
+52232,Tunde Johnson,West Africa,Nigeria,SMB,2025-06-06
+52233,Sophia Njoroge,North America,Canada,Consumer,2024-02-15
+52234,Grace Njoroge,East Africa,Uganda,Consumer,2023-09-27
+52235,Samuel Brown,West Africa,Ghana,SMB,2024-12-31
+52236,Fatima Muller,West Africa,Ghana,SMB,2022-08-05
+52237,Grace Taylor,North America,Canada,SMB,2024-05-25
+52238,Liam Njoroge,North America,Canada,Consumer,2025-11-18
+52239,Chidi Taylor,Europe,United Kingdom,Consumer,2024-02-01
+52240,Samuel Johnson,Europe,France,Consumer,2022-01-01
+52241,Fatima Brown,North America,Canada,Consumer,2023-01-13
+52242,David Bello,North America,Canada,Consumer,2022-04-02
+52243,Samuel Adebayo,Europe,Germany,SMB,2024-04-01
+52244,Grace Wilson,North America,United States,Consumer,2023-08-22
+52245,Amina Martin,Europe,United Kingdom,Consumer,2022-08-06
+52246,Grace Taylor,North America,United States,Consumer,2025-02-01
+52247,Sophia Okafor,North America,Canada,Consumer,2022-10-17
+52248,Sophia Martin,Europe,United Kingdom,Consumer,2023-07-16
+52249,Fatima Walker,Europe,Germany,SMB,2026-06-10
+52250,Sophia Clark,North America,Canada,Consumer,2022-04-19
+52251,Sophia Ali,Europe,United Kingdom,Consumer,2023-02-11
+52252,Amina Johnson,West Africa,Nigeria,Consumer,2023-06-06
+52253,Fatima Wilson,Europe,United Kingdom,Consumer,2024-04-15
+52254,Fatima Clark,Europe,Germany,Consumer,2023-02-07
+52255,Fatima Martin,East Africa,Uganda,Enterprise,2026-05-12
+52256,Sophia Johnson,Europe,United Kingdom,Consumer,2022-01-09
+52257,Kwame Johnson,East Africa,Kenya,Consumer,2026-04-06
+52258,Fatima Taylor,West Africa,Nigeria,Enterprise,2024-05-28
+52259,Tunde Bello,North America,Canada,Consumer,2022-03-04
+52260,Tunde Adebayo,Europe,Germany,Enterprise,2022-07-11
+52261,Sophia Mensah,West Africa,Ghana,Consumer,2022-06-19
+52262,David Walker,East Africa,Kenya,Consumer,2023-04-18
+52263,Daniel Walker,Europe,France,Enterprise,2023-07-01
+52264,Tunde Wilson,North America,Canada,Consumer,2024-11-18
+52265,Zainab Okafor,Europe,Germany,Consumer,2023-05-26
+52266,Samuel Brown,North America,Canada,Consumer,2025-04-05
+52267,Liam Okafor,West Africa,Nigeria,Consumer,2023-04-28
+52268,David Clark,Europe,France,Consumer,2023-03-09
+52269,Grace Njoroge,West Africa,Nigeria,Consumer,2023-03-29
+52270,Amina Khan,West Africa,Ghana,SMB,2023-06-25
+52271,Emma Smith,Europe,Germany,Consumer,2025-10-07
+52272,Liam Okafor,Europe,Germany,Consumer,2023-02-10
+52273,David Njoroge,West Africa,Ghana,Consumer,2023-03-25
+52274,Kwame Johnson,West Africa,Nigeria,Consumer,2026-04-21
+52275,Tunde Taylor,West Africa,Nigeria,Consumer,2024-12-09
+52276,Zainab Khan,North America,United States,Consumer,2022-11-09
+52277,Daniel Khan,Europe,Germany,Consumer,2025-11-26
+52278,Maya Ali,North America,Canada,Consumer,2022-10-28
+52279,Fatima Muller,West Africa,Ghana,Consumer,2022-09-24
+52280,Tunde Khan,West Africa,Ghana,Consumer,2024-01-01
+52281,Maya Brown,Europe,Germany,Consumer,2025-02-09
+52282,Chidi Walker,North America,Canada,Enterprise,2022-11-07
+52283,Chidi Smith,North America,Canada,SMB,2025-05-21
+52284,Chidi Smith,West Africa,Nigeria,Consumer,2022-09-15
+52285,Olivia Brown,North America,United States,Enterprise,2025-07-07
+52286,Liam Muller,North America,Canada,SMB,2022-06-07
+52287,Zainab Njoroge,East Africa,Kenya,Consumer,2024-02-02
+52288,Maya Okafor,West Africa,Ghana,SMB,2024-11-17
+52289,Fatima Walker,North America,Canada,Consumer,2023-03-13
+52290,Olivia Mensah,North America,United States,SMB,2024-10-02
+52291,Amina Wilson,East Africa,Uganda,Consumer,2025-02-04
+52292,Sophia Khan,West Africa,Ghana,Consumer,2024-12-03
+52293,Daniel Okafor,Europe,Germany,Consumer,2023-10-14
+52294,Amina Wilson,North America,United States,Enterprise,2025-06-23
+52295,Grace Muller,North America,United States,Consumer,2025-04-16
+52296,Kwame Okafor,North America,Canada,Consumer,2023-06-20
+52297,Chidi Johnson,West Africa,Ghana,Consumer,2025-04-19
+52298,Emma Wilson,North America,United States,Consumer,2026-02-17
+52299,Zainab Smith,North America,United States,SMB,2025-09-03
+52300,Noah Brown,West Africa,Nigeria,SMB,2025-04-18
+52301,Daniel Taylor,East Africa,Kenya,Consumer,2025-06-12
+52302,Samuel Ali,West Africa,Nigeria,Consumer,2025-08-14
+52303,Maya Njoroge,Europe,United Kingdom,Consumer,2023-04-20
+52304,Noah Mensah,Europe,United Kingdom,Consumer,2025-03-29
+52305,Tunde Taylor,Europe,Germany,SMB,2022-11-24
+52306,Sophia Clark,North America,Canada,SMB,2023-08-12
+52307,Olivia Taylor,Europe,Germany,Consumer,2026-03-15
+52308,Chidi Muller,Europe,France,Consumer,2023-04-10
+52309,Emma Muller,Europe,United Kingdom,Consumer,2025-10-17
+52310,Kwame Okafor,East Africa,Uganda,Consumer,2023-11-25
+52311,Liam Brown,East Africa,Uganda,Consumer,2022-12-11
+52312,Kwame Smith,North America,United States,SMB,2022-06-09
+52313,Emma Smith,Europe,Germany,Consumer,2024-06-19
+52314,Amina Martin,North America,United States,Enterprise,2024-01-12
+52315,Fatima Okafor,North America,Canada,Consumer,2024-04-19
+52316,Amina Johnson,North America,United States,Consumer,2022-03-12
+52317,Olivia Walker,North America,United States,Consumer,2023-03-17
+52318,Daniel Brown,West Africa,Ghana,Consumer,2022-01-07
+52319,Maya Johnson,Europe,United Kingdom,Consumer,2023-05-12
+52320,Sophia Ali,East Africa,Uganda,Consumer,2026-03-10
+52321,Maya Mensah,North America,Canada,SMB,2022-09-08
+52322,Tunde Ali,North America,United States,Consumer,2025-02-05
+52323,Grace Okafor,Europe,Germany,Consumer,2022-01-10
+52324,Kwame Taylor,North America,United States,SMB,2024-07-11
+52325,Amina Muller,North America,Canada,Consumer,2026-02-21
+52326,Noah Taylor,East Africa,Kenya,Consumer,2023-07-15
+52327,Kwame Adebayo,North America,United States,Consumer,2022-11-20
+52328,Liam Muller,North America,Canada,Consumer,2024-07-25
+52329,Olivia Ali,Europe,United Kingdom,SMB,2023-04-04
+52330,Sophia Clark,Europe,Germany,SMB,2026-01-03
+52331,Tunde Brown,Europe,United Kingdom,Consumer,2025-10-26
+52332,Fatima Walker,Europe,Germany,Consumer,2024-12-07
+52333,Emma Taylor,West Africa,Nigeria,SMB,2024-11-15
+52334,Samuel Ali,North America,United States,SMB,2024-09-16
+52335,David Muller,Europe,France,Consumer,2025-04-22
+52336,Tunde Okafor,West Africa,Nigeria,SMB,2024-01-26
+52337,Olivia Bello,West Africa,Ghana,Consumer,2026-05-12
+52338,Fatima Martin,Europe,Germany,Consumer,2023-07-22
+52339,Chidi Khan,Europe,United Kingdom,Consumer,2022-01-15
+52340,Sophia Brown,North America,United States,Consumer,2025-02-21
+52341,David Wilson,North America,Canada,SMB,2024-12-23
+52342,Amina Martin,North America,United States,Consumer,2026-05-30
+52343,Maya Walker,West Africa,Ghana,Consumer,2023-10-12
+52344,Amina Njoroge,North America,United States,Consumer,2023-11-29
+52345,Maya Ali,West Africa,Ghana,Consumer,2024-07-11
+52346,Zainab Martin,North America,Canada,Consumer,2023-10-07
+52347,Daniel Khan,West Africa,Nigeria,Consumer,2025-07-12
+52348,Olivia Martin,West Africa,Nigeria,Consumer,2023-12-04
+52349,Sophia Johnson,North America,United States,Consumer,2025-07-10
+52350,Liam Clark,North America,Canada,SMB,2023-11-30
+52351,Daniel Muller,North America,United States,Consumer,2023-01-05
+52352,Samuel Bello,West Africa,Nigeria,SMB,2026-06-15
+52353,Sophia Johnson,North America,Canada,SMB,2024-05-14
+52354,Zainab Mensah,Europe,France,Consumer,2025-03-06
+52355,Chidi Johnson,Europe,France,Consumer,2024-08-28
+52356,Sophia Brown,West Africa,Ghana,Enterprise,2023-08-13
+52357,Chidi Okafor,Europe,United Kingdom,Consumer,2026-05-16
+52358,Liam Brown,Europe,Germany,Consumer,2023-09-03
+52359,Zainab Muller,East Africa,Uganda,Consumer,2026-06-19
+52360,Kwame Walker,North America,United States,Consumer,2023-12-09
+52361,Samuel Khan,West Africa,Ghana,Consumer,2022-02-07
+52362,Maya Okafor,North America,United States,SMB,2022-03-02
+52363,Amina Njoroge,Europe,France,Consumer,2026-05-18
+52364,Samuel Taylor,East Africa,Kenya,SMB,2024-05-16
+52365,Amina Mensah,West Africa,Ghana,Consumer,2023-09-29
+52366,Fatima Okafor,West Africa,Nigeria,Consumer,2025-08-25
+52367,Zainab Johnson,North America,United States,Consumer,2024-10-10
+52368,Chidi Taylor,Europe,United Kingdom,Consumer,2024-12-20
+52369,Sophia Okafor,Europe,United Kingdom,Consumer,2025-01-30
+52370,Maya Brown,Europe,France,Consumer,2022-11-22
+52371,Emma Njoroge,Europe,United Kingdom,Consumer,2022-05-25
+52372,Samuel Okafor,North America,Canada,Consumer,2025-04-10
+52373,Liam Johnson,North America,United States,SMB,2022-02-05
+52374,Tunde Adebayo,North America,Canada,Consumer,2025-03-27
+52375,Zainab Bello,Europe,Germany,Consumer,2022-08-02
+52376,Kwame Okafor,North America,Canada,Consumer,2023-03-08
+52377,Fatima Johnson,West Africa,Nigeria,Consumer,2025-03-08
+52378,Samuel Okafor,Europe,United Kingdom,SMB,2024-10-19
+52379,Amina Taylor,North America,Canada,Consumer,2025-07-07
+52380,Daniel Walker,West Africa,Nigeria,Consumer,2024-09-30
+52381,Emma Walker,West Africa,Ghana,Consumer,2022-03-20
+52382,Sophia Njoroge,North America,Canada,Consumer,2025-10-10
+52383,Liam Mensah,North America,Canada,Consumer,2022-12-21
+52384,Liam Okafor,North America,United States,Consumer,2022-08-12
+52385,David Muller,North America,Canada,SMB,2025-12-13
+52386,Emma Wilson,West Africa,Nigeria,SMB,2022-11-16
+52387,Chidi Adebayo,East Africa,Uganda,Consumer,2024-05-30
+52388,Samuel Brown,North America,Canada,SMB,2024-03-08
+52389,Sophia Ali,West Africa,Ghana,Consumer,2025-06-17
+52390,Amina Khan,North America,Canada,Enterprise,2022-03-14
+52391,Amina Taylor,Europe,Germany,Consumer,2022-06-25
+52392,Zainab Wilson,West Africa,Nigeria,Consumer,2023-11-14
+52393,Emma Njoroge,North America,United States,Consumer,2024-02-17
+52394,Liam Taylor,North America,Canada,Consumer,2025-07-18
+52395,Samuel Walker,Europe,France,SMB,2024-09-21
+52396,Fatima Bello,East Africa,Kenya,Consumer,2022-09-02
+52397,Samuel Taylor,North America,Canada,Consumer,2026-05-27
+52398,Fatima Khan,North America,Canada,Consumer,2024-01-26
+52399,Zainab Muller,North America,United States,SMB,2026-05-03
+52400,Amina Okafor,Europe,Germany,SMB,2026-06-14
+52401,Maya Muller,Europe,France,Consumer,2022-03-26
+52402,Olivia Johnson,West Africa,Ghana,Consumer,2024-04-10
+52403,Grace Wilson,West Africa,Ghana,Consumer,2023-11-24
+52404,Chidi Smith,East Africa,Kenya,SMB,2024-03-29
+52405,Kwame Brown,West Africa,Ghana,SMB,2023-05-24
+52406,Noah Njoroge,North America,Canada,Consumer,2024-07-06
+52407,Chidi Smith,Europe,United Kingdom,SMB,2024-03-19
+52408,Olivia Njoroge,North America,United States,Consumer,2022-11-02
+52409,Amina Muller,North America,United States,SMB,2023-04-19
+52410,Sophia Okafor,East Africa,Uganda,Consumer,2022-08-30
+52411,Zainab Taylor,West Africa,Ghana,Consumer,2025-10-17
+52412,Maya Clark,East Africa,Kenya,Consumer,2025-01-17
+52413,Grace Smith,Europe,United Kingdom,Consumer,2023-09-29
+52414,Emma Okafor,Europe,France,Enterprise,2023-10-12
+52415,Emma Johnson,Europe,France,Consumer,2022-05-10
+52416,Maya Brown,North America,Canada,SMB,2023-04-22
+52417,Samuel Johnson,North America,Canada,SMB,2026-02-26
+52418,Grace Khan,Europe,Germany,Consumer,2022-02-21
+52419,Emma Njoroge,North America,Canada,Enterprise,2022-08-28
+52420,Maya Johnson,East Africa,Kenya,Consumer,2025-10-21
+52421,Samuel Martin,North America,Canada,Consumer,2024-05-04
+52422,Fatima Bello,North America,United States,Consumer,2022-02-23
+52423,Noah Johnson,West Africa,Nigeria,Consumer,2024-03-15
+52424,Olivia Khan,North America,United States,SMB,2025-05-16
+52425,Sophia Taylor,East Africa,Kenya,Consumer,2023-07-21
+52426,Tunde Okafor,West Africa,Ghana,Consumer,2023-09-20
+52427,David Mensah,North America,United States,Consumer,2024-11-02
+52428,Tunde Njoroge,West Africa,Ghana,Consumer,2024-09-10
+52429,Amina Bello,Europe,United Kingdom,SMB,2026-01-22
+52430,Noah Njoroge,West Africa,Ghana,Consumer,2023-02-11
+52431,Emma Njoroge,West Africa,Ghana,SMB,2023-03-30
+52432,Fatima Clark,West Africa,Ghana,Consumer,2022-09-13
+52433,Sophia Johnson,Europe,Germany,SMB,2024-12-27
+52434,Daniel Brown,North America,Canada,Consumer,2024-05-25
+52435,Samuel Taylor,West Africa,Nigeria,Consumer,2023-07-24
+52436,David Njoroge,East Africa,Uganda,Consumer,2025-02-16
+52437,Olivia Okafor,Europe,Germany,Consumer,2023-09-11
+52438,Amina Njoroge,West Africa,Ghana,SMB,2022-11-17
+52439,Tunde Njoroge,Europe,France,Consumer,2024-06-05
+52440,Emma Khan,West Africa,Nigeria,Consumer,2023-12-18
+52441,Daniel Taylor,East Africa,Kenya,SMB,2023-10-28
+52442,David Walker,North America,Canada,Consumer,2024-01-01
+52443,Maya Ali,North America,United States,Consumer,2026-02-10
+52444,Liam Adebayo,Europe,United Kingdom,Enterprise,2022-12-21
+52445,Olivia Adebayo,Europe,Germany,Consumer,2023-03-29
+52446,Noah Smith,Europe,Germany,SMB,2024-07-16
+52447,David Wilson,North America,Canada,Consumer,2022-03-18
+52448,Kwame Njoroge,Europe,United Kingdom,SMB,2022-08-28
+52449,Olivia Martin,Europe,Germany,Consumer,2024-07-18
+52450,Daniel Smith,Europe,United Kingdom,SMB,2024-04-17
+52451,Fatima Martin,West Africa,Nigeria,Consumer,2024-12-07
+52452,Sophia Okafor,West Africa,Ghana,SMB,2022-07-06
+52453,Tunde Wilson,West Africa,Nigeria,Consumer,2025-11-03
+52454,Tunde Smith,West Africa,Ghana,Enterprise,2024-03-08
+52455,Kwame Muller,Europe,France,Consumer,2022-09-12
+52456,Daniel Brown,Europe,Germany,Consumer,2023-05-27
+52457,David Smith,Europe,United Kingdom,SMB,2023-01-09
+52458,Grace Adebayo,North America,United States,Consumer,2024-01-13
+52459,Maya Martin,North America,United States,Consumer,2024-02-10
+52460,Zainab Martin,Europe,France,SMB,2023-12-14
+52461,David Clark,West Africa,Ghana,Consumer,2024-01-27
+52462,Olivia Clark,West Africa,Nigeria,Consumer,2026-01-30
+52463,Olivia Muller,North America,United States,Consumer,2026-04-24
+52464,Samuel Okafor,Europe,United Kingdom,Consumer,2024-03-15
+52465,Emma Bello,North America,Canada,Consumer,2026-05-01
+52466,Amina Bello,West Africa,Nigeria,Consumer,2025-09-05
+52467,Chidi Ali,West Africa,Nigeria,Consumer,2025-09-08
+52468,Olivia Ali,Europe,United Kingdom,Consumer,2023-01-06
+52469,Emma Khan,Europe,Germany,Consumer,2023-12-21
+52470,Maya Bello,North America,United States,Consumer,2023-08-02
+52471,Liam Brown,Europe,Germany,Consumer,2022-06-08
+52472,Samuel Mensah,West Africa,Ghana,Consumer,2022-05-04
+52473,Liam Smith,West Africa,Nigeria,Consumer,2024-10-19
+52474,Samuel Wilson,Europe,Germany,SMB,2023-11-22
+52475,Liam Njoroge,Europe,France,Consumer,2025-09-17
+52476,Daniel Ali,North America,United States,Consumer,2025-01-03
+52477,Amina Taylor,North America,Canada,Consumer,2022-05-20
+52478,Daniel Johnson,North America,United States,Consumer,2025-10-08
+52479,Olivia Clark,Europe,Germany,SMB,2024-03-25
+52480,Samuel Njoroge,East Africa,Kenya,SMB,2024-07-18
+52481,Sophia Bello,Europe,France,SMB,2026-05-05
+52482,David Ali,North America,United States,Consumer,2024-11-16
+52483,Noah Bello,North America,Canada,Consumer,2022-02-06
+52484,David Smith,North America,Canada,Consumer,2022-10-19
+52485,Sophia Johnson,West Africa,Ghana,Consumer,2023-12-02
+52486,Daniel Smith,Europe,France,Consumer,2022-03-03
+52487,Grace Muller,West Africa,Ghana,Consumer,2022-10-02
+52488,Sophia Okafor,West Africa,Nigeria,Consumer,2025-07-23
+52489,Fatima Johnson,North America,United States,SMB,2022-08-23
+52490,Fatima Taylor,Europe,Germany,Consumer,2022-10-02
+52491,Fatima Taylor,East Africa,Uganda,Consumer,2024-04-08
+52492,Chidi Khan,Europe,France,SMB,2022-05-30
+52493,Noah Njoroge,North America,Canada,SMB,2023-02-24
+52494,Zainab Adebayo,East Africa,Kenya,Consumer,2026-03-20
+52495,Noah Bello,East Africa,Kenya,Consumer,2024-11-02
+52496,Liam Mensah,Europe,Germany,Consumer,2026-05-02
+52497,Noah Ali,Europe,Germany,Consumer,2023-08-05
+52498,Amina Adebayo,North America,United States,Consumer,2024-10-08
+52499,Grace Mensah,West Africa,Ghana,Consumer,2023-01-27
+52500,Noah Wilson,Europe,Germany,Consumer,2023-09-14

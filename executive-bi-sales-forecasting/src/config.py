@@ -1,0 +1,11 @@
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT_DIR / "data"
+RAW_DIR = DATA_DIR / "raw"
+PROCESSED_DIR = DATA_DIR / "processed"
+DB_PATH = PROCESSED_DIR / "executive_bi.sqlite"
+
+COMPANY_NAME = "Northstar Commerce Group"
+CURRENCY_SYMBOL = "$"
+DEFAULT_FORECAST_MONTHS = 6

@@ -1,0 +1,41 @@
+product_id,product_name,category,list_price,unit_cost
+1001,Wireless Keyboard,Electronics,45.0,24.0
+1002,Noise-Canceling Headphones,Electronics,120.0,72.0
+1003,USB-C Dock,Electronics,95.0,56.0
+1004,Portable SSD 1TB,Electronics,130.0,82.0
+1005,27-inch Monitor,Electronics,240.0,162.0
+1006,Webcam Pro,Electronics,85.0,48.0
+1007,Mechanical Keyboard,Electronics,110.0,66.0
+1008,Bluetooth Speaker,Electronics,90.0,52.0
+1009,Premium Notebook Set,Office Supplies,18.0,7.0
+1010,Ergonomic Mouse Pad,Office Supplies,25.0,10.0
+1011,Desk Organizer,Office Supplies,32.0,14.0
+1012,Printer Paper Case,Office Supplies,44.0,25.0
+1013,Gel Pen Pack,Office Supplies,12.0,4.0
+1014,Whiteboard Kit,Office Supplies,38.0,17.0
+1015,Document Folder Set,Office Supplies,20.0,8.0
+1016,Desk Lamp,Office Supplies,48.0,23.0
+1017,Ergonomic Office Chair,Furniture,310.0,190.0
+1018,Standing Desk,Furniture,460.0,300.0
+1019,Bookshelf,Furniture,180.0,105.0
+1020,Mobile Pedestal,Furniture,150.0,82.0
+1021,Conference Chair,Furniture,220.0,130.0
+1022,Compact Work Desk,Furniture,280.0,165.0
+1023,Monitor Riser,Furniture,70.0,33.0
+1024,Foot Rest,Furniture,55.0,24.0
+1025,Air Fryer,Home & Kitchen,145.0,88.0
+1026,Electric Kettle,Home & Kitchen,60.0,31.0
+1027,Blender,Home & Kitchen,95.0,52.0
+1028,Coffee Maker,Home & Kitchen,115.0,67.0
+1029,Storage Container Set,Home & Kitchen,38.0,16.0
+1030,Digital Kitchen Scale,Home & Kitchen,36.0,15.0
+1031,Cookware Set,Home & Kitchen,180.0,112.0
+1032,Water Filter Jug,Home & Kitchen,48.0,21.0
+1033,Laptop Sleeve,Accessories,35.0,13.0
+1034,Travel Backpack,Accessories,78.0,35.0
+1035,Cable Organizer,Accessories,18.0,6.0
+1036,Phone Stand,Accessories,22.0,7.0
+1037,Power Bank,Accessories,58.0,31.0
+1038,Reusable Bottle,Accessories,28.0,10.0
+1039,Travel Adapter,Accessories,42.0,19.0
+1040,Tech Pouch,Accessories,34.0,14.0

@@ -1,6 +1,48 @@
 {
   "tickets": [
     {
+      "id": "TKT-20261031-1QLDO",
+      "customerName": "Adam Smith",
+      "subject": "Purchases",
+      "message": "There is an error my packages, smoe items are missing",
+      "email": "admsmith@gmail.com",
+      "whatsapp": "2346576879780",
+      "priority": "high",
+      "channels": [
+        "email",
+        "whatsapp"
+      ],
+      "status": "open",
+      "createdAt": "2026-10-31T23:25:26.098Z",
+      "updatedAt": "2026-10-31T23:25:26.363Z",
+      "deliveries": [
+        {
+          "id": "NTF-1793489126357-1VZIWR",
+          "ticketId": "TKT-20261031-1QLDO",
+          "channel": "email",
+          "recipient": "admsmith@gmail.com",
+          "status": "sent",
+          "provider": "mock-email",
+          "providerMessageId": "mock-email-TKT-20261031-1QLDO-1793489126357",
+          "error": null,
+          "createdAt": "2026-10-31T23:25:26.105Z",
+          "completedAt": "2026-10-31T23:25:26.357Z"
+        },
+        {
+          "id": "NTF-1793489126357-U1JOOZ",
+          "ticketId": "TKT-20261031-1QLDO",
+          "channel": "whatsapp",
+          "recipient": "2346576879780",
+          "status": "sent",
+          "provider": "mock-whatsapp",
+          "providerMessageId": "mock-wa-TKT-20261031-1QLDO-1793489126357",
+          "error": null,
+          "createdAt": "2026-10-31T23:25:26.106Z",
+          "completedAt": "2026-10-31T23:25:26.357Z"
+        }
+      ]
+    },
+    {
       "id": "TKT-20261031-WUOWY",
       "customerName": "John Doe",
       "subject": "Order delivery update",
@@ -44,6 +86,30 @@
     }
   ],
   "notifications": [
+    {
+      "id": "NTF-1793489126357-U1JOOZ",
+      "ticketId": "TKT-20261031-1QLDO",
+      "channel": "whatsapp",
+      "recipient": "2346576879780",
+      "status": "sent",
+      "provider": "mock-whatsapp",
+      "providerMessageId": "mock-wa-TKT-20261031-1QLDO-1793489126357",
+      "error": null,
+      "createdAt": "2026-10-31T23:25:26.106Z",
+      "completedAt": "2026-10-31T23:25:26.357Z"
+    },
+    {
+      "id": "NTF-1793489126357-1VZIWR",
+      "ticketId": "TKT-20261031-1QLDO",
+      "channel": "email",
+      "recipient": "admsmith@gmail.com",
+      "status": "sent",
+      "provider": "mock-email",
+      "providerMessageId": "mock-email-TKT-20261031-1QLDO-1793489126357",
+      "error": null,
+      "createdAt": "2026-10-31T23:25:26.105Z",
+      "completedAt": "2026-10-31T23:25:26.357Z"
+    },
     {
       "id": "NTF-1793488494319-NVEN8O",
       "ticketId": "TKT-20261031-WUOWY",

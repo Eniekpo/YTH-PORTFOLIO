@@ -1,0 +1,29 @@
+-- Core measures
+Revenue = SUM(fact_sales[net_sales])
+
+Gross Profit = SUM(fact_sales[gross_profit])
+
+Gross Margin % = DIVIDE([Gross Profit], [Revenue])
+
+Orders = DISTINCTCOUNT(fact_sales[order_id])
+
+Customers = DISTINCTCOUNT(fact_sales[customer_id])
+
+Units Sold = SUM(fact_sales[quantity])
+
+Average Order Value = DIVIDE([Revenue], [Orders])
+
+Return Amount = SUM(fact_sales[return_amount])
+
+Gross Sales = SUM(fact_sales[gross_sales])
+
+Return Rate % = DIVIDE([Return Amount], [Gross Sales])
+
+-- Time-intelligence measures require a marked Calendar date table.
+Revenue PY = CALCULATE([Revenue], SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+Revenue YoY % = DIVIDE([Revenue] - [Revenue PY], [Revenue PY])
+
+Revenue YTD = TOTALYTD([Revenue], 'Calendar'[Date])
+
+Gross Profit YTD = TOTALYTD([Gross Profit], 'Calendar'[Date])
