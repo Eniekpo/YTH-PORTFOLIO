@@ -1,0 +1,18 @@
+-- AnalyticsPath SQL Lab
+-- Attempt each question before opening 03_solutions.sql.
+
+-- Q1. Return the first 10 rows.
+-- Q2. Calculate total revenue, profit, orders, and units sold.
+-- Q3. Calculate revenue, profit, and profit margin by region.
+-- Q4. Calculate revenue and profit by product category.
+-- Q5. Calculate monthly revenue and profit using year_month.
+-- Q6. Compare Online, Retail Store, and Distributor channels.
+-- Q7. Find the top 10 products by revenue.
+-- Q8. Compare customer segments by revenue, profit, and average order value.
+-- Q9. Compare average profit margin by discount level.
+-- Q10. Find the five salespeople with the highest revenue.
+-- Q11. Use CASE to label orders High Value >= 1000, Medium >= 400, else Standard.
+-- Q12. Rank categories by revenue within each region using a window function.
+-- Q13. Calculate year-over-year revenue by month number.
+-- Q14. Identify any orders with negative profit.
+-- Q15. Write one management insight supported by a SQL result.
