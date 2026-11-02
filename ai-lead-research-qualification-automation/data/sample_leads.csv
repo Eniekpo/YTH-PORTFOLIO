@@ -1,0 +1,16 @@
+company_name,website,contact_name,contact_role,email,industry,country,employee_count,source,pain_point,growth_signal,suppressed
+Northstar Cloud,https://northstarcloud.example,Alex Morgan,VP Operations,alex@northstarcloud.example,SaaS,United States,85,website research,customer support scaling,expanding operations,false
+BrightCart,https://brightcart.example,Maya Chen,Head of CX,maya@brightcart.example,E-commerce,United Kingdom,42,event list,order support coverage,adding new product categories,false
+LedgerLoop,https://ledgerloop.example,Daniel Reed,COO,daniel@ledgerloop.example,Fintech,Ireland,120,referral,back-office workload,regional expansion,false
+MarketBridge,https://marketbridge.example,Sofia Müller,Operations Lead,sofia@marketbridge.example,Marketplace,Germany,210,website research,seller onboarding operations,market expansion,false
+Oak & Stone,https://oakstone.example,Emma Lewis,Founder,emma@oakstone.example,Construction,United States,7,directory,administrative workload,,false
+PixelForge Labs,https://pixelforge.example,Noah Carter,COO,noah@pixelforge.example,Software,Canada,64,community,technical support queue,hiring across functions,false
+HarborDesk,https://harbordesk.example,Liam Patel,Customer Success Director,liam@harbordesk.example,SaaS,Netherlands,31,website research,customer onboarding,new enterprise tier,false
+GreenCrate,https://greencrate.example,Ava Thompson,Operations Manager,ava@greencrate.example,E-commerce,France,150,directory,catalog operations,international expansion,false
+Atlas Advisory,https://atlasadvisory.example,James Wilson,Managing Partner,james@atlasadvisory.example,Professional Services,United Kingdom,22,referral,research support,client growth,false
+OrbitStack,https://orbitstack.example,Isabella Rossi,VP Customer Experience,isabella@orbitstack.example,Technology,United States,330,event list,24/7 support coverage,global customer growth,false
+Cedar Foods,https://cedarfoods.example,Ethan Brown,Operations Director,ethan@cedarfoods.example,Food Manufacturing,Canada,95,directory,data entry backlog,,false
+NovaDesk AI,https://novadesk.example,Olivia Martin,COO,olivia@novadesk.example,SaaS,United States,55,website research,support and onboarding capacity,launching new product line,false
+Suppressed Demo,https://suppressed.example,Demo Contact,Operations,demo@suppressed.example,Software,United States,70,test,support scaling,growth,true
+Riverbank Health,https://riverbank.example,Amelia Davis,Operations Manager,amelia@riverbank.example,Healthcare,United States,500,directory,administrative coordination,expanding clinics,false
+CloudMint,https://cloudmint.example,Lucas Kim,Revenue Operations,lucas@cloudmint.example,SaaS,Germany,18,community,CRM data hygiene,sales team growth,false
