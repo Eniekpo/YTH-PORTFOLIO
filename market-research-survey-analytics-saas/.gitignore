@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+frontend/dist/
+data/survey_analytics.db
+data/uploads/*
+!data/uploads/.gitkeep
+.env
+.DS_Store

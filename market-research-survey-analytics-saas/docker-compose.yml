@@ -1,0 +1,17 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports: ["8000:8000"]
+    volumes: ["./data:/app/data"]
+    environment:
+      APP_SECRET_KEY: local-docker-secret-change-me
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports: ["5173:5173"]
+    depends_on: [api]
+    environment:
+      VITE_API_URL: http://localhost:8000
