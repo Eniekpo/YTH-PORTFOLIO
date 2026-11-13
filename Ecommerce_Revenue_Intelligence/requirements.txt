@@ -1,0 +1,9 @@
+pandas>=2.1
+numpy>=1.26
+openpyxl>=3.1
+pyarrow>=14
+streamlit>=1.32
+plotly>=5.19
+sqlalchemy>=2
+psycopg2-binary>=2.9
+pytest>=8
