@@ -1,5 +1,5 @@
 import streamlit as st,pandas as pd
-from app.shared import get_data
+from shared import get_data
 st.set_page_config(page_title='Data Quality',layout='wide');st.title('Data Quality & Transaction Audit')
 s,a=get_data()
 if s is None:st.info('Upload or download the UCI workbook.');st.stop()

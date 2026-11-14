@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 
-from app.shared import get_data, filter_data
+from shared import get_data, filter_data
 from src.analytics import headline, monthly_kpis, country_performance
 
 st.set_page_config(page_title='E-commerce Revenue Intelligence', layout='wide')

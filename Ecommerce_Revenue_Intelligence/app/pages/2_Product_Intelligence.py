@@ -1,5 +1,5 @@
 import streamlit as st,plotly.express as px
-from app.shared import get_data,filter_data
+from shared import get_data,filter_data
 from src.analytics import product_performance
 st.set_page_config(page_title='Product Intelligence',layout='wide');st.title('Product Intelligence')
 s,a=get_data()

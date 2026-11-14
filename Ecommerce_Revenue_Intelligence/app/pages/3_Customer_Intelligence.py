@@ -1,5 +1,5 @@
 import streamlit as st,plotly.express as px
-from app.shared import get_data,filter_data
+from shared import get_data,filter_data
 from src.analytics import build_rfm
 st.set_page_config(page_title='Customer Intelligence',layout='wide');st.title('Customer Intelligence');st.caption('RFM: recency, distinct invoice frequency and monetary value')
 s,a=get_data()

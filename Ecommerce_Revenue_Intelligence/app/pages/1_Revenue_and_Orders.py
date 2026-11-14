@@ -1,5 +1,5 @@
 import streamlit as st,plotly.express as px
-from app.shared import get_data,filter_data
+from shared import get_data,filter_data
 from src.analytics import monthly_kpis,country_performance
 st.set_page_config(page_title='Revenue & Orders',layout='wide'); st.title('Revenue & Orders')
 s,a=get_data()
