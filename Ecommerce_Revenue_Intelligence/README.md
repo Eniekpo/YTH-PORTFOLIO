@@ -7,18 +7,47 @@ Download Online Retail II from https://archive.ics.uci.edu/dataset/502/online+re
 
 Run `python download_data.py` or place the workbook at `data/raw/online_retail_II.xlsx`.
 
-## Setup
+## Run the dashboard
+
+Create and activate a virtual environment, then install the project dependencies.
+
+### macOS/Linux
+
 ```bash
-python -m venv .venv
-# macOS/Linux: source .venv/bin/activate
-# Windows: .venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m streamlit run app/Home.py
+```
+
+### Windows (PowerShell)
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python -m streamlit run app/Home.py
+```
+
+Streamlit opens the dashboard at `http://localhost:8501`. If that port is already in use, start it on another port:
+
+```bash
+python -m streamlit run app/Home.py --server.port 8502
+```
+
+The dashboard loads `data/raw/online_retail_II.xlsx` when present. Otherwise, use the sidebar uploader to select the UCI workbook or a compatible CSV. To download the source workbook into the expected location, run `python download_data.py` from the activated environment.
+
+## Development setup
+
+The data pipeline and tests are optional when you only want to open the dashboard:
+
+```bash
 python download_data.py
 python run_pipeline.py
-streamlit run app/Home.py
 pytest -q
 ```
-Dashboard pages: Executive Overview, Revenue & Orders, Product Intelligence, Customer Intelligence (RFM), Data Quality. You can upload the Excel/CSV source in the sidebar or use the local workbook.
+
+Dashboard pages: Executive Overview, Revenue & Orders, Product Intelligence, Customer Intelligence (RFM), Data Quality.
 
 ## Definitions & caveats
 Revenue is the sum of positive quantity × positive unit price for non-cancelled invoice lines. Cancellations (invoice starts with C), negative-quantity returns, invalid dates and invalid prices are excluded from positive-sales KPIs but counted in the audit. Missing customer IDs remain in overall revenue/product/country reporting but are excluded from RFM. Orders are distinct invoices. AOV = revenue / distinct invoices. RFM uses distinct invoice frequency, cumulative revenue and recency relative to the day after the latest dataset date. Gross profit/margin and predictive churn are NOT calculated: product costs are absent, and RFM segments are descriptive heuristics.
