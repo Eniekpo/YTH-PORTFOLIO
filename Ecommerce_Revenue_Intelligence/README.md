@@ -35,6 +35,8 @@ Streamlit opens the dashboard at `http://localhost:8501`. If that port is alread
 python -m streamlit run app/Home.py --server.port 8502
 ```
 
+For Streamlit Community Cloud, set the app entrypoint to `Ecommerce_Revenue_Intelligence/app/Home.py`. The adjacent `app/requirements.txt` forwards to the project dependency list so Cloud installs packages such as Plotly.
+
 The dashboard loads `data/raw/online_retail_II.xlsx` when present. Otherwise, use the sidebar uploader to select the UCI workbook or a compatible CSV. To download the source workbook into the expected location, run `python download_data.py` from the activated environment.
 
 ## Development setup
