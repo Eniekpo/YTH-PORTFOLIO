@@ -43,7 +43,9 @@ def get_data():
         return load_uploaded(f.getvalue(), Path(f.name).suffix.lower())
 
     raw_path = DATA_DIR / 'raw' / 'online_retail_II.xlsx'
-    if raw_path.exists():
+    processed_path = DATA_DIR / 'processed' / 'clean_sales.parquet'
+    audit_path = DATA_DIR / 'processed' / 'data_quality.json'
+    if raw_path.exists() or (processed_path.exists() and audit_path.exists()):
         return load_local()
     return None, None
 

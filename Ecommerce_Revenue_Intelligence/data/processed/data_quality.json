@@ -1,0 +1,12 @@
+{
+  "source_rows": 1067371,
+  "positive_sales_rows": 1041670,
+  "cancellation_rows": 19494,
+  "negative_quantity_rows": 22950,
+  "missing_customer_rows": 243007,
+  "invalid_date_rows": 0,
+  "invalid_price_rows": 6207,
+  "duplicate_rows": 12133,
+  "date_min": "2009-12-01 07:45:00",
+  "date_max": "2011-12-09 12:50:00"
+}
